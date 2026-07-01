@@ -1,0 +1,279 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-navy: #0b1a30;
+    --brand-safety: #ffc400;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white text-navy-900 antialiased;
+    font-feature-settings: "ss01", "cv01", "cv11";
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Respect reduced-motion globally. The cinematic hero also checks this. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Accessible focus ring across interactive elements. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-safety ring-offset-2 ring-offset-white;
+  }
+
+  ::selection {
+    @apply bg-safety/30 text-navy-950;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-display tracking-tight text-balance;
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply container max-w-5xl;
+  }
+
+  /* Section eyebrow label */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-safety-700;
+  }
+  .eyebrow-light {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-safety-300;
+  }
+
+  /* Hazard-tape accent bar */
+  .hazard-bar {
+    @apply h-1.5 w-full bg-hazard-stripes;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition-all duration-200
+           focus-visible:ring-2 focus-visible:ring-safety focus-visible:ring-offset-2 disabled:pointer-events-none
+           disabled:opacity-50 whitespace-nowrap;
+  }
+  .btn-lg { @apply h-13 px-7 text-base; min-height: 3.25rem; }
+  .btn-md { @apply h-11 px-5 text-sm; }
+  .btn-sm { @apply h-9 px-4 text-sm; }
+
+  .btn-primary {
+    @apply btn bg-safety text-navy-950 shadow-[0_8px_24px_-8px_rgba(255,196,0,0.6)]
+           hover:bg-safety-300 hover:-translate-y-0.5 active:translate-y-0;
+  }
+  .btn-secondary {
+    @apply btn bg-navy-900 text-white hover:bg-navy-800 hover:-translate-y-0.5 active:translate-y-0;
+  }
+  .btn-outline {
+    @apply btn border border-navy-200 bg-white text-navy-900 hover:border-navy-400 hover:bg-navy-50;
+  }
+  .btn-ghost-light {
+    @apply btn border border-white/20 bg-white/5 text-white backdrop-blur hover:bg-white/10;
+  }
+
+  /* Cards */
+  .card {
+    @apply rounded-2xl border border-navy-100 bg-white shadow-card transition-all duration-300;
+  }
+  .card-hover {
+    @apply hover:-translate-y-1 hover:border-navy-200 hover:shadow-card-hover;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-navy-100 bg-navy-50 px-3 py-1
+           text-xs font-medium text-navy-700;
+  }
+
+  .link-underline {
+    @apply font-semibold text-navy-700 underline decoration-safety decoration-2 underline-offset-4
+           hover:text-navy-900;
+  }
+
+  /* Long-form legal/policy prose */
+  .legal-prose {
+    @apply text-steel-700 leading-relaxed;
+  }
+  .legal-prose > h2 {
+    @apply mt-10 mb-3 text-xl font-display font-extrabold text-navy-950 scroll-mt-24;
+  }
+  .legal-prose > h3 {
+    @apply mt-6 mb-2 text-base font-bold text-navy-900;
+  }
+  .legal-prose > p {
+    @apply mb-4;
+  }
+  .legal-prose ul {
+    @apply mb-4 ml-5 list-disc space-y-1.5 marker:text-safety-600;
+  }
+  .legal-prose a {
+    @apply link-underline;
+  }
+  .legal-prose strong {
+    @apply font-semibold text-navy-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  /* Fade content into view at section edges */
+  .mask-fade-y {
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 8%, black 92%, transparent);
+    mask-image: linear-gradient(to bottom, transparent, black 8%, black 92%, transparent);
+  }
+  .bg-grid {
+    background-size: 44px 44px;
+    @apply bg-grid-faint;
+  }
+  /* Subtle blueprint dot texture for dark sections */
+  .bg-blueprint {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .h-13 {
+    height: 3.25rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Rendered safety-document templates (Markdown → HTML) + print styling
+   --------------------------------------------------------------------------- */
+@layer components {
+  .doc-prose {
+    @apply text-navy-900 leading-relaxed;
+  }
+  .doc-prose h1 {
+    @apply mb-4 font-display text-2xl font-extrabold text-navy-950 sm:text-3xl;
+  }
+  .doc-prose h2 {
+    @apply mt-8 mb-3 font-display text-xl font-bold text-navy-950;
+  }
+  .doc-prose h3 {
+    @apply mt-6 mb-2 text-base font-bold text-navy-900;
+  }
+  .doc-prose p {
+    @apply my-3;
+  }
+  .doc-prose ul {
+    @apply my-3 ml-5 list-disc space-y-1.5 marker:text-safety-600;
+  }
+  .doc-prose ol {
+    @apply my-3 ml-5 list-decimal space-y-1.5;
+  }
+  .doc-prose li > input[type="checkbox"] {
+    @apply mr-2 align-middle;
+  }
+  .doc-prose ul:has(> li > input[type="checkbox"]) {
+    @apply list-none ml-0;
+  }
+  .doc-prose blockquote {
+    @apply my-4 rounded-r-lg border-l-4 border-safety bg-navy-50 px-4 py-2 text-sm text-steel-700;
+  }
+  .doc-prose blockquote p {
+    @apply my-1;
+  }
+  .doc-prose a {
+    @apply font-medium text-navy-700 underline decoration-safety underline-offset-2 hover:text-navy-900;
+  }
+  .doc-prose strong {
+    @apply font-semibold text-navy-950;
+  }
+  .doc-prose hr {
+    @apply my-6 border-navy-100;
+  }
+  .doc-prose code {
+    @apply rounded bg-navy-50 px-1.5 py-0.5 text-[0.85em] text-navy-800;
+  }
+  .doc-prose pre {
+    @apply my-4 overflow-x-auto rounded-lg border border-navy-100 bg-navy-50 p-4 text-xs leading-relaxed text-navy-900;
+  }
+  .doc-prose pre code {
+    @apply bg-transparent p-0;
+  }
+  .doc-prose table {
+    @apply my-4 w-full border-collapse text-sm;
+  }
+  .doc-prose th,
+  .doc-prose td {
+    @apply border border-navy-200 px-3 py-2 text-left align-top;
+  }
+  .doc-prose th {
+    @apply bg-navy-50 font-semibold text-navy-900;
+  }
+  .doc-prose sub {
+    @apply text-xs text-steel-400;
+  }
+}
+
+@media print {
+  /* Hide all site chrome and anything explicitly marked no-print. */
+  header,
+  footer,
+  [data-no-print] {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+  }
+  main {
+    padding: 0 !important;
+  }
+  /* Print only the document, full width, ink-friendly. */
+  .doc-paper {
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+  .doc-prose,
+  .doc-prose * {
+    color: #000 !important;
+  }
+  .doc-prose a {
+    text-decoration: none !important;
+  }
+  .doc-prose blockquote {
+    background: transparent !important;
+    border-left: 3px solid #000 !important;
+  }
+  .doc-prose th {
+    background: #eee !important;
+  }
+  .doc-prose th,
+  .doc-prose td {
+    border-color: #000 !important;
+  }
+  .doc-prose table,
+  .doc-prose tr,
+  .doc-prose img {
+    break-inside: avoid;
+  }
+  .doc-prose h2,
+  .doc-prose h3 {
+    break-after: avoid;
+  }
+  @page {
+    margin: 0.6in;
+  }
+}
