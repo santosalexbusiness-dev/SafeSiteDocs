@@ -12,8 +12,6 @@ export const site = {
   url: "https://safesitedocs.com",
   email: "contact@safesitedocs.org",
   salesEmail: "contact@safesitedocs.org",
-  phone: "(555) 014-7233",
-  phoneHref: "tel:+15550147233",
   // Realistic placeholder. Swap for your real handles before launch.
   social: {
     linkedin: "https://www.linkedin.com/company/safesite-documents",

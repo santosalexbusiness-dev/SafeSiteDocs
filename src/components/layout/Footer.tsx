@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, Phone, ShieldAlert } from "lucide-react";
+import { Mail, ShieldAlert } from "lucide-react";
 import { Logo } from "./Logo";
 import { footerNav, site, MASTER_DISCLAIMER } from "@/data/site";
 
@@ -40,12 +40,6 @@ export function Footer() {
               className="flex items-center gap-2 text-navy-100/80 hover:text-white"
             >
               <Mail className="h-4 w-4 text-safety" /> {site.email}
-            </a>
-            <a
-              href={site.phoneHref}
-              className="flex items-center gap-2 text-navy-100/80 hover:text-white"
-            >
-              <Phone className="h-4 w-4 text-safety" /> {site.phone}
             </a>
           </div>
         </div>

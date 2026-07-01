@@ -91,7 +91,6 @@ export function organizationJsonLd() {
       "@type": "ContactPoint",
       contactType: "sales",
       email: site.salesEmail,
-      telephone: site.phone,
     },
   };
 }

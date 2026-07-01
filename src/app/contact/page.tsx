@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, Phone, Clock, MessagesSquare } from "lucide-react";
+import { Mail, Clock, MessagesSquare } from "lucide-react";
 import { PageHero } from "@/components/layout/PageHero";
 import { Section } from "@/components/ui/Section";
 import { ContactForm } from "@/components/forms/ContactForm";
@@ -29,7 +29,7 @@ export default function ContactPage() {
           <div>
             <h2 className="text-2xl font-display font-extrabold text-navy-950">Reach us directly</h2>
             <p className="mt-2 text-steel-600">
-              Prefer email or phone? Use whatever's easiest — a real person reads every message.
+              Send us an email and a real person reads every message.
             </p>
 
             <ul className="mt-8 space-y-5">
@@ -41,17 +41,6 @@ export default function ContactPage() {
                   <p className="text-sm font-semibold text-navy-900">Email</p>
                   <a href={`mailto:${site.email}`} className="text-steel-600 hover:text-navy-900">
                     {site.email}
-                  </a>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-navy-900 text-safety">
-                  <Phone className="h-5 w-5" />
-                </span>
-                <div>
-                  <p className="text-sm font-semibold text-navy-900">Phone</p>
-                  <a href={site.phoneHref} className="text-steel-600 hover:text-navy-900">
-                    {site.phone}
                   </a>
                 </div>
               </li>
