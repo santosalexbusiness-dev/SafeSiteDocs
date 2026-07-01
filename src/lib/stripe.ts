@@ -1,11 +1,11 @@
+import Stripe from "stripe";
+
 /**
- * Stripe wiring (architecture-ready).
+ * Stripe integration.
+ * Guarded: the client only initializes when STRIPE_SECRET_KEY is set, so the
+ * app builds and runs before Stripe is connected.
  *
- * This module is intentionally dependency-free so the project builds before you
- * install Stripe. To go live:
- *   1) npm i stripe @stripe/stripe-js
- *   2) Add keys + Price IDs to .env.local (see .env.example)
- *   3) Uncomment the client below and the checkout/webhook route bodies.
+ * Secrets live ONLY in .env.local (git-ignored) — never commit them.
  */
 
 /** Maps internal plan ids → the env var holding the Stripe Price ID. */
@@ -20,7 +20,13 @@ export const planToPriceEnv: Record<string, string> = {
 /** Plans that should create a subscription vs. a one-time payment. */
 export const subscriptionPlanIds = new Set(["library-starter", "library-pro"]);
 
-/** Resolve the configured Stripe Price ID for a plan, if present. */
+/** One-time plans redirect the buyer to the intake form after payment. */
+export const oneTimeToIntake: Record<string, string> = {
+  "custom-binder": "custom-binder",
+  "contractor-pro": "contractor-pro",
+  "premium-system": "premium-system",
+};
+
 export function getPriceId(planId: string): string | undefined {
   const envKey = planToPriceEnv[planId];
   return envKey ? process.env[envKey] : undefined;
@@ -30,30 +36,41 @@ export function isStripeConfigured(): boolean {
   return Boolean(process.env.STRIPE_SECRET_KEY);
 }
 
-/*
-// ---------------------------------------------------------------------------
-// Server-side Stripe client (uncomment after `npm i stripe`):
-//
-// import Stripe from "stripe";
-//
-// export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-//   apiVersion: "2024-06-20",
-//   typescript: true,
-// });
-//
-// // Create a Checkout Session for a plan:
-// export async function createCheckoutSession(planId: string, customerEmail?: string) {
-//   const price = getPriceId(planId);
-//   if (!price) throw new Error(`No Stripe price configured for plan: ${planId}`);
-//   const mode = subscriptionPlanIds.has(planId) ? "subscription" : "payment";
-//   return stripe.checkout.sessions.create({
-//     mode,
-//     line_items: [{ price, quantity: 1 }],
-//     customer_email: customerEmail,
-//     success_url: `${process.env.NEXT_PUBLIC_SITE_URL}/dashboard?checkout=success`,
-//     cancel_url: `${process.env.NEXT_PUBLIC_SITE_URL}/pricing?checkout=cancelled`,
-//     allow_promotion_codes: true,
-//   });
-// }
-// ---------------------------------------------------------------------------
-*/
+const globalForStripe = globalThis as unknown as { stripe?: Stripe };
+
+export const stripe: Stripe | null = isStripeConfigured()
+  ? globalForStripe.stripe ?? new Stripe(process.env.STRIPE_SECRET_KEY as string)
+  : null;
+
+if (isStripeConfigured() && stripe && process.env.NODE_ENV !== "production") {
+  globalForStripe.stripe = stripe;
+}
+
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+
+/**
+ * Creates a Checkout Session for a plan.
+ * - Subscriptions (library) → success returns to the dashboard.
+ * - One-time packages (binders) → success sends the buyer straight to the
+ *   intake form so they can submit their company details immediately.
+ */
+export async function createCheckoutSession(planId: string, customerEmail?: string) {
+  if (!stripe) throw new Error("Stripe is not configured.");
+  const price = getPriceId(planId);
+  if (!price) throw new Error(`No Stripe price configured for plan: ${planId}`);
+
+  const isSubscription = subscriptionPlanIds.has(planId);
+  const successUrl = isSubscription
+    ? `${SITE}/dashboard?checkout=success`
+    : `${SITE}/intake?package=${oneTimeToIntake[planId] ?? ""}&checkout=success`;
+
+  return stripe.checkout.sessions.create({
+    mode: isSubscription ? "subscription" : "payment",
+    line_items: [{ price, quantity: 1 }],
+    customer_email: customerEmail || undefined,
+    success_url: successUrl,
+    cancel_url: `${SITE}/pricing?checkout=cancelled`,
+    allow_promotion_codes: true,
+    metadata: { planId },
+  });
+}

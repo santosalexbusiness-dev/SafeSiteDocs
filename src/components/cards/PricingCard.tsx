@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import { Button } from "@/components/ui/Button";
+import { CheckoutButton } from "@/components/pricing/CheckoutButton";
 import { Badge } from "@/components/ui/Badge";
 import { formatUSD } from "@/lib/utils";
 import { cn } from "@/lib/utils";
@@ -62,14 +62,13 @@ export function PricingCard({ plan }: { plan: Plan }) {
       </ul>
 
       <div className="mt-7">
-        <Button
-          href={plan.cta.href}
-          variant={highlight ? "primary" : "secondary"}
-          size="lg"
-          className="w-full"
+        <CheckoutButton
+          planId={plan.id}
+          fallbackHref={plan.cta.href}
+          className={cn(highlight ? "btn-primary" : "btn-secondary", "btn-lg w-full")}
         >
           {plan.cta.label}
-        </Button>
+        </CheckoutButton>
       </div>
     </div>
   );

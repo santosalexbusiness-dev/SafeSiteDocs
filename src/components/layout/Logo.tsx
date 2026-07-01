@@ -2,8 +2,8 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 /**
- * SafeSite Documents wordmark + mark. The mark is a shield framing a
- * hard-hat silhouette, rendered in brand navy/safety yellow.
+ * SafeSite Docs wordmark + mark. The mark is a navy shield (with a thin white
+ * inner border) framing a yellow checklist document, in brand navy/safety yellow.
  */
 export function Logo({
   className,
@@ -22,26 +22,40 @@ export function Logo({
         viewBox="0 0 40 40"
         className="h-9 w-9 flex-shrink-0"
         role="img"
-        aria-label="SafeSite Documents logo"
+        aria-label="SafeSite Docs logo"
       >
+        {/* shield */}
         <path
-          d="M20 2 4 8v11c0 9.2 6.4 16.4 16 19 9.6-2.6 16-9.8 16-19V8L20 2Z"
+          d="M20 2.5 5 7.5V19c0 9 6.2 15.8 15 18.5C28.8 34.8 35 28 35 19V7.5L20 2.5Z"
           fill="#0B1A30"
         />
+        {/* thin white inner border */}
         <path
-          d="M20 2 4 8v11c0 9.2 6.4 16.4 16 19 9.6-2.6 16-9.8 16-19V8L20 2Z"
+          d="M20 5 7.3 9v10c0 7.6 5.1 13.4 12.7 15.8C27.6 32.4 32.7 26.6 32.7 19V9L20 5Z"
           fill="none"
-          stroke="#FFC400"
-          strokeWidth="1.6"
-          opacity="0.9"
+          stroke="#ffffff"
+          strokeWidth="1.1"
+          opacity="0.92"
         />
-        {/* hard hat */}
-        <path
-          d="M11 25.5h18c0-5.2-3.4-9-6.6-9.9V13a2.4 2.4 0 0 0-4.8 0v2.6C14.4 16.5 11 20.3 11 25.5Z"
-          fill="#FFC400"
-        />
-        <rect x="9.5" y="25.2" width="21" height="2.6" rx="1.3" fill="#FFC400" />
-        <rect x="18.7" y="11.6" width="2.6" height="2.2" rx="0.6" fill="#0B1A30" />
+        {/* checklist document */}
+        <path d="M13.5 12.5H22.3L25.8 16V27.5H13.5Z" fill="#FFC400" />
+        {/* folded corner */}
+        <path d="M22.3 12.5V16H25.8Z" fill="#CF8F00" />
+        {/* check rows */}
+        <g
+          stroke="#0B1A30"
+          strokeWidth="1.2"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M14.6 18l1 1 1.9-2.1" />
+          <path d="M19.2 18.1h4.2" />
+          <path d="M14.6 21.5l1 1 1.9-2.1" />
+          <path d="M19.2 21.6h4.2" />
+          <path d="M14.6 25l1 1 1.9-2.1" />
+          <path d="M19.2 25.1h4.2" />
+        </g>
       </svg>
       <span className={cn("flex flex-col leading-none", wordmark)}>
         <span className="font-display text-lg font-extrabold tracking-tight">

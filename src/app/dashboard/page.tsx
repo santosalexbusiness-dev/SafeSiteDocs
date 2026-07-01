@@ -39,7 +39,7 @@ export default function DashboardPage() {
   return (
     <DashboardShell
       role="customer"
-      title="Welcome back, Apex Electric"
+      title="Welcome back"
       subtitle="Here's what's new and where things stand."
       actions={
         <>
@@ -226,11 +226,11 @@ export default function DashboardPage() {
           <dl className="mt-3 space-y-2 text-sm">
             <div className="flex justify-between">
               <dt className="text-steel-500">Company</dt>
-              <dd className="font-medium text-navy-900">Apex Electric</dd>
+              <dd className="font-medium text-navy-900">Your Company</dd>
             </div>
             <div className="flex justify-between">
               <dt className="text-steel-500">Email</dt>
-              <dd className="font-medium text-navy-900">owner@apexelectric.com</dd>
+              <dd className="font-medium text-navy-900">you@yourcompany.com</dd>
             </div>
             <div className="flex justify-between">
               <dt className="text-steel-500">Plan</dt>

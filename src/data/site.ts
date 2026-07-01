@@ -10,8 +10,8 @@ export const site = {
   description:
     "Get access to a growing library of editable safety templates, toolbox talks, checklists, and forms — or have a custom safety binder built for your construction company.",
   url: "https://www.safesitedocuments.com",
-  email: "hello@safesitedocuments.com",
-  salesEmail: "orders@safesitedocuments.com",
+  email: "contact@safesitedocs.org",
+  salesEmail: "contact@safesitedocs.org",
   phone: "(555) 014-7233",
   phoneHref: "tel:+15550147233",
   // Realistic placeholder. Swap for your real handles before launch.

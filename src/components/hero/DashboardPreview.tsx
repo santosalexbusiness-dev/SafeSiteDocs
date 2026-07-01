@@ -26,7 +26,7 @@ export function DashboardPreview() {
           <span className="h-2.5 w-2.5 rounded-full bg-steel-300" />
         </span>
         <span className="ml-2 flex items-center gap-1.5 rounded-md bg-steel-100 px-2.5 py-1 text-[0.65rem] font-medium text-steel-500">
-          <Search className="h-3 w-3" /> safesitedocuments.com/dashboard
+          <Search className="h-3 w-3" /> safesitedocs.org/dashboard
         </span>
       </div>
 
@@ -36,7 +36,7 @@ export function DashboardPreview() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-widest text-safety-700">
               Safety binder ready
             </p>
-            <p className="font-display text-lg font-extrabold text-navy-950">Welcome back, Apex Electric</p>
+            <p className="font-display text-lg font-extrabold text-navy-950">Welcome back</p>
           </div>
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-navy-900 text-xs font-bold text-safety">
             AE

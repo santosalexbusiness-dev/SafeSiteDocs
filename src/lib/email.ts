@@ -6,7 +6,7 @@ import { Resend } from "resend";
  * are skipped (logged) so the app runs fine before email is connected.
  *
  * EMAIL_FROM must use a domain you've verified in Resend (e.g.
- * "SafeSite Documents <noreply@safesitedocuments.com>"). For quick testing you
+ * "SafeSite Documents <noreply@safesitedocs.org>"). For quick testing you
  * can use Resend's onboarding@resend.dev sender.
  */
 const KEY = process.env.RESEND_API_KEY;

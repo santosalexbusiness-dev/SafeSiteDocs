@@ -62,7 +62,7 @@ export function AuthCard({ planLabel }: { planLabel?: string }) {
           {mode === "signup" ? (
             <>
               <TextField label="Full name" required placeholder="Jordan Smith" />
-              <TextField label="Company" placeholder="Apex Electric" />
+              <TextField label="Company" placeholder="Your company name" />
             </>
           ) : null}
           <TextField label="Email" type="email" required placeholder="you@company.com" />
