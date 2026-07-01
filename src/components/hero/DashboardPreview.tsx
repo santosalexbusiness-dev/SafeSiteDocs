@@ -26,7 +26,7 @@ export function DashboardPreview() {
           <span className="h-2.5 w-2.5 rounded-full bg-steel-300" />
         </span>
         <span className="ml-2 flex items-center gap-1.5 rounded-md bg-steel-100 px-2.5 py-1 text-[0.65rem] font-medium text-steel-500">
-          <Search className="h-3 w-3" /> safesitedocs.org/dashboard
+          <Search className="h-3 w-3" /> safesitedocs.com/dashboard
         </span>
       </div>
 

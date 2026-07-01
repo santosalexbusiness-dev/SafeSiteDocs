@@ -9,7 +9,7 @@ export const site = {
   tagline: "Safety paperwork for contractors — organized, editable, and ready when you need it.",
   description:
     "Get access to a growing library of editable safety templates, toolbox talks, checklists, and forms — or have a custom safety binder built for your construction company.",
-  url: "https://www.safesitedocuments.com",
+  url: "https://safesitedocs.com",
   email: "contact@safesitedocs.org",
   salesEmail: "contact@safesitedocs.org",
   phone: "(555) 014-7233",
