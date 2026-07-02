@@ -1,24 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ChevronRight, ArrowLeft, FileDown, Lock, FileSignature } from "lucide-react";
+import { ChevronRight, ArrowLeft, Lock, FileSignature, BadgeCheck } from "lucide-react";
 import { PrintButton } from "@/components/library/PrintButton";
 import { AutoPrint } from "@/components/library/AutoPrint";
+import { Paywall } from "@/components/library/Paywall";
 import { DocumentSignOff } from "@/components/sign/DocumentSignOff";
 import { getSignConfig } from "@/lib/signing";
 import { Badge } from "@/components/ui/Badge";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { pageMetadata } from "@/lib/seo";
-import { renderDocHtml } from "@/lib/docContent";
-import { catalog, getDoc, relatedDocs } from "@/data/libraryCatalog";
+import { renderDocHtml, renderDocPreviewHtml } from "@/lib/docContent";
+import { getDoc, relatedDocs } from "@/data/libraryCatalog";
+import { getSessionUser, getAccessTier, canViewDoc } from "@/lib/auth";
 import { formatMonth } from "@/lib/utils";
 
-// Fully static: one page per template, generated at build from the master files.
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return catalog.map((d) => ({ id: d.id }));
-}
+// Rendered per-request: what you see depends on your subscription.
+export const dynamic = "force-dynamic";
 
 export function generateMetadata({ params }: { params: { id: string } }): Metadata {
   const doc = getDoc(params.id);
@@ -30,17 +28,21 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   });
 }
 
-export default function DocumentPage({ params }: { params: { id: string } }) {
+export default async function DocumentPage({ params }: { params: { id: string } }) {
   const doc = getDoc(params.id);
   if (!doc) notFound();
 
-  const html = renderDocHtml(doc.filePath);
+  const user = await getSessionUser();
+  const tier = await getAccessTier(user);
+  const unlocked = canViewDoc(doc, tier);
+
+  const html = unlocked ? renderDocHtml(doc.filePath) : renderDocPreviewHtml(doc.filePath);
   const related = relatedDocs(doc, 6);
   const sign = getSignConfig(doc.documentType, doc.title);
 
   return (
     <section className="bg-steel-50">
-      <AutoPrint />
+      {unlocked ? <AutoPrint /> : null}
       <div className="container py-8 lg:py-10">
         {/* Action bar — hidden when printing */}
         <div data-no-print>
@@ -73,38 +75,64 @@ export default function DocumentPage({ params }: { params: { id: string } }) {
           <div className="mb-6 flex flex-col gap-4 rounded-2xl border border-navy-100 bg-white p-5 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-wrap items-center gap-2">
               <Badge variant="muted">{doc.categoryName}</Badge>
-              <Badge variant={doc.accessLevel === "Pro" ? "safety" : "navy"}>{doc.accessLevel}</Badge>
+              <Badge variant={doc.accessLevel === "Pro" ? "safety" : "navy"}>
+                {doc.isSample ? "Free sample" : doc.accessLevel}
+              </Badge>
               <Badge variant="outline">{doc.documentType}</Badge>
               {doc.industry !== "All" ? <Badge variant="outline">{doc.industry}</Badge> : null}
+              {unlocked && !doc.isSample ? (
+                <Badge variant="safety">
+                  <BadgeCheck className="mr-1 h-3.5 w-3.5" /> Unlocked
+                </Badge>
+              ) : null}
             </div>
             <div className="flex flex-wrap gap-2">
               <Link href="/library" className="btn btn-outline btn-md">
                 <ArrowLeft className="h-4 w-4" /> Library
               </Link>
-              <Link
-                href="/pricing"
-                className="btn btn-outline btn-md"
-                title="Editable Word & PDF downloads unlock with a plan"
-              >
-                <Lock className="h-4 w-4" /> Editable {doc.formats.join("/")}
-              </Link>
-              {sign.kind !== "none" ? (
-                <a href="#sign" className="btn btn-secondary btn-md">
-                  <FileSignature className="h-4 w-4" /> Sign online
-                </a>
-              ) : null}
-              <PrintButton />
+              {unlocked ? (
+                <>
+                  {sign.kind !== "none" ? (
+                    <a href="#sign" className="btn btn-secondary btn-md">
+                      <FileSignature className="h-4 w-4" /> Sign online
+                    </a>
+                  ) : null}
+                  <PrintButton />
+                </>
+              ) : (
+                <Link
+                  href="/pricing"
+                  className="btn btn-primary btn-md"
+                  title="Full access with a library plan"
+                >
+                  <Lock className="h-4 w-4" /> Unlock full template
+                </Link>
+              )}
             </div>
           </div>
         </div>
 
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_300px]">
-          {/* The printable document */}
-          <article
-            id="print"
-            className="doc-paper doc-prose rounded-2xl border border-navy-100 bg-white p-6 shadow-card sm:p-10"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          {/* The printable document (or its preview) */}
+          <div className="min-w-0">
+            <article
+              id="print"
+              className={`doc-paper doc-prose rounded-2xl border border-navy-100 bg-white p-6 shadow-card sm:p-10 ${
+                doc.isSample ? "" : "paywalled"
+              }`}
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+            {!unlocked ? (
+              <div className="mt-2">
+                <Paywall
+                  docTitle={doc.title}
+                  requiredLevel={doc.accessLevel === "Starter" ? "Starter" : "Pro"}
+                  signedIn={Boolean(user)}
+                  docRoute={doc.route}
+                />
+              </div>
+            ) : null}
+          </div>
 
           {/* Sidebar — hidden when printing */}
           <aside data-no-print className="space-y-5">
@@ -125,7 +153,9 @@ export default function DocumentPage({ params }: { params: { id: string } }) {
                 </div>
                 <div className="flex justify-between gap-3">
                   <dt className="text-steel-500">Access</dt>
-                  <dd className="text-right font-medium text-navy-900">{doc.accessLevel}</dd>
+                  <dd className="text-right font-medium text-navy-900">
+                    {doc.isSample ? "Free sample" : doc.accessLevel}
+                  </dd>
                 </div>
                 <div className="flex justify-between gap-3">
                   <dt className="text-steel-500">Formats</dt>
@@ -137,11 +167,14 @@ export default function DocumentPage({ params }: { params: { id: string } }) {
                 </div>
               </dl>
               <div className="mt-4">
-                <PrintButton className="btn btn-primary btn-md w-full" />
+                {unlocked ? (
+                  <PrintButton className="btn btn-primary btn-md w-full" />
+                ) : (
+                  <Link href="/pricing" className="btn btn-primary btn-md w-full">
+                    <Lock className="h-4 w-4" /> Unlock full template
+                  </Link>
+                )}
               </div>
-              <Link href="/pricing" className="mt-2 btn btn-outline btn-md w-full">
-                <FileDown className="h-4 w-4" /> Get editable Word/PDF
-              </Link>
             </div>
 
             {doc.tags.length ? (
@@ -179,7 +212,7 @@ export default function DocumentPage({ params }: { params: { id: string } }) {
           </aside>
         </div>
 
-        {sign.kind !== "none" ? (
+        {unlocked && sign.kind !== "none" ? (
           <section id="sign" data-no-print className="mt-8 scroll-mt-24">
             <DocumentSignOff docId={doc.id} title={doc.title} config={sign} />
           </section>
@@ -195,7 +228,16 @@ export default function DocumentPage({ params }: { params: { id: string } }) {
           genre: doc.documentType,
           description: doc.description,
           dateModified: doc.lastUpdated,
-          isAccessibleForFree: true,
+          isAccessibleForFree: doc.isSample,
+          ...(doc.isSample
+            ? {}
+            : {
+                hasPart: {
+                  "@type": "WebPageElement",
+                  isAccessibleForFree: false,
+                  cssSelector: ".paywalled",
+                },
+              }),
         }}
       />
     </section>

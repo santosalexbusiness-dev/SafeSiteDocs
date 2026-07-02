@@ -17,7 +17,7 @@ export default function DashboardLibraryPage() {
     <DashboardShell
       role="customer"
       title="Document Library"
-      subtitle="Your full library — search, filter, and download Word or PDF versions."
+      subtitle="Your full library — search, filter, then open any template to use or print it."
       actions={
         <Button href="/dashboard" variant="outline" size="sm">
           Back to overview

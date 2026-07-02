@@ -54,7 +54,11 @@ const SITE = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
  * - One-time packages (binders) → success sends the buyer straight to the
  *   intake form so they can submit their company details immediately.
  */
-export async function createCheckoutSession(planId: string, customerEmail?: string) {
+export async function createCheckoutSession(
+  planId: string,
+  customerEmail?: string,
+  userId?: string
+) {
   if (!stripe) throw new Error("Stripe is not configured.");
   const price = getPriceId(planId);
   if (!price) throw new Error(`No Stripe price configured for plan: ${planId}`);
@@ -68,9 +72,12 @@ export async function createCheckoutSession(planId: string, customerEmail?: stri
     mode: isSubscription ? "subscription" : "payment",
     line_items: [{ price, quantity: 1 }],
     customer_email: customerEmail || undefined,
+    // Ties the Stripe session back to our account so the webhook can
+    // activate the right user's subscription.
+    client_reference_id: userId || undefined,
     success_url: successUrl,
     cancel_url: `${SITE}/pricing?checkout=cancelled`,
     allow_promotion_codes: true,
-    metadata: { planId },
+    metadata: { planId, ...(userId ? { userId } : {}) },
   });
 }

@@ -16,3 +16,18 @@ export function renderDocHtml(filePath: string): string {
   const md = fs.readFileSync(abs, "utf8");
   return marked.parse(md) as string;
 }
+
+/**
+ * A teaser for gated templates: the first ~1,200 characters of the source,
+ * cut at a paragraph boundary so no table/list is left broken. Subscribers
+ * get renderDocHtml() instead.
+ */
+export function renderDocPreviewHtml(filePath: string, maxChars = 1200): string {
+  const abs = path.join(process.cwd(), filePath);
+  const md = fs.readFileSync(abs, "utf8");
+  if (md.length <= maxChars) return marked.parse(md) as string;
+
+  const cut = md.lastIndexOf("\n\n", maxChars);
+  const preview = md.slice(0, cut > 400 ? cut : maxChars);
+  return marked.parse(preview) as string;
+}

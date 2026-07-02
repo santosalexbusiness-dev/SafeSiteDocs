@@ -36,6 +36,11 @@ export function CheckoutButton({
         window.location.href = data.url as string;
         return;
       }
+      if (res.status === 401 && data?.needAuth) {
+        // Subscriptions need an account first — sign up, then checkout resumes.
+        router.push(`/login?plan=${encodeURIComponent(planId)}`);
+        return;
+      }
       router.push(fallbackHref);
     } catch {
       router.push(fallbackHref);

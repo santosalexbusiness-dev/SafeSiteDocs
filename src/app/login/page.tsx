@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { AuthCard } from "@/components/auth/AuthCard";
 import { pageMetadata } from "@/lib/seo";
 import { allPlans } from "@/data/pricing";
@@ -17,7 +18,9 @@ export default function LoginPage({ searchParams }: { searchParams: { plan?: str
     <section className="relative flex min-h-[calc(100dvh-4.5rem)] items-center justify-center overflow-hidden bg-steel-50 px-5 py-16">
       <div className="absolute inset-0 bg-grid opacity-[0.5]" aria-hidden />
       <div className="relative">
-        <AuthCard planLabel={plan?.name} />
+        <Suspense fallback={null}>
+          <AuthCard planLabel={plan?.name} />
+        </Suspense>
       </div>
     </section>
   );

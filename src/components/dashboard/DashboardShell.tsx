@@ -2,17 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { signOut } from "next-auth/react";
 import {
   LayoutDashboard,
   LibraryBig,
-  Bookmark,
   FolderCog,
   CreditCard,
   Settings,
-  Upload,
   Inbox,
   Users,
-  Megaphone,
   BarChart3,
   ArrowLeft,
   LogOut,
@@ -26,7 +24,6 @@ type NavLink = { label: string; href: string; icon: React.ComponentType<{ classN
 const customerNav: NavLink[] = [
   { label: "Overview", href: "/dashboard", icon: LayoutDashboard },
   { label: "Document Library", href: "/dashboard/library", icon: LibraryBig },
-  { label: "Saved", href: "/dashboard#saved", icon: Bookmark },
   { label: "Custom Binder", href: "/dashboard#binder", icon: FolderCog },
   { label: "Billing", href: "/dashboard#billing", icon: CreditCard },
   { label: "Settings", href: "/dashboard#settings", icon: Settings },
@@ -34,11 +31,9 @@ const customerNav: NavLink[] = [
 
 const adminNav: NavLink[] = [
   { label: "Overview", href: "/admin", icon: LayoutDashboard },
-  { label: "Documents", href: "/admin#documents", icon: Upload },
+  { label: "Leads", href: "/admin#leads", icon: Users },
   { label: "Binder Requests", href: "/admin#requests", icon: Inbox },
-  { label: "Customers", href: "/admin#customers", icon: Users },
-  { label: "Subscriptions", href: "/admin#subscriptions", icon: BarChart3 },
-  { label: "Announcements", href: "/admin#announcements", icon: Megaphone },
+  { label: "Orders & Subscriptions", href: "/admin#orders", icon: BarChart3 },
 ];
 
 export function DashboardShell({
@@ -46,12 +41,14 @@ export function DashboardShell({
   title,
   subtitle,
   actions,
+  initials,
   children,
 }: {
   role?: "customer" | "admin";
   title: string;
   subtitle?: string;
   actions?: React.ReactNode;
+  initials?: string;
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
@@ -95,12 +92,13 @@ export function DashboardShell({
             >
               <ArrowLeft className="h-4 w-4" /> Back to site
             </Link>
-            <Link
-              href="/login"
-              className="flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm text-navy-100/70 hover:bg-white/5 hover:text-white"
+            <button
+              type="button"
+              onClick={() => signOut({ callbackUrl: "/" })}
+              className="flex w-full items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm text-navy-100/70 hover:bg-white/5 hover:text-white"
             >
               <LogOut className="h-4 w-4" /> Log out
-            </Link>
+            </button>
           </div>
         </aside>
 
@@ -123,7 +121,7 @@ export function DashboardShell({
                 </span>
               ) : null}
               <span className="flex h-9 w-9 items-center justify-center rounded-full bg-navy-900 text-xs font-bold text-safety">
-                AE
+                {initials ?? "—"}
               </span>
             </div>
           </header>
@@ -135,11 +133,6 @@ export function DashboardShell({
                 {subtitle ? <p className="mt-1 text-steel-600">{subtitle}</p> : null}
               </div>
               {actions ? <div className="flex flex-wrap gap-2">{actions}</div> : null}
-            </div>
-
-            {/* Demo notice — auth/data not yet wired. */}
-            <div className="mb-6 rounded-lg border border-safety/30 bg-safety-50 px-4 py-2.5 text-xs text-steel-700">
-              Preview dashboard with sample data. Connect auth + database to make it live (see README).
             </div>
 
             {children}
