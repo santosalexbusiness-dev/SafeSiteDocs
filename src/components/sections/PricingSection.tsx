@@ -2,7 +2,7 @@ import { Section, SectionHeader } from "@/components/ui/Section";
 import { Reveal } from "@/components/ui/Reveal";
 import { PricingCard } from "@/components/cards/PricingCard";
 import { DisclaimerBlock } from "@/components/ui/DisclaimerBlock";
-import { subscriptionPlans, oneTimePlans, PRICING_NOTE } from "@/data/pricing";
+import { subscriptionPlans, oneTimePlans } from "@/data/pricing";
 
 export function PricingSection({
   showDisclaimer = false,
@@ -46,8 +46,6 @@ export function PricingSection({
           ))}
         </div>
       </div>
-
-      <p className="mt-8 text-center text-sm italic text-steel-500">{PRICING_NOTE}</p>
 
       {showDisclaimer ? <DisclaimerBlock className="mx-auto mt-10 max-w-4xl" /> : null}
     </Section>

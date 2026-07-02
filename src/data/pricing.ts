@@ -119,5 +119,3 @@ export const oneTimePlans: Plan[] = [
 ];
 
 export const allPlans = [...subscriptionPlans, ...oneTimePlans];
-
-export const PRICING_NOTE = "Pricing can be adjusted before launch.";
