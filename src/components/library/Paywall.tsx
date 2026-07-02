@@ -17,10 +17,18 @@ export function Paywall({
   signedIn: boolean;
   docRoute: string;
 }) {
-  const planLine =
-    requiredLevel === "Starter"
-      ? "Included in Library Starter ($49/mo) and Library Pro ($99/mo)."
-      : "Included in Library Pro ($99/mo) — full access to all 350+ templates.";
+  // A Starter doc is unlocked by either plan (entry price $49); a Pro doc needs
+  // the Pro plan specifically ($99). Keep the CTA price honest per tier so a
+  // buyer never subscribes at $49 expecting a Pro template they can't open.
+  const isStarterDoc = requiredLevel === "Starter";
+  const planLine = isStarterDoc
+    ? "Included in Library Starter ($49/mo) and Library Pro ($99/mo)."
+    : "Included in Library Pro ($99/mo) — full access to all 350+ templates.";
+  const ctaLabel = signedIn
+    ? "Upgrade your plan"
+    : isStarterDoc
+      ? "Get access — from $49/mo"
+      : "Get Pro access — $99/mo";
 
   return (
     <div className="relative" data-no-print>
@@ -53,7 +61,7 @@ export function Paywall({
 
         <div className="mt-6 flex flex-col justify-center gap-2 sm:flex-row">
           <Link href="/pricing" className="btn btn-primary btn-lg">
-            {signedIn ? "Upgrade your plan" : "Get access — from $49/mo"}
+            {ctaLabel}
           </Link>
           {!signedIn ? (
             <Link
