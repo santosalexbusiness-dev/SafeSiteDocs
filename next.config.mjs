@@ -2,6 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // The /library/[id] page renders per-request (subscription gating), so it
+  // reads the Markdown masters at runtime. Next's tracer can't see the dynamic
+  // fs paths, so bundle the whole library folder into that serverless function.
+  experimental: {
+    outputFileTracingIncludes: {
+      "/library/[id]": ["./safety-doc-library/**/*"],
+    },
+  },
   // Allow remote placeholder imagery. Add your real CDN/storage domains here
   // (e.g. your Supabase storage bucket or S3/CloudFront distribution).
   images: {
