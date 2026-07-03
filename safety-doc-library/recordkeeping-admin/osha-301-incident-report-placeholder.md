@@ -1,4 +1,4 @@
-# OSHA 301 Incident Report Placeholder
+# OSHA 301 Incident Report — Intake & Instructions
 
 > **Document Control**
 > Company: **[COMPANY NAME]**  ·  Logo: **[COMPANY LOGO]**  ·  Address: **[COMPANY ADDRESS]**
@@ -10,8 +10,8 @@
 | Recommended Industry | All |
 | Document Type | Report |
 | Access Level | Starter |
-| Last Reviewed | 2026-06-29 |
-| Last Updated | 2026-06-29 |
+| Last Reviewed | 2026-07-02 |
+| Last Updated | 2026-07-02 |
 
 ---
 
@@ -21,7 +21,7 @@ Complete the fields as fully and accurately as possible at the time of the task 
 ---
 
 ## Template Body
-*Placeholder — use the official OSHA 301 (or equivalent) for recordable cases.* This page helps you gather the information; it does not replace the official form.
+*Use the official OSHA 301 (or equivalent) for recordable cases.* This page helps you gather the information; it does not replace the official form.
 
 Information typically needed for an injury/illness incident record:
 - Employee name and information
@@ -51,8 +51,8 @@ Complete an equivalent official 301 (or 301-equivalent like the company Incident
 - Set a review schedule and update the **Last Reviewed / Last Updated** date whenever you change it.
 
 ## Last Reviewed / Last Updated
-- **Last Reviewed:** 2026-06-29
-- **Last Updated:** 2026-06-29
+- **Last Reviewed:** 2026-07-02
+- **Last Updated:** 2026-07-02
 - **Next Review Due:** [SET DATE]
 
 ---

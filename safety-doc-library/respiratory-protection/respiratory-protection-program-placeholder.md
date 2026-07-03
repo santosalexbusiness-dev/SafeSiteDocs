@@ -1,4 +1,4 @@
-# Respiratory Protection Program Placeholder
+# Respiratory Protection Program (Framework)
 
 > **Document Control**
 > Company: **[COMPANY NAME]**  ·  Logo: **[COMPANY LOGO]**  ·  Address: **[COMPANY ADDRESS]**
@@ -10,8 +10,8 @@
 | Recommended Industry | All |
 | Document Type | Program |
 | Access Level | Pro |
-| Last Reviewed | 2026-06-29 |
-| Last Updated | 2026-06-29 |
+| Last Reviewed | 2026-07-02 |
+| Last Updated | 2026-07-02 |
 
 ---
 
@@ -21,7 +21,7 @@ Customize this template to your company and worksite, have a qualified person an
 ---
 
 ## Program
-**Respiratory Protection Program for [COMPANY NAME].** *Placeholder framework — a required respirator program has specific elements that must be completed and overseen by a qualified person/program administrator before respirators are used.*
+**Respiratory Protection Program for [COMPANY NAME].** *Framework — a required respirator program has specific elements that must be completed and overseen by a qualified person/program administrator before respirators are used.*
 
 ### 1. Program Administrator
 - **[NAME]** administers the program and evaluates its effectiveness.
@@ -61,8 +61,8 @@ Prepared by: **[RESPONSIBLE PERSON]**   Date: **[DATE]**
 - Set a review schedule and update the **Last Reviewed / Last Updated** date whenever you change it.
 
 ## Last Reviewed / Last Updated
-- **Last Reviewed:** 2026-06-29
-- **Last Updated:** 2026-06-29
+- **Last Reviewed:** 2026-07-02
+- **Last Updated:** 2026-07-02
 - **Next Review Due:** [SET DATE]
 
 ---

@@ -1,4 +1,4 @@
-# Client Disclosure Placeholder Form
+# Client Hazard Disclosure Form
 
 > **Document Control**
 > Company: **[COMPANY NAME]**  ·  Logo: **[COMPANY LOGO]**  ·  Address: **[COMPANY ADDRESS]**
@@ -10,8 +10,8 @@
 | Recommended Industry | All |
 | Document Type | Form |
 | Access Level | Starter |
-| Last Reviewed | 2026-06-29 |
-| Last Updated | 2026-06-29 |
+| Last Reviewed | 2026-07-02 |
+| Last Updated | 2026-07-02 |
 
 ---
 
@@ -21,7 +21,7 @@ Complete the fields as fully and accurately as possible at the time of the task 
 ---
 
 ## Template Body
-*Placeholder — coordinate disclosures with legal counsel.* Use to request and record what the client/owner knows about building hazards.
+*Coordinate disclosures with legal counsel.* Use to request and record what the client/owner knows about building hazards.
 
 | Field | Entry |
 |---|---|
@@ -46,8 +46,8 @@ Complete the fields as fully and accurately as possible at the time of the task 
 - Set a review schedule and update the **Last Reviewed / Last Updated** date whenever you change it.
 
 ## Last Reviewed / Last Updated
-- **Last Reviewed:** 2026-06-29
-- **Last Updated:** 2026-06-29
+- **Last Reviewed:** 2026-07-02
+- **Last Updated:** 2026-07-02
 - **Next Review Due:** [SET DATE]
 
 ---

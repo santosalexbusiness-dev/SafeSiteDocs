@@ -1,4 +1,4 @@
-# Respiratory PPE Placeholder Form
+# Respiratory PPE Pre-Use Screening Form
 
 > **Document Control**
 > Company: **[COMPANY NAME]**  ·  Logo: **[COMPANY LOGO]**  ·  Address: **[COMPANY ADDRESS]**
@@ -10,8 +10,8 @@
 | Recommended Industry | All |
 | Document Type | Form |
 | Access Level | Pro |
-| Last Reviewed | 2026-06-29 |
-| Last Updated | 2026-06-29 |
+| Last Reviewed | 2026-07-02 |
+| Last Updated | 2026-07-02 |
 
 ---
 
@@ -21,7 +21,7 @@ Complete the fields as fully and accurately as possible at the time of the task 
 ---
 
 ## Template Body
-**Respiratory protection is more than a mask** — it requires a full program (hazard assessment, medical evaluation, fit testing, and training) before use. This placeholder routes you to that program.
+**Respiratory protection is more than a mask** — it requires a full program (hazard assessment, medical evaluation, fit testing, and training) before use. This form routes you to that program.
 
 | Field | Entry |
 |---|---|
@@ -46,8 +46,8 @@ Complete the fields as fully and accurately as possible at the time of the task 
 - Set a review schedule and update the **Last Reviewed / Last Updated** date whenever you change it.
 
 ## Last Reviewed / Last Updated
-- **Last Reviewed:** 2026-06-29
-- **Last Updated:** 2026-06-29
+- **Last Reviewed:** 2026-07-02
+- **Last Updated:** 2026-07-02
 - **Next Review Due:** [SET DATE]
 
 ---

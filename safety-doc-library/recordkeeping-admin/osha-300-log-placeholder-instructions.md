@@ -1,4 +1,4 @@
-# OSHA 300 Log Placeholder Instructions
+# OSHA 300 Log — Recordkeeping Instructions
 
 > **Document Control**
 > Company: **[COMPANY NAME]**  ·  Logo: **[COMPANY LOGO]**  ·  Address: **[COMPANY ADDRESS]**
@@ -10,8 +10,8 @@
 | Recommended Industry | All |
 | Document Type | Log |
 | Access Level | Starter |
-| Last Reviewed | 2026-06-29 |
-| Last Updated | 2026-06-29 |
+| Last Reviewed | 2026-07-02 |
+| Last Updated | 2026-07-02 |
 
 ---
 
@@ -21,7 +21,7 @@ Record each entry as it happens and keep the document current. Store it with you
 ---
 
 ## Log
-*Placeholder / instructions — use the official OSHA forms; do not substitute this page for them.*
+*Instructions — use the official OSHA forms; do not substitute this page for them.*
 
 **What the OSHA 300 Log is:** a log of work-related injuries and illnesses that meet recording criteria. Not every employer or incident is covered.
 
@@ -53,8 +53,8 @@ Record each entry as it happens and keep the document current. Store it with you
 - Set a review schedule and update the **Last Reviewed / Last Updated** date whenever you change it.
 
 ## Last Reviewed / Last Updated
-- **Last Reviewed:** 2026-06-29
-- **Last Updated:** 2026-06-29
+- **Last Reviewed:** 2026-07-02
+- **Last Updated:** 2026-07-02
 - **Next Review Due:** [SET DATE]
 
 ---

@@ -1,4 +1,4 @@
-# Drug and Alcohol Policy Placeholder
+# Drug and Alcohol Policy Template
 
 > **Document Control**
 > Company: **[COMPANY NAME]**  ·  Logo: **[COMPANY LOGO]**  ·  Address: **[COMPANY ADDRESS]**
@@ -10,8 +10,8 @@
 | Recommended Industry | All |
 | Document Type | Policy |
 | Access Level | Pro |
-| Last Reviewed | 2026-06-29 |
-| Last Updated | 2026-06-29 |
+| Last Reviewed | 2026-07-02 |
+| Last Updated | 2026-07-02 |
 
 ---
 
@@ -21,11 +21,11 @@ Review the policy, customize it to your company, have leadership approve it, the
 ---
 
 ## Policy
-**1. Purpose** — State the company's expectation of a drug- and alcohol-free workplace. (Placeholder — legal review required.)
+**1. Purpose** — State the company's expectation of a drug- and alcohol-free workplace. (Finalize with qualified legal counsel.)
 
 **2. Scope** — All employees of [COMPANY NAME]; subcontractors as required by contract.
 
-**3. Policy Statement** — [PLACEHOLDER] [COMPANY NAME] is committed to a workplace free of the influence of drugs and alcohol that could impair safe work. The specifics of testing and consequences must be defined with legal counsel.
+**3. Policy Statement** — [COMPANY NAME] is committed to a workplace free of the influence of drugs and alcohol that could impair safe work. The specifics of testing and consequences must be defined with legal counsel.
 
 **4. Requirements**
 - Working under the influence of drugs or alcohol is prohibited.
@@ -55,8 +55,8 @@ Approved by: **[OWNER / RESPONSIBLE PERSON]**  Signature: _________________  Dat
 - Set a review schedule and update the **Last Reviewed / Last Updated** date whenever you change it.
 
 ## Last Reviewed / Last Updated
-- **Last Reviewed:** 2026-06-29
-- **Last Updated:** 2026-06-29
+- **Last Reviewed:** 2026-07-02
+- **Last Updated:** 2026-07-02
 - **Next Review Due:** [SET DATE]
 
 ---
