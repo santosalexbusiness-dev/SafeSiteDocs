@@ -1,10 +1,9 @@
-import { ShieldCheck, RefreshCw, Headset } from "lucide-react";
+import { RefreshCw, Headset } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 /**
- * Satisfaction / risk-reversal band. This is a product-satisfaction guarantee
- * (a fit/refund promise) — NOT a compliance guarantee, consistent with the
- * site disclaimer. Adjust the window/terms to your actual refund policy.
+ * Trust / reassurance band — highlights ongoing updates and the EHS expertise
+ * behind the templates. Not a refund or compliance guarantee.
  */
 export function Guarantee({
   tone = "light",
@@ -14,7 +13,6 @@ export function Guarantee({
   className?: string;
 }) {
   const items = [
-    { icon: ShieldCheck, title: "14-day satisfaction guarantee", body: "If the templates aren't a fit, tell us within 14 days and we'll make it right or refund you." },
     { icon: RefreshCw, title: "Updated regularly", body: "Library plans get ongoing updates — your documents don't go stale." },
     { icon: Headset, title: "Built by a safety pro", body: "Real EHS background behind every template — and a real person to email." },
   ];
@@ -27,7 +25,7 @@ export function Guarantee({
         className
       )}
     >
-      <div className="grid gap-5 sm:grid-cols-3">
+      <div className="grid gap-5 sm:grid-cols-2">
         {items.map((it) => {
           const Icon = it.icon;
           return (
