@@ -8,8 +8,13 @@ const nextConfig = {
   experimental: {
     outputFileTracingIncludes: {
       "/library/[id]": ["./safety-doc-library/**/*"],
-      // The download route reads the same Markdown masters at runtime.
-      "/api/download/[id]": ["./safety-doc-library/**/*"],
+      // The download route reads the Markdown masters at runtime, and generates
+      // PDFs with @sparticuz/chromium — whose brotli binary must ship with the
+      // function or Chrome fails to launch.
+      "/api/download/[id]": [
+        "./safety-doc-library/**/*",
+        "./node_modules/@sparticuz/chromium/**/*",
+      ],
     },
     // Headless-Chrome PDF generation deps must not be bundled by webpack.
     serverComponentsExternalPackages: ["@sparticuz/chromium", "puppeteer-core"],
