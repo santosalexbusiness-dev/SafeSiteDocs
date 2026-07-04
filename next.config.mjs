@@ -8,6 +8,8 @@ const nextConfig = {
   experimental: {
     outputFileTracingIncludes: {
       "/library/[id]": ["./safety-doc-library/**/*"],
+      // The download route reads the same Markdown masters at runtime.
+      "/api/download/[id]": ["./safety-doc-library/**/*"],
     },
   },
   // Allow remote placeholder imagery. Add your real CDN/storage domains here
