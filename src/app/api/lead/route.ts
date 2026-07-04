@@ -33,7 +33,12 @@ export async function POST(request: Request) {
         html: freePackEmailHtml({
           firstName,
           packName: chosen.headline,
-          items: chosen.items.map((i) => ({ title: i.title, route: i.route })),
+          items: chosen.items.map((i) => ({
+            title: i.title,
+            route: i.route,
+            why: i.why,
+            type: i.type,
+          })),
         }),
       });
       if (process.env.SALES_INBOX) {

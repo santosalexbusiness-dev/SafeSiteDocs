@@ -6,7 +6,7 @@ import { Resend } from "resend";
  * are skipped (logged) so the app runs fine before email is connected.
  *
  * EMAIL_FROM must use a domain you've verified in Resend (e.g.
- * "SafeSite Documents <noreply@safesitedocs.org>"). For quick testing you
+ * "SafeSite Documents <noreply@safesitedocs.com>"). For quick testing you
  * can use Resend's onboarding@resend.dev sender.
  */
 const KEY = process.env.RESEND_API_KEY;
@@ -33,62 +33,145 @@ export async function sendEmail({ to, subject, html, replyTo }: SendArgs) {
   }
 }
 
-/** Shared branded wrapper. */
-function layout(bodyHtml: string) {
-  return `<!doctype html><html><body style="margin:0;background:#f6f7f9;font-family:Arial,Helvetica,sans-serif;color:#0B1A30">
-    <div style="max-width:560px;margin:0 auto;padding:24px">
-      <div style="background:#0B1A30;border-radius:12px 12px 0 0;padding:18px 24px">
-        <span style="color:#fff;font-weight:800;font-size:18px">SafeSite <span style="color:#FFC400">Docs</span></span>
-      </div>
-      <div style="background:#fff;border:1px solid #eceef2;border-top:none;border-radius:0 0 12px 12px;padding:24px">
+/**
+ * Shared branded shell — table-based for broad email-client support (Outlook,
+ * Gmail, Apple Mail). Brand navy/safety-yellow with the hazard-bar motif, the
+ * SafeSite Docs logo in the header, and a branded footer + disclaimer.
+ */
+function layout(bodyHtml: string, preheader = "SafeSite Docs — contractor safety templates") {
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<title>SafeSite Docs</title>
+</head>
+<body style="margin:0;padding:0;background:#eef1f5;-webkit-text-size-adjust:100%;">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#eef1f5;font-size:1px;line-height:1px;">${preheader}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef1f5;">
+  <tr><td align="center" style="padding:24px 12px;">
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:600px;">
+      <tr><td style="height:6px;background:#FFC400;border-radius:14px 14px 0 0;font-size:0;line-height:0;">&nbsp;</td></tr>
+      <tr><td style="background:#ffffff;padding:20px 28px 16px;">
+        <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+          <td style="padding-right:12px;" valign="middle"><img src="${SITE}/logo-mark.png" width="44" height="44" alt="SafeSite Docs" style="display:block;border:0;"></td>
+          <td valign="middle">
+            <div style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:800;color:#0B1A30;line-height:1;">SafeSite <span style="color:#FFC400">Docs</span></div>
+            <div style="font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;color:#64748b;margin-top:4px;">CONTRACTOR SAFETY</div>
+          </td>
+        </tr></table>
+      </td></tr>
+      <tr><td style="background:#ffffff;padding:8px 28px 30px;font-family:Arial,Helvetica,sans-serif;">
         ${bodyHtml}
-      </div>
-      <p style="color:#8593a8;font-size:11px;line-height:1.5;margin:16px 4px">
-        These materials are general safety-document templates and educational resources — not legal
-        advice and not a guarantee of compliance. You remain responsible for your safety program.
-      </p>
-    </div>
-  </body></html>`;
+      </td></tr>
+      <tr><td style="background:#0B1A30;border-radius:0 0 14px 14px;padding:22px 28px;font-family:Arial,Helvetica,sans-serif;">
+        <div style="font-size:15px;font-weight:800;color:#ffffff;">SafeSite <span style="color:#FFC400">Docs</span></div>
+        <div style="font-size:12px;color:#9fb0c9;line-height:1.6;margin-top:6px;">
+          Editable safety templates, toolbox talks &amp; custom binders for contractors.<br>
+          <a href="mailto:contact@safesitedocs.org" style="color:#FFC400;text-decoration:none;">contact@safesitedocs.org</a>
+          &nbsp;&middot;&nbsp;
+          <a href="${SITE}" style="color:#FFC400;text-decoration:none;">safesitedocs.com</a>
+        </div>
+        <div style="font-size:10px;color:#64748b;line-height:1.5;margin-top:14px;border-top:1px solid rgba(255,255,255,0.10);padding-top:12px;">
+          These materials are general safety-document templates and educational resources — not legal advice and not a guarantee of OSHA compliance. You remain responsible for your safety program.
+        </div>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>
+</body></html>`;
 }
 
+/** Bulletproof (table-based) CTA button. */
 const button = (href: string, label: string) =>
-  `<a href="${href}" style="display:inline-block;background:#FFC400;color:#0B1A30;font-weight:700;text-decoration:none;padding:12px 20px;border-radius:8px">${label}</a>`;
+  `<table role="presentation" cellpadding="0" cellspacing="0"><tr>
+    <td style="background:#FFC400;border-radius:8px;">
+      <a href="${href}" style="display:inline-block;padding:13px 26px;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:800;color:#0B1A30;text-decoration:none;">${label}</a>
+    </td></tr></table>`;
 
-/** Free starter pack delivery — lists the trade-specific templates. */
+/** Free starter pack delivery — lists the trade-specific templates with context. */
 export function freePackEmailHtml(opts: {
   firstName?: string;
   packName: string;
-  items: { title: string; route: string }[];
+  items: { title: string; route: string; why?: string; type?: string }[];
 }) {
+  const count = opts.items.length;
   const rows = opts.items
     .map(
-      (it) =>
-        `<li style="margin:6px 0"><a href="${SITE}${it.route}" style="color:#15304f;font-weight:600">${it.title}</a></li>`
+      (it, i) => `
+      <tr><td style="padding:12px 0;border-bottom:1px solid #eef1f5;">
+        <table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>
+          <td valign="top" width="40" style="padding-right:12px;">
+            <div style="width:28px;height:28px;background:#0B1A30;border-radius:7px;color:#FFC400;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:800;text-align:center;line-height:28px;">${i + 1}</div>
+          </td>
+          <td valign="top">
+            <a href="${SITE}${it.route}" style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700;color:#0B1A30;text-decoration:none;">${it.title}</a>${
+              it.type
+                ? ` <span style="font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.4px;color:#64748b;background:#f1f4f8;border-radius:4px;padding:2px 6px;white-space:nowrap;">${it.type}</span>`
+                : ""
+            }${
+              it.why
+                ? `<div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#64748b;line-height:1.5;margin-top:3px;">${it.why}</div>`
+                : ""
+            }
+          </td>
+        </tr></table>
+      </td></tr>`
     )
     .join("");
-  return layout(`
-    <h1 style="font-size:20px;margin:0 0 8px">Your free pack is ready${opts.firstName ? `, ${opts.firstName}` : ""}</h1>
-    <p style="color:#505d72;font-size:14px;margin:0 0 16px">Here's your <strong>${opts.packName}</strong>. Open any template to read it in full and print it or save it as a PDF.</p>
-    <ul style="padding-left:18px;margin:0 0 20px">${rows}</ul>
-    <p>${button(`${SITE}/library`, "Browse the full library")}</p>
-  `);
+
+  return layout(
+    `
+    <div style="font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#8a6d00;background:#FFF7DC;display:inline-block;padding:5px 11px;border-radius:20px;">Free Starter Pack</div>
+    <h1 style="font-size:24px;font-weight:800;color:#0B1A30;margin:16px 0 8px;line-height:1.25;">Your safety pack is ready${opts.firstName ? `, ${opts.firstName}` : ""} 🦺</h1>
+    <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 22px;">Here's your <strong style="color:#0B1A30;">${opts.packName}</strong> — <strong>${count} professional templates</strong> hand-picked for your trade. Every one is viewable in full right now; open any of them and print it or save it as a PDF.</p>
+
+    <div style="background:#f7f9fc;border:1px solid #eef1f5;border-radius:12px;padding:4px 18px 8px;margin:0 0 24px;">
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:0.6px;color:#0B1A30;padding:14px 0 2px;">What's inside your pack</div>
+      <table role="presentation" cellpadding="0" cellspacing="0" width="100%">${rows}</table>
+    </div>
+
+    ${button(`${SITE}/library`, "Open your pack →")}
+
+    <p style="font-size:13px;color:#8593a8;line-height:1.6;margin:16px 0 24px;">📄 <strong style="color:#505d72;">How to use them:</strong> open any template, then use your browser's <em>Print → Save as PDF</em> to keep a copy or print it for the crew. Fully editable Word versions unlock with any plan.</p>
+
+    <div style="background:#0B1A30;border-radius:12px;padding:20px 22px;margin:0 0 22px;">
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:800;color:#ffffff;margin-bottom:4px;">Need the whole library?</div>
+      <p style="font-size:13px;color:#9fb0c9;line-height:1.6;margin:0 0 14px;">Get <strong style="color:#ffffff;">350+ editable templates</strong> across 22 categories — manuals, toolbox talks, JHAs, and inspection forms — updated regularly.</p>
+      ${button(`${SITE}/pricing`, "See plans &amp; pricing")}
+    </div>
+
+    <p style="font-size:14px;color:#505d72;line-height:1.6;margin:0;">Questions? Just reply to this email — a real person with an EHS background will help you out.</p>
+  `,
+    `Your ${opts.packName} is ready — ${count} templates inside.`
+  );
 }
 
 /** "We received your custom binder intake" confirmation to the customer. */
 export function intakeReceivedHtml(opts: { contactName?: string; company?: string }) {
-  return layout(`
-    <h1 style="font-size:20px;margin:0 0 8px">We received your intake${opts.contactName ? `, ${opts.contactName}` : ""}</h1>
-    <p style="color:#505d72;font-size:14px;line-height:1.6;margin:0 0 16px">
+  return layout(
+    `
+    <h1 style="font-size:22px;font-weight:800;color:#0B1A30;margin:8px 0 10px;line-height:1.3;">We received your intake${opts.contactName ? `, ${opts.contactName}` : ""}</h1>
+    <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 20px;">
       Thanks${opts.company ? ` from ${opts.company}` : ""}! We'll review your information and begin
       organizing the documents needed for your custom safety binder. We'll follow up by email to
       confirm scope and timeline.
     </p>
-    <p>${button(`${SITE}/library`, "Browse templates while you wait")}</p>
-  `);
+    ${button(`${SITE}/library`, "Browse templates while you wait")}
+    <p style="font-size:14px;color:#505d72;line-height:1.6;margin:22px 0 0;">Questions in the meantime? Just reply to this email.</p>
+  `,
+    "We received your custom binder intake — here's what happens next."
+  );
 }
 
 /** Internal notification (to your sales inbox). */
 export function internalNotifyHtml(title: string, lines: string[]) {
-  const body = lines.map((l) => `<p style="margin:4px 0;font-size:14px">${l}</p>`).join("");
-  return layout(`<h1 style="font-size:18px;margin:0 0 8px">${title}</h1>${body}`);
+  const body = lines
+    .map((l) => `<p style="margin:4px 0;font-size:14px;color:#334155;line-height:1.5;">${l}</p>`)
+    .join("");
+  return layout(
+    `<h1 style="font-size:18px;font-weight:800;color:#0B1A30;margin:8px 0 10px;">${title}</h1>${body}`,
+    title
+  );
 }
