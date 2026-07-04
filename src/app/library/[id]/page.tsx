@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ChevronRight, ArrowLeft, Lock, FileSignature, BadgeCheck, FileText, FileDown } from "lucide-react";
+import { ChevronRight, ArrowLeft, Lock, FileSignature, BadgeCheck, FileText } from "lucide-react";
 import { PrintButton } from "@/components/library/PrintButton";
 import { AutoPrint } from "@/components/library/AutoPrint";
 import { Paywall } from "@/components/library/Paywall";
@@ -102,14 +102,7 @@ export default async function DocumentPage({ params }: { params: { id: string } 
                     className="btn btn-outline btn-md"
                     title="Download an editable Word (.doc) file"
                   >
-                    <FileText className="h-4 w-4" /> Word
-                  </a>
-                  <a
-                    href={`/api/download/${doc.id}?format=pdf`}
-                    className="btn btn-outline btn-md"
-                    title="Download a PDF file"
-                  >
-                    <FileDown className="h-4 w-4" /> PDF
+                    <FileText className="h-4 w-4" /> Download Word
                   </a>
                   <PrintButton />
                 </>
@@ -189,13 +182,6 @@ export default async function DocumentPage({ params }: { params: { id: string } 
                       title="Download an editable Word (.doc) file"
                     >
                       <FileText className="h-4 w-4" /> Download Word
-                    </a>
-                    <a
-                      href={`/api/download/${doc.id}?format=pdf`}
-                      className="btn btn-outline btn-md w-full"
-                      title="Download a PDF file"
-                    >
-                      <FileDown className="h-4 w-4" /> Download PDF
                     </a>
                     <PrintButton className="btn btn-outline btn-md w-full" />
                   </>
