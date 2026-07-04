@@ -126,7 +126,7 @@ export function LeadCapture({
       </h2>
       <p className="mt-2 text-steel-600">
         Tell us your trade and we&apos;ll build you a professional starter pack — a written safety
-        program, JHAs, checklists, and forms picked for your work. Viewable and printable instantly.
+        program, JHAs, checklists, and forms picked for your work. Preview them instantly, free samples included.
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="mt-5 space-y-4" noValidate>

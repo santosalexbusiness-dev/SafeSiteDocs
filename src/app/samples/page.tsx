@@ -16,7 +16,7 @@ import { industries } from "@/data/industries";
 export const metadata: Metadata = pageMetadata({
   title: "Free Safety Starter Pack — Tailored to Your Trade",
   description:
-    "Pick your trade and get a free, professional safety starter pack — a written safety program, JHAs, checklists, and forms picked for your work. Viewable and printable instantly. No credit card.",
+    "Pick your trade and get a free, professional safety starter pack — a written safety program, JHAs, checklists, and forms picked for your work. Preview them instantly, free samples included. No credit card.",
   path: "/samples",
 });
 
@@ -28,7 +28,7 @@ export default function SamplesPage({ searchParams }: { searchParams: { trade?: 
       <PageHero
         eyebrow="Free download · no credit card"
         title="A free safety starter pack, built for your trade"
-        intro="See the quality before you buy. Tell us what you do and we'll hand you a curated set of ready-to-use templates — viewable and printable right now — then point you to your trade's full library."
+        intro="See the quality before you buy. Tell us what you do and we'll hand you a curated set of templates to preview — with free samples you can print in full — then point you to your trade's full library."
         crumbs={[{ label: "Free Starter Pack" }]}
       />
 
@@ -64,7 +64,7 @@ export default function SamplesPage({ searchParams }: { searchParams: { trade?: 
             <ul className="mt-6 space-y-2 text-sm text-steel-700">
               {[
                 "Curated for your trade — not a generic dump",
-                "Viewable in full + one-click Print / Save as PDF",
+                "Free samples you can view and print in full",
                 "Editable Word versions unlock with any plan",
               ].map((b) => (
                 <li key={b} className="flex items-center gap-2">
@@ -73,7 +73,7 @@ export default function SamplesPage({ searchParams }: { searchParams: { trade?: 
               ))}
             </ul>
             <p className="mt-5 flex items-center gap-2 text-xs text-steel-500">
-              <Printer className="h-4 w-4" /> Every free template is fully printable today.
+              <Printer className="h-4 w-4" /> Free samples are viewable and printable in full today.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 /**
  * Trade-specific FREE starter packs. Each industry gets a curated set of the
  * most relevant templates, resolved against the real library (documents.json),
- * so every item links to a viewable + printable page. The lead form delivers
+ * so every item links to a real library page. The lead form delivers
  * the pack that matches the trade the visitor selects.
  *
  * Items reference real document ids; titles/types are resolved from the catalog
@@ -35,7 +35,7 @@ const RAW: RawPack[] = [
     name: "Electrical Contractors",
     headline: "Electrical Contractor Safety Starter Pack",
     intro:
-      "Hand-picked for electrical crews — energy control, shock and arc-flash awareness, and the daily paperwork general contractors ask for. Every template is viewable and printable now; editable Word unlocks with a plan.",
+      "Hand-picked for electrical crews — energy control, shock and arc-flash awareness, and the daily paperwork general contractors ask for. Preview every template now; a plan unlocks the full editable versions.",
     items: [
       { id: "electrical-contractor-safety-manual", why: "Your written safety program shell, ready to brand with your company name." },
       { id: "loto-procedure-template", why: "Lock out hazardous energy with an equipment-specific procedure." },
@@ -195,7 +195,7 @@ const RAW: RawPack[] = [
     name: "All Trades",
     headline: "Contractor Safety Starter Pack",
     intro:
-      "The core templates every contractor needs — viewable and printable right now. Tell us your trade for a pack tailored to your work.",
+      "The core templates every contractor needs — preview them now, with full editable versions on any plan. Tell us your trade for a pack tailored to your work.",
     items: [
       { id: "tbt-01-fall-protection-basics", why: "A ready-to-run 5-minute toolbox talk." },
       { id: "ladder-inspection-checklist", why: "Inspect ladders before every use." },

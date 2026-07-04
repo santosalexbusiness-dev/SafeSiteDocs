@@ -129,7 +129,7 @@ export function freePackEmailHtml(opts: {
     `
     <div style="font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#8a6d00;background:#FFF7DC;display:inline-block;padding:5px 11px;border-radius:20px;">Free Starter Pack</div>
     <h1 style="font-size:24px;font-weight:800;color:#0B1A30;margin:16px 0 8px;line-height:1.25;">Your safety pack is ready${opts.firstName ? `, ${opts.firstName}` : ""} 🦺</h1>
-    <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 22px;">Here's your <strong style="color:#0B1A30;">${opts.packName}</strong> — <strong>${count} professional templates</strong> hand-picked for your trade. Every one is viewable in full right now; open any of them and print it or save it as a PDF.</p>
+    <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 22px;">Here's your <strong style="color:#0B1A30;">${opts.packName}</strong> — <strong>${count} professional templates</strong> hand-picked for your trade, with free samples you can view and print in full. Open any of them to preview it, and unlock the full editable Word + PDF versions with any plan.</p>
 
     <div style="background:#f7f9fc;border:1px solid #eef1f5;border-radius:12px;padding:4px 18px 8px;margin:0 0 24px;">
       <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:0.6px;color:#0B1A30;padding:14px 0 2px;">What's inside your pack</div>
@@ -138,7 +138,7 @@ export function freePackEmailHtml(opts: {
 
     ${button(`${SITE}/library`, "Open your pack →")}
 
-    <p style="font-size:13px;color:#8593a8;line-height:1.6;margin:16px 0 24px;">📄 <strong style="color:#505d72;">How to use them:</strong> open any template, then use your browser's <em>Print → Save as PDF</em> to keep a copy or print it for the crew. Fully editable Word versions unlock with any plan.</p>
+    <p style="font-size:13px;color:#8593a8;line-height:1.6;margin:16px 0 24px;">📄 <strong style="color:#505d72;">How it works:</strong> preview every template now, and view or print the free samples in full. A plan unlocks the complete content, printing, and editable Word + PDF versions across the whole library.</p>
 
     <div style="background:#0B1A30;border-radius:12px;padding:20px 22px;margin:0 0 22px;">
       <div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:800;color:#ffffff;margin-bottom:4px;">Need the whole library?</div>
