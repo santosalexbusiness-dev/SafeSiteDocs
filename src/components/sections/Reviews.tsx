@@ -3,34 +3,40 @@ import { Reveal, RevealGroup } from "@/components/ui/Reveal";
 import { StarRating } from "@/components/ui/StarRating";
 import { ReviewCard } from "@/components/cards/ReviewCard";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { reviews, reviewStats } from "@/data/reviews";
+import { reviews } from "@/data/reviews";
 
 /**
  * Reviews / testimonials section.
  *
- * NOTE: Review/AggregateRating JSON-LD is intentionally emitted ONLY when every
- * review is real (reviewStats.allReal). The shipped reviews are placeholders, so
- * no rich-result schema is published — see src/data/reviews.ts.
+ * Only GENUINE (non-placeholder) reviews are ever shown or counted — no
+ * fabricated testimonials or ratings reach visitors. When there are no real
+ * reviews yet, the whole section is omitted. Review/AggregateRating JSON-LD is
+ * emitted only when real reviews exist. See src/data/reviews.ts.
  */
 export function Reviews({ limit, tone = "muted" }: { limit?: number; tone?: "light" | "muted" }) {
-  const items = limit ? reviews.slice(0, limit) : reviews;
+  const realReviews = reviews.filter((r) => !r.placeholder);
+
+  // No real reviews yet → render nothing rather than fake social proof.
+  if (realReviews.length === 0) return null;
+
+  const items = limit ? realReviews.slice(0, limit) : realReviews;
+  const average =
+    Math.round((realReviews.reduce((s, r) => s + r.rating, 0) / realReviews.length) * 10) / 10;
 
   return (
     <Section tone={tone} id="reviews">
-      {reviewStats.allReal ? (
-        <JsonLd
-          data={{
-            "@context": "https://schema.org",
-            "@type": "Product",
-            name: "SafeSite Documents — Safety Templates",
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: reviewStats.average,
-              reviewCount: reviewStats.count,
-            },
-          }}
-        />
-      ) : null}
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Product",
+          name: "SafeSite Documents — Safety Templates",
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: average,
+            reviewCount: realReviews.length,
+          },
+        }}
+      />
 
       <SectionHeader
         eyebrow="What contractors say"
@@ -40,11 +46,11 @@ export function Reviews({ limit, tone = "muted" }: { limit?: number; tone?: "lig
 
       <Reveal>
         <div className="mt-6 flex items-center justify-center gap-3">
-          <StarRating rating={reviewStats.average} size="h-5 w-5" />
+          <StarRating rating={average} size="h-5 w-5" />
           <span className="text-sm font-semibold text-navy-900">
-            {reviewStats.average.toFixed(1)} / 5
+            {average.toFixed(1)} / 5
           </span>
-          <span className="text-sm text-steel-500">· {reviewStats.count} reviews</span>
+          <span className="text-sm text-steel-500">· {realReviews.length} reviews</span>
         </div>
       </Reveal>
 

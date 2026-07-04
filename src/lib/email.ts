@@ -12,6 +12,10 @@ import { Resend } from "resend";
 const KEY = process.env.RESEND_API_KEY;
 const FROM = process.env.EMAIL_FROM || "SafeSite Documents <onboarding@resend.dev>";
 const SITE = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+// Emails send from the .com domain (no inbound MX), so "just reply to this
+// email" must be routed to a monitored, receivable inbox — default to the
+// sales inbox (contact@safesitedocs.org on Zoho) unless a send overrides it.
+const REPLY_TO = process.env.SALES_INBOX || "contact@safesitedocs.org";
 
 export const isEmailConfigured = () => Boolean(KEY);
 
@@ -25,7 +29,7 @@ export async function sendEmail({ to, subject, html, replyTo }: SendArgs) {
     return { skipped: true as const };
   }
   try {
-    const res = await resend.emails.send({ from: FROM, to, subject, html, replyTo });
+    const res = await resend.emails.send({ from: FROM, to, subject, html, replyTo: replyTo ?? REPLY_TO });
     return { ok: true as const, id: (res as { data?: { id?: string } }).data?.id };
   } catch (err) {
     console.error("[email] send failed:", err);
@@ -162,6 +166,53 @@ export function intakeReceivedHtml(opts: { contactName?: string; company?: strin
     <p style="font-size:14px;color:#505d72;line-height:1.6;margin:22px 0 0;">Questions in the meantime? Just reply to this email.</p>
   `,
     "We received your custom binder intake — here's what happens next."
+  );
+}
+
+/**
+ * Post-purchase: sent right after a binder package is paid for, prompting the
+ * buyer to complete the intake form (in case they close the checkout tab before
+ * the redirect, or want to come back to it later).
+ */
+export function completeIntakeHtml(opts: { firstName?: string; packageId: string }) {
+  const labels: Record<string, string> = {
+    "custom-binder": "Custom Safety Binder",
+    "contractor-pro": "Contractor Safety Pro Package",
+    "premium-system": "Premium Safety System",
+  };
+  const label = labels[opts.packageId] ?? "custom safety binder";
+  const intakeUrl = `${SITE}/intake?package=${encodeURIComponent(opts.packageId)}`;
+  const step = (n: number, title: string, body: string) => `
+    <tr><td style="padding:9px 0;border-bottom:1px solid #eef1f5;">
+      <table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>
+        <td valign="top" width="40" style="padding-right:12px;"><div style="width:28px;height:28px;background:#0B1A30;border-radius:7px;color:#FFC400;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:800;text-align:center;line-height:28px;">${n}</div></td>
+        <td valign="top"><div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700;color:#0B1A30;">${title}</div><div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#64748b;line-height:1.5;margin-top:2px;">${body}</div></td>
+      </tr></table>
+    </td></tr>`;
+
+  return layout(
+    `
+    <div style="font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#0f7a3d;background:#e7f6ec;display:inline-block;padding:5px 11px;border-radius:20px;">&#10003; Order confirmed</div>
+    <h1 style="font-size:24px;font-weight:800;color:#0B1A30;margin:16px 0 8px;line-height:1.25;">You're all set${opts.firstName ? `, ${opts.firstName}` : ""} — let's build your binder 🦺</h1>
+    <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 10px;">Thanks for your order! You purchased the <strong style="color:#0B1A30;">${label}</strong>. To start building it around <strong>your</strong> company and worksites, we just need a few details.</p>
+    <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 22px;">It takes about <strong style="color:#0B1A30;">10 minutes</strong> — the more you tell us, the better we match the right documents to your trade and hazards.</p>
+
+    ${button(intakeUrl, "Complete your intake form →")}
+
+    <div style="background:#f7f9fc;border:1px solid #eef1f5;border-radius:12px;padding:4px 18px 14px;margin:24px 0 22px;">
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:0.6px;color:#0B1A30;padding:14px 0 8px;">What you'll tell us</div>
+      <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+        ${step(1, "Your company basics", "Name, trade, crew size, and the states you work in.")}
+        ${step(2, "Your work &amp; hazards", "A quick yes/no on heights, electrical, chemicals, equipment, and more.")}
+        ${step(3, "Prequalification needs", "ISNetworld, Avetta, Veriforce — tell us who's asking so we match it.")}
+        ${step(4, "Anything you already have", "Upload any current docs so we don't rebuild what you've got.")}
+      </table>
+    </div>
+
+    <p style="font-size:13px;color:#8593a8;line-height:1.6;margin:0 0 22px;">🔒 <strong style="color:#505d72;">Your link stays active</strong> — if now's not a good time, come back to it whenever you're ready. The sooner you complete it, the sooner we start building.</p>
+    <p style="font-size:14px;color:#505d72;line-height:1.6;margin:0;">Questions? Just reply to this email — a real person with an EHS background will help you out.</p>
+  `,
+    "Your binder order is confirmed — complete your intake to get started."
   );
 }
 

@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import type Stripe from "stripe";
-import { stripe, planToPriceEnv } from "@/lib/stripe";
+import { stripe, planToPriceEnv, oneTimeToIntake } from "@/lib/stripe";
 import { prisma } from "@/lib/db";
+import { isEmailConfigured, sendEmail, completeIntakeHtml } from "@/lib/email";
 
 // Stripe needs the raw body to verify the signature — no caching/parsing.
 export const dynamic = "force-dynamic";
@@ -96,20 +97,36 @@ export async function POST(request: Request) {
         const s = event.data.object as Stripe.Checkout.Session;
         const userId = s.client_reference_id ?? s.metadata?.userId ?? null;
 
-        if (prisma && s.mode === "payment") {
-          await prisma.order.create({
-            data: {
-              userId,
-              email: s.customer_details?.email ?? s.customer_email ?? "",
-              packageId: (s.metadata?.planId as string) ?? "",
-              amount: s.amount_total ?? 0,
-              currency: s.currency ?? "usd",
-              status: "PAID",
-              stripeCheckoutId: s.id,
-              stripePaymentIntentId:
-                typeof s.payment_intent === "string" ? s.payment_intent : null,
-            },
-          });
+        if (s.mode === "payment") {
+          const email = s.customer_details?.email ?? s.customer_email ?? "";
+          const planId = (s.metadata?.planId as string) ?? "";
+
+          if (prisma) {
+            await prisma.order.create({
+              data: {
+                userId,
+                email,
+                packageId: planId,
+                amount: s.amount_total ?? 0,
+                currency: s.currency ?? "usd",
+                status: "PAID",
+                stripeCheckoutId: s.id,
+                stripePaymentIntentId:
+                  typeof s.payment_intent === "string" ? s.payment_intent : null,
+              },
+            });
+          }
+
+          // Binder buyers get an email with a link to complete the intake form —
+          // covers anyone who closes the checkout tab before the redirect.
+          if (isEmailConfigured() && email && oneTimeToIntake[planId]) {
+            const firstName = s.customer_details?.name?.split(" ")[0] || undefined;
+            await sendEmail({
+              to: email,
+              subject: "Your binder order is confirmed — complete your intake",
+              html: completeIntakeHtml({ firstName, packageId: planId }),
+            });
+          }
         }
 
         if (s.mode === "subscription" && typeof s.subscription === "string") {
