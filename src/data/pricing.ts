@@ -104,7 +104,7 @@ export const oneTimePlans: Plan[] = [
     type: "one-time",
     price: 2499,
     cadence: "one-time",
-    blurb: "Our most complete system, including a full year start of updates.",
+    blurb: "Our most complete system — the full program plus ongoing document updates.",
     features: [
       "Everything in Pro",
       "52 toolbox talks",

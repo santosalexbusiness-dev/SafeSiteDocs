@@ -19,6 +19,16 @@ const REPLY_TO = process.env.SALES_INBOX || "contact@safesitedocs.org";
 
 export const isEmailConfigured = () => Boolean(KEY);
 
+/** Escape user-supplied text before embedding it in email HTML (anti-injection). */
+export function esc(value: unknown): string {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 const resend = KEY ? new Resend(KEY) : null;
 
 type SendArgs = { to: string | string[]; subject: string; html: string; replyTo?: string };
@@ -110,13 +120,13 @@ export function freePackEmailHtml(opts: {
             <div style="width:28px;height:28px;background:#0B1A30;border-radius:7px;color:#FFC400;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:800;text-align:center;line-height:28px;">${i + 1}</div>
           </td>
           <td valign="top">
-            <a href="${SITE}${it.route}" style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700;color:#0B1A30;text-decoration:none;">${it.title}</a>${
+            <a href="${SITE}${it.route}" style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700;color:#0B1A30;text-decoration:none;">${esc(it.title)}</a>${
               it.type
-                ? ` <span style="font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.4px;color:#64748b;background:#f1f4f8;border-radius:4px;padding:2px 6px;white-space:nowrap;">${it.type}</span>`
+                ? ` <span style="font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.4px;color:#64748b;background:#f1f4f8;border-radius:4px;padding:2px 6px;white-space:nowrap;">${esc(it.type)}</span>`
                 : ""
             }${
               it.why
-                ? `<div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#64748b;line-height:1.5;margin-top:3px;">${it.why}</div>`
+                ? `<div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#64748b;line-height:1.5;margin-top:3px;">${esc(it.why)}</div>`
                 : ""
             }
           </td>
@@ -128,8 +138,8 @@ export function freePackEmailHtml(opts: {
   return layout(
     `
     <div style="font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#8a6d00;background:#FFF7DC;display:inline-block;padding:5px 11px;border-radius:20px;">Free Starter Pack</div>
-    <h1 style="font-size:24px;font-weight:800;color:#0B1A30;margin:16px 0 8px;line-height:1.25;">Your safety pack is ready${opts.firstName ? `, ${opts.firstName}` : ""} 🦺</h1>
-    <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 22px;">Here's your <strong style="color:#0B1A30;">${opts.packName}</strong> — <strong>${count} professional templates</strong> hand-picked for your trade, with free samples you can view and print in full. Open any of them to preview it, and unlock the full editable Word + PDF versions with any plan.</p>
+    <h1 style="font-size:24px;font-weight:800;color:#0B1A30;margin:16px 0 8px;line-height:1.25;">Your safety pack is ready${opts.firstName ? `, ${esc(opts.firstName)}` : ""} 🦺</h1>
+    <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 22px;">Here's your <strong style="color:#0B1A30;">${esc(opts.packName)}</strong> — <strong>${count} professional templates</strong> hand-picked for your trade, with free samples you can view and print in full. Open any of them to preview it, and unlock the full editable Word + PDF versions with any plan.</p>
 
     <div style="background:#f7f9fc;border:1px solid #eef1f5;border-radius:12px;padding:4px 18px 8px;margin:0 0 24px;">
       <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:0.6px;color:#0B1A30;padding:14px 0 2px;">What's inside your pack</div>
@@ -156,9 +166,9 @@ export function freePackEmailHtml(opts: {
 export function intakeReceivedHtml(opts: { contactName?: string; company?: string }) {
   return layout(
     `
-    <h1 style="font-size:22px;font-weight:800;color:#0B1A30;margin:8px 0 10px;line-height:1.3;">We received your intake${opts.contactName ? `, ${opts.contactName}` : ""}</h1>
+    <h1 style="font-size:22px;font-weight:800;color:#0B1A30;margin:8px 0 10px;line-height:1.3;">We received your intake${opts.contactName ? `, ${esc(opts.contactName)}` : ""}</h1>
     <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 20px;">
-      Thanks${opts.company ? ` from ${opts.company}` : ""}! We'll review your information and begin
+      Thanks${opts.company ? ` from ${esc(opts.company)}` : ""}! We'll review your information and begin
       organizing the documents needed for your custom safety binder. We'll follow up by email to
       confirm scope and timeline.
     </p>
@@ -193,7 +203,7 @@ export function completeIntakeHtml(opts: { firstName?: string; packageId: string
   return layout(
     `
     <div style="font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#0f7a3d;background:#e7f6ec;display:inline-block;padding:5px 11px;border-radius:20px;">&#10003; Order confirmed</div>
-    <h1 style="font-size:24px;font-weight:800;color:#0B1A30;margin:16px 0 8px;line-height:1.25;">You're all set${opts.firstName ? `, ${opts.firstName}` : ""} — let's build your binder 🦺</h1>
+    <h1 style="font-size:24px;font-weight:800;color:#0B1A30;margin:16px 0 8px;line-height:1.25;">You're all set${opts.firstName ? `, ${esc(opts.firstName)}` : ""} — let's build your binder 🦺</h1>
     <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 10px;">Thanks for your order! You purchased the <strong style="color:#0B1A30;">${label}</strong>. To start building it around <strong>your</strong> company and worksites, we just need a few details.</p>
     <p style="font-size:15px;color:#505d72;line-height:1.6;margin:0 0 22px;">It takes about <strong style="color:#0B1A30;">10 minutes</strong> — the more you tell us, the better we match the right documents to your trade and hazards.</p>
 

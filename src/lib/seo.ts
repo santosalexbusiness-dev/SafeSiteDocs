@@ -35,13 +35,13 @@ export const baseMetadata: Metadata = {
     description: site.description,
     url: baseUrl,
     locale: "en_US",
-    images: [{ url: "/og.svg", width: 1200, height: 630, alt: site.name }],
+    // Social preview image is provided by src/app/opengraph-image.tsx (real PNG).
   },
   twitter: {
     card: "summary_large_image",
     title: `${site.name} — Safety Paperwork for Contractors`,
     description: site.description,
-    images: ["/og.svg"],
+    // Twitter image is inherited from the opengraph-image route (real PNG).
   },
   robots: {
     index: true,

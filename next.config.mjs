@@ -35,6 +35,13 @@ const nextConfig = {
             key: "Permissions-Policy",
             value: "camera=(), microphone=(), geolocation=()",
           },
+          // Force HTTPS for two years, including subdomains (safe on Vercel, which
+          // serves everything over TLS). A Content-Security-Policy is intentionally
+          // omitted here — it needs testing against Stripe/Analytics origins first.
+          {
+            key: "Strict-Transport-Security",
+            value: "max-age=63072000; includeSubDomains; preload",
+          },
         ],
       },
     ];

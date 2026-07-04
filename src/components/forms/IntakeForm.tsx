@@ -33,7 +33,11 @@ const schema = z.object({
   concerns: z.string().optional(),
   desiredPackage: z.string().min(1, "Select a package"),
   requiredBy: z.string().optional(),
+  botField: z.string().optional(),
 });
+
+const MAX_FILE_BYTES = 10 * 1024 * 1024; // 10 MB per file
+const ALLOWED_EXT = /\.(docx?|pdf|xlsx?)$/i;
 
 type IntakeValues = z.infer<typeof schema>;
 
@@ -70,9 +74,11 @@ export function IntakeForm({ defaultPackage = "" }: { defaultPackage?: string })
     Object.fromEntries(hazardQuestions.map((q) => [q.id, null]))
   );
   const [files, setFiles] = useState<File[]>([]);
+  const [fileNote, setFileNote] = useState<string>();
   const [prequal, setPrequal] = useState<string[]>([]);
   const [terms, setTerms] = useState(false);
   const [termsError, setTermsError] = useState<string>();
+  const [submitError, setSubmitError] = useState<string>();
 
   const togglePrequal = (id: string) =>
     setPrequal((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
@@ -90,7 +96,15 @@ export function IntakeForm({ defaultPackage = "" }: { defaultPackage?: string })
 
   function addFiles(list: FileList | null) {
     if (!list) return;
-    setFiles((prev) => [...prev, ...Array.from(list)].slice(0, 8));
+    const incoming = Array.from(list);
+    const valid = incoming.filter((f) => f.size <= MAX_FILE_BYTES && ALLOWED_EXT.test(f.name));
+    const skipped = incoming.length - valid.length;
+    setFileNote(
+      skipped > 0
+        ? `${skipped} file(s) skipped — use Word, PDF, or Excel under 10 MB each.`
+        : undefined
+    );
+    setFiles((prev) => [...prev, ...valid].slice(0, 8));
   }
 
   async function onSubmit(values: IntakeValues) {
@@ -98,21 +112,39 @@ export function IntakeForm({ defaultPackage = "" }: { defaultPackage?: string })
       setTermsError("Please confirm you understand these are templates you remain responsible for.");
       return;
     }
+    setSubmitError(undefined);
     // Send fields + file bytes as multipart so the API can store attachments.
     const fd = new FormData();
     fd.set("data", JSON.stringify({ ...values, hazards, prequal }));
     for (const f of files) fd.append("files", f);
 
     try {
-      await fetch("/api/intake", { method: "POST", body: fd });
+      const res = await fetch("/api/intake", { method: "POST", body: fd });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data?.ok) {
+        setSubmitError(
+          data?.error ||
+            "We couldn't submit your intake. Please try again, or email us at contact@safesitedocs.org."
+        );
+        return;
+      }
+      router.push("/intake/confirmation");
     } catch {
-      // Optimistic: still route to confirmation. Add real error handling in prod.
+      setSubmitError(
+        "Network error — please try again, or email us at contact@safesitedocs.org."
+      );
     }
-    router.push("/intake/confirmation");
   }
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6" noValidate>
+      {/* Honeypot — hidden from real users; bots that fill it are silently dropped. */}
+      <div aria-hidden="true" className="absolute left-[-9999px] h-0 w-0 overflow-hidden">
+        <label>
+          Company website
+          <input type="text" tabIndex={-1} autoComplete="off" {...register("botField")} />
+        </label>
+      </div>
       {/* 1 — Company */}
       <FormSection step={1} title="Tell us about your company" description="The basics so we can brand and scope your binder.">
         <div className="grid gap-5 sm:grid-cols-2">
@@ -256,7 +288,7 @@ export function IntakeForm({ defaultPackage = "" }: { defaultPackage?: string })
               Click to add files
             </span>
             <span className="mt-0.5 text-xs text-steel-500">
-              Word, PDF, or Excel · up to 8 files
+              Word, PDF, or Excel · up to 8 files · 10 MB each
             </span>
             <input
               id="intake-files"
@@ -267,6 +299,7 @@ export function IntakeForm({ defaultPackage = "" }: { defaultPackage?: string })
               onChange={(e) => addFiles(e.target.files)}
             />
           </label>
+          {fileNote ? <p className="mt-2 text-xs font-medium text-amber-700">{fileNote}</p> : null}
           {files.length > 0 ? (
             <ul className="mt-3 space-y-2">
               {files.map((f, i) => (
@@ -296,6 +329,11 @@ export function IntakeForm({ defaultPackage = "" }: { defaultPackage?: string })
       {/* 4 — Terms + submit */}
       <FormSection step={4} title="Confirm & submit" description="One quick acknowledgement and you're done.">
         <TermsCheckbox checked={terms} onChange={(v) => { setTerms(v); setTermsError(undefined); }} error={termsError} />
+        {submitError ? (
+          <p role="alert" className="mt-4 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
+            {submitError}
+          </p>
+        ) : null}
         <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
           <Button type="submit" variant="primary" size="lg" disabled={isSubmitting}>
             {isSubmitting ? "Submitting…" : "Submit intake form"} <ArrowRight className="h-5 w-5" />

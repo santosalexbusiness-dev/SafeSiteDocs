@@ -127,7 +127,7 @@ export default async function AdminPage() {
             </table>
           ) : (
             <p className="px-4 py-8 text-center text-sm text-steel-500">
-              No leads yet — they'll appear the moment someone requests a free pack.
+              No leads yet — they&apos;ll appear the moment someone requests a free pack.
             </p>
           )}
         </div>

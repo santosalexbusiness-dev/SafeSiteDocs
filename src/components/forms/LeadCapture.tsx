@@ -15,6 +15,7 @@ const schema = z.object({
   firstName: z.string().min(1, "Enter your first name"),
   email: z.string().email("Enter a valid email"),
   trade: z.string().min(1, "Select your trade so we can tailor your pack"),
+  botField: z.string().optional(),
 });
 type Values = z.infer<typeof schema>;
 
@@ -34,6 +35,7 @@ export function LeadCapture({
   source?: string;
 }) {
   const [chosen, setChosen] = useState<ResolvedPack | null>(null);
+  const [emailed, setEmailed] = useState(false);
   const {
     register,
     handleSubmit,
@@ -45,15 +47,19 @@ export function LeadCapture({
 
   async function onSubmit(values: Values) {
     const pack = packs[values.trade] ?? packs.default;
+    let didEmail = false;
     try {
-      await fetch("/api/lead", {
+      const res = await fetch("/api/lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...values, pack: pack.slug, source }),
       });
+      const data = await res.json().catch(() => ({}));
+      didEmail = Boolean(data?.emailed);
     } catch {
-      /* optimistic */
+      /* Still reveal the pack below — its content is client-side and useful. */
     }
+    setEmailed(didEmail);
     setChosen(pack);
   }
 
@@ -101,7 +107,7 @@ export function LeadCapture({
 
         <p className="mt-4 flex items-center gap-2 text-xs text-steel-500">
           <Printer className="h-4 w-4" /> Open any template to read it in full and print it or save it
-          as a PDF. We&apos;ve emailed you a copy of these links.
+          as a PDF.{emailed ? " We’ve emailed you a copy of these links." : ""}
         </p>
 
         <div className="mt-5 flex flex-col gap-3 sm:flex-row">
@@ -130,6 +136,13 @@ export function LeadCapture({
       </p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="mt-5 space-y-4" noValidate>
+        {/* Honeypot — hidden from real users; bots that fill it are silently dropped. */}
+        <div aria-hidden="true" className="absolute left-[-9999px] h-0 w-0 overflow-hidden">
+          <label>
+            Company website
+            <input type="text" tabIndex={-1} autoComplete="off" {...register("botField")} />
+          </label>
+        </div>
         <div className="grid gap-4 sm:grid-cols-2">
           <TextField label="First name" required error={errors.firstName?.message} {...register("firstName")} />
           <TextField label="Work email" type="email" required error={errors.email?.message} {...register("email")} />

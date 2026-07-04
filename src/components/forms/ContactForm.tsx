@@ -14,12 +14,14 @@ const schema = z.object({
   company: z.string().optional(),
   topic: z.string().min(1, "Pick a topic"),
   message: z.string().min(10, "Tell us a little more (10+ characters)"),
+  botField: z.string().optional(),
 });
 
 type ContactValues = z.infer<typeof schema>;
 
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string>();
   const {
     register,
     handleSubmit,
@@ -27,17 +29,24 @@ export function ContactForm() {
   } = useForm<ContactValues>({ resolver: zodResolver(schema), defaultValues: { topic: "" } });
 
   async function onSubmit(values: ContactValues) {
-    // POST to the contact API route (stubbed — see src/app/api/contact/route.ts).
+    setSubmitError(undefined);
     try {
-      await fetch("/api/contact", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
       });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data?.ok) {
+        setSubmitError(
+          data?.error || "Something went wrong. Please email us directly at contact@safesitedocs.org."
+        );
+        return;
+      }
+      setSubmitted(true);
     } catch {
-      // In production, surface a retry/toast. For now we optimistically confirm.
+      setSubmitError("Network error. Please email us directly at contact@safesitedocs.org.");
     }
-    setSubmitted(true);
   }
 
   if (submitted) {
@@ -54,6 +63,13 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5" noValidate>
+      {/* Honeypot — hidden from real users; bots that fill it are silently dropped. */}
+      <div aria-hidden="true" className="absolute left-[-9999px] h-0 w-0 overflow-hidden">
+        <label>
+          Company website
+          <input type="text" tabIndex={-1} autoComplete="off" {...register("botField")} />
+        </label>
+      </div>
       <div className="grid gap-5 sm:grid-cols-2">
         <TextField label="Name" required error={errors.name?.message} {...register("name")} />
         <TextField
@@ -87,6 +103,11 @@ export function ContactForm() {
         error={errors.message?.message}
         {...register("message")}
       />
+      {submitError ? (
+        <p role="alert" className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-700">
+          {submitError}
+        </p>
+      ) : null}
       <Button type="submit" variant="primary" size="lg" disabled={isSubmitting}>
         {isSubmitting ? "Sending…" : "Send message"} <Send className="h-4 w-4" />
       </Button>
