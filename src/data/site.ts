@@ -76,7 +76,7 @@ export const footerNav: { heading: string; links: NavItem[] }[] = [
  * Reused in the footer block, Terms, and Disclaimer pages.
  */
 export const MASTER_DISCLAIMER =
-  "The materials provided on this website are general safety-document templates and educational resources. They are not legal advice, do not replace site-specific hazard assessments, and do not guarantee OSHA compliance or prevention of citations, penalties, injuries, or losses. Employers are responsible for evaluating their own worksites, complying with applicable federal, state, and local requirements, training employees, maintaining records, and consulting qualified safety, legal, or regulatory professionals when needed. Use of these materials does not create a consultant-client, attorney-client, or compliance-guarantee relationship.";
+  "SafeSite Documents gives you the safety resources, templates, and educational materials to build your program from — the starting point, not the finished product. They are not legal advice and do not guarantee OSHA compliance or prevent citations, penalties, injuries, or losses. Keeping your company and worksites compliant is your responsibility: you are the one who must review and adapt every document to your operations, evaluate your own worksites, follow applicable federal, state, and local requirements, train your employees, maintain your records, and consult a qualified safety, legal, or regulatory professional when needed. Using these materials does not create a consultant-client, attorney-client, or compliance-guarantee relationship.";
 
 /** Checkbox text required before purchase and intake submission. */
 export const TERMS_ACKNOWLEDGEMENT =
