@@ -98,21 +98,13 @@ export function IntakeForm({ defaultPackage = "" }: { defaultPackage?: string })
       setTermsError("Please confirm you understand these are templates you remain responsible for.");
       return;
     }
-    const payload = {
-      ...values,
-      hazards,
-      prequal,
-      // NOTE: file contents aren't uploaded in this demo. Wire to storage
-      // (e.g. Supabase Storage / S3 presigned upload) and send the keys here.
-      attachments: files.map((f) => ({ name: f.name, size: f.size })),
-    };
+    // Send fields + file bytes as multipart so the API can store attachments.
+    const fd = new FormData();
+    fd.set("data", JSON.stringify({ ...values, hazards, prequal }));
+    for (const f of files) fd.append("files", f);
 
     try {
-      await fetch("/api/intake", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
+      await fetch("/api/intake", { method: "POST", body: fd });
     } catch {
       // Optimistic: still route to confirmation. Add real error handling in prod.
     }
