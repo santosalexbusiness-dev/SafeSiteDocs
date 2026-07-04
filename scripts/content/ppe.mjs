@@ -156,8 +156,8 @@ export default {
 Approved by: **[RESPONSIBLE PERSON]**   Date: **[DATE]**   Review and customize for applicable requirements.`,
   },
 
-  "respiratory-ppe-placeholder-form": {
-    body: `**Respiratory protection is more than a mask** — it requires a full program (hazard assessment, medical evaluation, fit testing, and training) before use. This placeholder routes you to that program.
+  "respiratory-ppe-pre-use-screening-form": {
+    body: `**Respiratory protection is more than a mask** — it requires a full program (hazard assessment, medical evaluation, fit testing, and training) before use. This form routes you to that program.
 
 | Field | Entry |
 |---|---|

@@ -1,8 +1,8 @@
 // Respiratory Protection (10). Program, assessments, logs, schedules, forms.
 
 export default {
-  "respiratory-protection-program-placeholder": {
-    body: `**Respiratory Protection Program for [COMPANY NAME].** *Placeholder framework — a required respirator program has specific elements that must be completed and overseen by a qualified person/program administrator before respirators are used.*
+  "respiratory-protection-program-framework": {
+    body: `**Respiratory Protection Program for [COMPANY NAME].** *Framework — a required respirator program has specific elements that must be completed and overseen by a qualified person/program administrator before respirators are used.*
 
 ### 1. Program Administrator
 - **[NAME]** administers the program and evaluates its effectiveness.

@@ -35,7 +35,7 @@ I acknowledge that I have received asbestos and lead **awareness** training/info
 ---
 
 ## Company Customization Needed
-- Replace every bracketed placeholder (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
+- Replace every bracketed field (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
 - Review and customize based on applicable federal, state, local, client, and project-specific requirements.
 - Add, remove, or edit content so it reflects your actual operations, equipment, materials, and worksites.
 - Assign a responsible person and obtain an approval signature before putting this document into use.

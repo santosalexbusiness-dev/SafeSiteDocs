@@ -1,8 +1,8 @@
 // Recordkeeping and Admin (15). Instructions, schedules, reviews, trackers.
 
 export default {
-  "osha-300-log-placeholder-instructions": {
-    body: `*Placeholder / instructions — use the official OSHA forms; do not substitute this page for them.*
+  "osha-300-log-recordkeeping-instructions": {
+    body: `*Instructions — use the official OSHA forms; do not substitute this page for them.*
 
 **What the OSHA 300 Log is:** a log of work-related injuries and illnesses that meet recording criteria. Not every employer or incident is covered.
 
@@ -41,8 +41,8 @@ export default {
 *General educational information, not legal advice.*`,
   },
 
-  "osha-301-incident-report-placeholder": {
-    body: `*Placeholder — use the official OSHA 301 (or equivalent) for recordable cases.* This page helps you gather the information; it does not replace the official form.
+  "osha-301-incident-report-intake-instructions": {
+    body: `*Use the official OSHA 301 (or equivalent) for recordable cases.* This page helps you gather the information; it does not replace the official form.
 
 Information typically needed for an injury/illness incident record:
 - Employee name and information

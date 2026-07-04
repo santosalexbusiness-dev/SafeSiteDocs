@@ -111,10 +111,10 @@ Review and customize based on applicable federal, state, local, client, and proj
     ]
   ),
 
-  "drug-and-alcohol-policy-placeholder": policy(
-    "State the company's expectation of a drug- and alcohol-free workplace. (Placeholder — legal review required.)",
+  "drug-and-alcohol-policy-template": policy(
+    "State the company's expectation of a drug- and alcohol-free workplace. (Legal review required.)",
     "All employees of [COMPANY NAME]; subcontractors as required by contract.",
-    "[PLACEHOLDER] [COMPANY NAME] is committed to a workplace free of the influence of drugs and alcohol that could impair safe work. The specifics of testing and consequences must be defined with legal counsel.",
+    "[COMPANY NAME] is committed to a workplace free of the influence of drugs and alcohol that could impair safe work. The specifics of testing and consequences must be defined with legal counsel.",
     [
       "Working under the influence of drugs or alcohol is prohibited.",
       "[Define testing program if any — pre-employment, reasonable suspicion, post-incident — with legal counsel.]",

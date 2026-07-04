@@ -51,7 +51,7 @@ I certify that I have performed a hazard assessment of the work area/task identi
 ---
 
 ## Company Customization Needed
-- Replace placeholders with your company information and the specific tasks/areas you assess.
+- Replace the bracketed fields with your company information and the specific tasks/areas you assess.
 - Specify the exact PPE types, classes, and ratings your work requires.
 - Add rows for trade-specific hazards (e.g., arc flash, silica, biological).
 - Review and customize based on applicable federal, state, local, client, and project-specific requirements.

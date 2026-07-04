@@ -166,7 +166,7 @@ const RAW: RawPack[] = [
       "Solvents, ladders, lead in older homes, and respiratory protection — the documents painting crews need most.",
     items: [
       { id: "hazard-communication-program", why: "SDSs and labels for paints and solvents." },
-      { id: "respiratory-ppe-placeholder-form", why: "Start your respiratory protection program." },
+      { id: "respiratory-ppe-pre-use-screening-form", why: "Start your respiratory protection program." },
       { id: "lead-awareness-toolbox-talk", why: "Lead-safe work in pre-1978 buildings." },
       { id: "ladder-inspection-checklist", why: "Inspect ladders before every use." },
       { id: "scaffold-use-checklist", why: "Verify scaffolds before you work from them." },

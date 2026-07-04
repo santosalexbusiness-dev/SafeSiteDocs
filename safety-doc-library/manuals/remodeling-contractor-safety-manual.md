@@ -21,7 +21,7 @@ Complete the fields as fully and accurately as possible at the time of the task 
 ---
 
 ## Template Body
-**Written safety program for [COMPANY NAME] — Remodeling Contractors.** Replace placeholders, delete sections that don't apply, add anything specific to your operations, and have leadership review and approve before use.
+**Written safety program for [COMPANY NAME] — Remodeling Contractors.** Replace the bracketed fields, delete sections that don't apply, add anything specific to your operations, and have leadership review and approve before use.
 
 ### Table of Contents
 1. Safety & Health Policy Statement
@@ -92,7 +92,7 @@ Prepared by: **[RESPONSIBLE PERSON]**  Approved by: _________________  Date: **[
 ---
 
 ## Company Customization Needed
-- Replace every bracketed placeholder (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
+- Replace every bracketed field (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
 - Review and customize based on applicable federal, state, local, client, and project-specific requirements.
 - Add, remove, or edit content so it reflects your actual operations, equipment, materials, and worksites.
 - Assign a responsible person and obtain an approval signature before putting this document into use.

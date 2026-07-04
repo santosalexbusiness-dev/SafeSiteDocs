@@ -5,7 +5,7 @@
  *   - /safety-doc-library/<category>/ folders
  *   - a templated, editable Markdown master for every document
  *     (with How to Use, body, Company Customization Needed, Last Reviewed,
- *      placeholders, and the universal disclaimer)
+ *      bracketed fields, and the universal disclaimer)
  *   - /safety-doc-library/documents.json  (metadata catalog for the website)
  *   - /safety-doc-library/catalog.md       (human-readable index)
  *   - /safety-doc-library/README.md
@@ -99,7 +99,7 @@ const CATEGORIES = [
     docs: [
       "Safety and Health Policy Statement", "Stop Work Authority Policy",
       "Employee Safety Responsibilities Policy", "Management Safety Responsibilities Policy",
-      "Disciplinary Safety Policy", "Return-to-Work Policy", "Drug and Alcohol Policy Placeholder",
+      "Disciplinary Safety Policy", "Return-to-Work Policy", "Drug and Alcohol Policy Template",
       "Workplace Violence Prevention Policy", "Severe Weather Policy", "Emergency Communication Policy",
       "Visitor Safety Policy", "Subcontractor Safety Policy", "Housekeeping Policy",
       "Jobsite Conduct Policy", "PPE Policy", "Heat Illness Prevention Policy",
@@ -158,7 +158,7 @@ const CATEGORIES = [
       "PPE Inspection Checklist", "PPE Replacement Log", "PPE Acknowledgment Form",
       "Eye and Face Protection Checklist", "Hand Protection Selection Guide",
       "Foot Protection Checklist", "Head Protection Checklist", "Hearing Protection Checklist",
-      "High-Visibility Clothing Policy", "Respiratory PPE Placeholder Form",
+      "High-Visibility Clothing Policy", "Respiratory PPE Pre-Use Screening Form",
       "Fall Protection PPE Inspection Form", "PPE Training Record",
     ],
   },
@@ -225,7 +225,7 @@ const CATEGORIES = [
     folder: "respiratory-protection",
     name: "Respiratory Protection",
     docs: [
-      "Respiratory Protection Program Placeholder", "Respirator Hazard Assessment Form",
+      "Respiratory Protection Program (Framework)", "Respirator Hazard Assessment Form",
       "Respirator Selection Worksheet", "Medical Evaluation Tracking Log",
       "Fit Test Tracking Log", "Respirator Inspection Checklist", "Respirator Cleaning Log",
       "Respirator Cartridge Change-Out Schedule Template", "Voluntary Respirator Use Form",
@@ -300,7 +300,7 @@ const CATEGORIES = [
       "Pre-Renovation Hazard Questionnaire", "Suspect Material Stop Work Form",
       "Asbestos/Lead Notification Checklist", "Building Material Survey Request Form",
       "Asbestos Awareness Toolbox Talk", "Lead Awareness Toolbox Talk",
-      "Renovation Safety Checklist", "Client Disclosure Placeholder Form",
+      "Renovation Safety Checklist", "Client Hazard Disclosure Form",
       "Dust Control Checklist", "PPE Checklist for Dust-Generating Work",
       "Regulated Material Referral Form", "Contractor Awareness Acknowledgment",
       "Do-Not-Disturb Material Sign Template",
@@ -310,8 +310,8 @@ const CATEGORIES = [
     folder: "recordkeeping-admin",
     name: "Recordkeeping and Admin",
     docs: [
-      "OSHA 300 Log Placeholder Instructions", "OSHA 300A Posting Reminder",
-      "OSHA 301 Incident Report Placeholder", "Safety Records Retention Schedule",
+      "OSHA 300 Log — Recordkeeping Instructions", "OSHA 300A Posting Reminder",
+      "OSHA 301 Incident Report — Intake & Instructions", "Safety Records Retention Schedule",
       "Safety Document Control Log", "Monthly Safety Report Template",
       "Quarterly Safety Review Template", "Annual Safety Program Review",
       "Safety Goals Worksheet", "Safety KPI Tracker", "Corrective Action Tracker",
@@ -787,7 +787,7 @@ ${bodyContent}
 ---
 
 ## Company Customization Needed
-- Replace every bracketed placeholder (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
+- Replace every bracketed field (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
 - ${STATE_NOTE}
 - Add, remove, or edit content so it reflects your actual operations, equipment, materials, and worksites.
 - Assign a responsible person and obtain an approval signature before putting this document into use.
@@ -986,7 +986,7 @@ async function run() {
         lastUpdated: TODAY,
         route: `/library/${id}`,
         filePath: `safety-doc-library/${cat.folder}/${id}.md`,
-        downloadUrlPlaceholder: `{{STORAGE_BASE_URL}}/${cat.folder}/${fileName}`,
+        storagePath: `{{STORAGE_BASE_URL}}/${cat.folder}/${fileName}`,
         isSample: SAMPLE_IDS.has(id),
       });
 

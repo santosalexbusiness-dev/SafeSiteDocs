@@ -3,7 +3,7 @@
 // trade-specific hazard focus and safe work practices.
 
 const manual = (subject, hazards, programs, practices) => ({
-  body: `**Written safety program for [COMPANY NAME] — ${subject}.** Replace placeholders, delete sections that don't apply, add anything specific to your operations, and have leadership review and approve before use.
+  body: `**Written safety program for [COMPANY NAME] — ${subject}.** Replace the bracketed fields, delete sections that don't apply, add anything specific to your operations, and have leadership review and approve before use.
 
 ### Table of Contents
 1. Safety & Health Policy Statement

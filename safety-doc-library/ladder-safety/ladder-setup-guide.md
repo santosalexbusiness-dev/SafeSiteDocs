@@ -46,7 +46,7 @@ Quick reference for safe ladder setup. Post or share with crews.
 ---
 
 ## Company Customization Needed
-- Replace every bracketed placeholder (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
+- Replace every bracketed field (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
 - Review and customize based on applicable federal, state, local, client, and project-specific requirements.
 - Add, remove, or edit content so it reflects your actual operations, equipment, materials, and worksites.
 - Assign a responsible person and obtain an approval signature before putting this document into use.

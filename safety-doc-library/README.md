@@ -6,7 +6,7 @@ contractor safety templates that powers both the monthly subscription and the cu
 - **352 documents** across **22 categories**
 - Organized by **category, industry, hazard, and document type**
 - Every document is **editable**, **fully written, and ready to use** — real inspection items,
-  lesson text, policy language, JHA task analyses, and form fields (placeholders only where
+  lesson text, policy language, JHA task analyses, and form fields (bracketed fields only where
   company-, site-, or state-specific information is required)
 - All documents follow the same compliance structure (How to Use · body · Company Customization ·
   Last Reviewed · universal disclaimer)
@@ -49,7 +49,7 @@ safety-doc-library/
 ```
 
 Each document is a Markdown **master** (easy to diff, edit, and version). Export to Word/PDF/Excel
-for distribution — `documents.json` records the intended `fileType` and a `downloadUrlPlaceholder`
+for distribution — `documents.json` records the intended `fileType` and a `storagePath`
 for the eventual stored file.
 
 ### Organized by industry (`/by-industry`)
@@ -79,7 +79,7 @@ landscaping 342 · painting 340 · (others 341), out of 352 total.
 Every document — sample or generated — contains:
 
 1. **Title**
-2. **Document Control header** — placeholders for company name, logo, address, responsible person,
+2. **Document Control header** — bracketed fields for company name, logo, address, responsible person,
    date, and approval signature
 3. **Metadata table** — Category · Recommended Industry · Document Type · Access Level · Last
    Reviewed · Last Updated
@@ -141,7 +141,7 @@ Each entry in `documents[]`:
 | `lastReviewed` / `lastUpdated` | `2026-06-29` |
 | `route` | `/library/ladder-inspection-checklist` |
 | `filePath` | `safety-doc-library/ladder-safety/ladder-inspection-checklist.md` |
-| `downloadUrlPlaceholder` | `{{STORAGE_BASE_URL}}/ladder-safety/ladder-inspection-checklist.docx` |
+| `storagePath` | `{{STORAGE_BASE_URL}}/ladder-safety/ladder-inspection-checklist.docx` |
 | `isSample` | `true` for the 10 showcase docs |
 
 ### Wiring it into the site

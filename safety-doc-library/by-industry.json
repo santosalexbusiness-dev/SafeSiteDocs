@@ -136,13 +136,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -406,13 +406,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -1867,13 +1867,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -2173,13 +2173,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -2581,13 +2581,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -3028,13 +3028,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -3409,13 +3409,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -3679,13 +3679,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -5140,13 +5140,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -5446,13 +5446,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -5854,13 +5854,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -6301,13 +6301,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -6673,13 +6673,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -6943,13 +6943,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -8404,13 +8404,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -8710,13 +8710,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -9118,13 +9118,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -9565,13 +9565,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -9937,13 +9937,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -10207,13 +10207,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -11668,13 +11668,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -11974,13 +11974,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -12382,13 +12382,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -12829,13 +12829,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -13201,13 +13201,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -13471,13 +13471,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -14932,13 +14932,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -15238,13 +15238,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -15646,13 +15646,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -16093,13 +16093,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -16465,13 +16465,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -16735,13 +16735,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -18196,13 +18196,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -18502,13 +18502,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -18910,13 +18910,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -19357,13 +19357,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -19729,13 +19729,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -19999,13 +19999,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -21469,13 +21469,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -21775,13 +21775,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -22183,13 +22183,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -22630,13 +22630,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -23002,13 +23002,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -23272,13 +23272,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -24742,13 +24742,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -25048,13 +25048,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -25456,13 +25456,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -25903,13 +25903,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -26266,13 +26266,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -26536,13 +26536,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -27997,13 +27997,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -28303,13 +28303,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -28711,13 +28711,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -29158,13 +29158,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",
@@ -29530,13 +29530,13 @@
               "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md"
             },
             {
-              "id": "respiratory-protection-program-placeholder",
-              "title": "Respiratory Protection Program Placeholder",
+              "id": "respiratory-protection-program-framework",
+              "title": "Respiratory Protection Program (Framework)",
               "accessLevel": "Pro",
               "category": "respiratory-protection",
               "tailored": false,
-              "route": "/library/respiratory-protection-program-placeholder",
-              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md"
+              "route": "/library/respiratory-protection-program-framework",
+              "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md"
             },
             {
               "id": "safety-program-summary",
@@ -29800,13 +29800,13 @@
               "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md"
             },
             {
-              "id": "drug-and-alcohol-policy-placeholder",
-              "title": "Drug and Alcohol Policy Placeholder",
+              "id": "drug-and-alcohol-policy-template",
+              "title": "Drug and Alcohol Policy Template",
               "accessLevel": "Pro",
               "category": "policies",
               "tailored": false,
-              "route": "/library/drug-and-alcohol-policy-placeholder",
-              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md"
+              "route": "/library/drug-and-alcohol-policy-template",
+              "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md"
             },
             {
               "id": "emergency-communication-policy",
@@ -31261,13 +31261,13 @@
               "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md"
             },
             {
-              "id": "client-disclosure-placeholder-form",
-              "title": "Client Disclosure Placeholder Form",
+              "id": "client-hazard-disclosure-form",
+              "title": "Client Hazard Disclosure Form",
               "accessLevel": "Starter",
               "category": "asbestos-lead-awareness",
               "tailored": false,
-              "route": "/library/client-disclosure-placeholder-form",
-              "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md"
+              "route": "/library/client-hazard-disclosure-form",
+              "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md"
             },
             {
               "id": "contractor-chemical-use-form",
@@ -31567,13 +31567,13 @@
               "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md"
             },
             {
-              "id": "respiratory-ppe-placeholder-form",
-              "title": "Respiratory PPE Placeholder Form",
+              "id": "respiratory-ppe-pre-use-screening-form",
+              "title": "Respiratory PPE Pre-Use Screening Form",
               "accessLevel": "Pro",
               "category": "ppe",
               "tailored": false,
-              "route": "/library/respiratory-ppe-placeholder-form",
-              "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md"
+              "route": "/library/respiratory-ppe-pre-use-screening-form",
+              "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md"
             },
             {
               "id": "return-to-work-review-form",
@@ -31975,13 +31975,13 @@
               "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md"
             },
             {
-              "id": "osha-300-log-placeholder-instructions",
-              "title": "OSHA 300 Log Placeholder Instructions",
+              "id": "osha-300-log-recordkeeping-instructions",
+              "title": "OSHA 300 Log — Recordkeeping Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-300-log-placeholder-instructions",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md"
+              "route": "/library/osha-300-log-recordkeeping-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md"
             },
             {
               "id": "photo-evidence-log",
@@ -32422,13 +32422,13 @@
               "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md"
             },
             {
-              "id": "osha-301-incident-report-placeholder",
-              "title": "OSHA 301 Incident Report Placeholder",
+              "id": "osha-301-incident-report-intake-instructions",
+              "title": "OSHA 301 Incident Report — Intake & Instructions",
               "accessLevel": "Starter",
               "category": "recordkeeping-admin",
               "tailored": false,
-              "route": "/library/osha-301-incident-report-placeholder",
-              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md"
+              "route": "/library/osha-301-incident-report-intake-instructions",
+              "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md"
             },
             {
               "id": "property-damage-report",

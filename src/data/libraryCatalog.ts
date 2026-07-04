@@ -25,7 +25,7 @@ export type CatalogDoc = {
   lastUpdated: string;
   route: string;
   filePath: string;
-  downloadUrlPlaceholder: string;
+  storagePath: string;
   isSample: boolean;
 };
 

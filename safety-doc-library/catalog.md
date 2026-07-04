@@ -54,7 +54,7 @@ Access mix — Starter: 216 · Pro: 118 · Custom Binder: 18.
 | Management Safety Responsibilities Policy | Policy | All | Pro |  |
 | Disciplinary Safety Policy | Policy | All | Pro |  |
 | Return-to-Work Policy | Policy | All | Pro |  |
-| Drug and Alcohol Policy Placeholder | Policy | All | Pro |  |
+| Drug and Alcohol Policy Template | Policy | All | Pro |  |
 | Workplace Violence Prevention Policy | Policy | All | Pro |  |
 | Severe Weather Policy | Policy | All | Pro |  |
 | Emergency Communication Policy | Policy | All | Pro |  |
@@ -207,7 +207,7 @@ Access mix — Starter: 216 · Pro: 118 · Custom Binder: 18.
 | Head Protection Checklist | Checklist | All | Starter |  |
 | Hearing Protection Checklist | Checklist | All | Starter |  |
 | High-Visibility Clothing Policy | Policy | All | Starter |  |
-| Respiratory PPE Placeholder Form | Form | All | Pro |  |
+| Respiratory PPE Pre-Use Screening Form | Form | All | Pro |  |
 | Fall Protection PPE Inspection Form | Form | All | Starter |  |
 | PPE Training Record | Form | All | Starter |  |
 
@@ -305,7 +305,7 @@ Access mix — Starter: 216 · Pro: 118 · Custom Binder: 18.
 
 | Title | Type | Industry | Access | Sample |
 |---|---|---|---|:--:|
-| Respiratory Protection Program Placeholder | Program | All | Pro |  |
+| Respiratory Protection Program (Framework) | Program | All | Pro |  |
 | Respirator Hazard Assessment Form | Form | All | Starter |  |
 | Respirator Selection Worksheet | Worksheet | All | Starter |  |
 | Medical Evaluation Tracking Log | Log | All | Pro |  |
@@ -424,7 +424,7 @@ Access mix — Starter: 216 · Pro: 118 · Custom Binder: 18.
 | Asbestos Awareness Toolbox Talk | Toolbox Talk | All | Starter |  |
 | Lead Awareness Toolbox Talk | Toolbox Talk | All | Starter |  |
 | Renovation Safety Checklist | Checklist | All | Starter |  |
-| Client Disclosure Placeholder Form | Form | All | Starter |  |
+| Client Hazard Disclosure Form | Form | All | Starter |  |
 | Dust Control Checklist | Checklist | All | Starter |  |
 | PPE Checklist for Dust-Generating Work | Checklist | All | Starter |  |
 | Regulated Material Referral Form | Form | All | Starter |  |
@@ -435,9 +435,9 @@ Access mix — Starter: 216 · Pro: 118 · Custom Binder: 18.
 
 | Title | Type | Industry | Access | Sample |
 |---|---|---|---|:--:|
-| OSHA 300 Log Placeholder Instructions | Log | All | Starter |  |
+| OSHA 300 Log — Recordkeeping Instructions | Log | All | Starter |  |
 | OSHA 300A Posting Reminder | Form | All | Starter |  |
-| OSHA 301 Incident Report Placeholder | Report | All | Starter |  |
+| OSHA 301 Incident Report — Intake & Instructions | Report | All | Starter |  |
 | Safety Records Retention Schedule | Schedule | All | Pro |  |
 | Safety Document Control Log | Log | All | Starter |  |
 | Monthly Safety Report Template | Report | All | Starter |  |

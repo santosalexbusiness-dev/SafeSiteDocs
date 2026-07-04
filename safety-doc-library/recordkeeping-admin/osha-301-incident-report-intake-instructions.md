@@ -1,4 +1,4 @@
-# Client Hazard Disclosure Form
+# OSHA 301 Incident Report — Intake & Instructions
 
 > **Document Control**
 > Company: **[COMPANY NAME]**  ·  Logo: **[COMPANY LOGO]**  ·  Address: **[COMPANY ADDRESS]**
@@ -6,12 +6,12 @@
 
 | Field | Value |
 |---|---|
-| Category | Asbestos and Lead Awareness |
+| Category | Recordkeeping and Admin |
 | Recommended Industry | All |
-| Document Type | Form |
+| Document Type | Report |
 | Access Level | Starter |
-| Last Reviewed | 2026-07-02 |
-| Last Updated | 2026-07-02 |
+| Last Reviewed | 2026-06-29 |
+| Last Updated | 2026-06-29 |
 
 ---
 
@@ -21,33 +21,38 @@ Complete the fields as fully and accurately as possible at the time of the task 
 ---
 
 ## Template Body
-*Coordinate disclosures with legal counsel.* Use to request and record what the client/owner knows about building hazards.
+*Use the official OSHA 301 (or equivalent) for recordable cases.* This page helps you gather the information; it does not replace the official form.
+
+Information typically needed for an injury/illness incident record:
+- Employee name and information
+- Date of injury/illness and date of treatment
+- Where the event occurred
+- What the employee was doing before the incident
+- What happened
+- The injury/illness and the object/substance that harmed the employee
+- Treating physician/facility (if any)
 
 | Field | Entry |
 |---|---|
-| Project / address: | [____] |
-| Client / owner: | [____] |
-| Known asbestos-containing materials? | ☐ Yes ☐ No ☐ Unknown — details: [____] |
-| Known lead-based paint? | ☐ Yes ☐ No ☐ Unknown — details: [____] |
-| Prior surveys/reports available? | ☐ Yes ☐ No — provide copies |
-| Other known hazards (mold, PCBs, etc.): | [____] |
+| Linked to OSHA 300 Log case #: | [____] |
+| Completed by: | [NAME] |
+| Date: | [DATE] |
 
-**Client/owner representative:** ____________________   **Date:** [DATE]
-**[COMPANY NAME] representative:** ____________________   **Date:** [DATE]
-*Disclosure obligations vary — confirm requirements with qualified counsel and authorities.*
+Complete an equivalent official 301 (or 301-equivalent like the company Incident Report Form) for recordable cases, within the required timeframe. Keep medical information confidential.
+*General educational information, not legal advice — confirm your obligations.*
 
 ---
 
 ## Company Customization Needed
-- Replace every bracketed placeholder (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
+- Replace every bracketed field (**[COMPANY NAME]**, **[RESPONSIBLE PERSON]**, **[DATE]**, **[LOCATION]**, etc.) with your information, and add your company logo and address.
 - Review and customize based on applicable federal, state, local, client, and project-specific requirements.
 - Add, remove, or edit content so it reflects your actual operations, equipment, materials, and worksites.
 - Assign a responsible person and obtain an approval signature before putting this document into use.
 - Set a review schedule and update the **Last Reviewed / Last Updated** date whenever you change it.
 
 ## Last Reviewed / Last Updated
-- **Last Reviewed:** 2026-07-02
-- **Last Updated:** 2026-07-02
+- **Last Reviewed:** 2026-06-29
+- **Last Updated:** 2026-06-29
 - **Next Review Due:** [SET DATE]
 
 ---
@@ -55,4 +60,4 @@ Complete the fields as fully and accurately as possible at the time of the task 
 ### Disclaimer
 *This document is a general safety template and educational resource. It is not legal advice, does not replace a site-specific hazard assessment, and does not guarantee compliance with OSHA or any federal, state, or local requirement. Employers are responsible for reviewing, customizing, implementing, training employees on, and maintaining their own safety programs and records. Consult a qualified safety professional, legal counsel, or regulatory authority when needed.*
 
-<sub>Template ID: `client-disclosure-placeholder-form` · Editable master (Markdown). Export to Word/PDF for distribution. Access level: Starter.</sub>
+<sub>Template ID: `osha-301-incident-report-intake-instructions` · Editable master (Markdown). Export to Word/PDF for distribution. Access level: Starter.</sub>

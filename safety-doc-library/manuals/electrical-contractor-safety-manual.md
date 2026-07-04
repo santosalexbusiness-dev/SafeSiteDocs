@@ -16,7 +16,7 @@
 ---
 
 ## How to Use This Template
-This manual is the written backbone of your company safety program. Replace the bracketed placeholders with your company information, delete any sections that don't apply to your work, and add anything specific to your operations. Have a qualified person and company leadership review and approve it, then train employees on the parts that affect them and keep a signed acknowledgment on file. Review the manual at least annually and after any significant change in work, equipment, or regulations.
+This manual is the written backbone of your company safety program. Replace the bracketed fields with your company information, delete any sections that don't apply to your work, and add anything specific to your operations. Have a qualified person and company leadership review and approve it, then train employees on the parts that affect them and keep a signed acknowledgment on file. Review the manual at least annually and after any significant change in work, equipment, or regulations.
 
 ---
 

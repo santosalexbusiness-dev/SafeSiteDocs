@@ -201,8 +201,8 @@ ${SIGNIN}`,
     ]
   ),
 
-  "client-disclosure-placeholder-form": {
-    body: `*Placeholder — coordinate disclosures with legal counsel.* Use to request and record what the client/owner knows about building hazards.
+  "client-hazard-disclosure-form": {
+    body: `*Coordinate disclosures with legal counsel.* Use to request and record what the client/owner knows about building hazards.
 
 | Field | Entry |
 |---|---|

@@ -144,7 +144,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/general-contractor-safety-manual",
       "filePath": "safety-doc-library/manuals/general-contractor-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/general-contractor-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/general-contractor-safety-manual.docx",
       "isSample": false
     },
     {
@@ -170,7 +170,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/small-construction-company-safety-manual",
       "filePath": "safety-doc-library/manuals/small-construction-company-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/small-construction-company-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/small-construction-company-safety-manual.docx",
       "isSample": false
     },
     {
@@ -197,7 +197,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/electrical-contractor-safety-manual",
       "filePath": "safety-doc-library/manuals/electrical-contractor-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/electrical-contractor-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/electrical-contractor-safety-manual.docx",
       "isSample": true
     },
     {
@@ -224,7 +224,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hvac-contractor-safety-manual",
       "filePath": "safety-doc-library/manuals/hvac-contractor-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/hvac-contractor-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/hvac-contractor-safety-manual.docx",
       "isSample": false
     },
     {
@@ -251,7 +251,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/plumbing-contractor-safety-manual",
       "filePath": "safety-doc-library/manuals/plumbing-contractor-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/plumbing-contractor-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/plumbing-contractor-safety-manual.docx",
       "isSample": false
     },
     {
@@ -278,7 +278,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/roofing-contractor-safety-manual",
       "filePath": "safety-doc-library/manuals/roofing-contractor-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/roofing-contractor-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/roofing-contractor-safety-manual.docx",
       "isSample": false
     },
     {
@@ -305,7 +305,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/landscaping-safety-manual",
       "filePath": "safety-doc-library/manuals/landscaping-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/landscaping-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/landscaping-safety-manual.docx",
       "isSample": false
     },
     {
@@ -332,7 +332,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/remodeling-contractor-safety-manual",
       "filePath": "safety-doc-library/manuals/remodeling-contractor-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/remodeling-contractor-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/remodeling-contractor-safety-manual.docx",
       "isSample": false
     },
     {
@@ -359,7 +359,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/concrete-contractor-safety-manual",
       "filePath": "safety-doc-library/manuals/concrete-contractor-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/concrete-contractor-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/concrete-contractor-safety-manual.docx",
       "isSample": false
     },
     {
@@ -386,7 +386,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/property-maintenance-safety-manual",
       "filePath": "safety-doc-library/manuals/property-maintenance-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/property-maintenance-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/property-maintenance-safety-manual.docx",
       "isSample": false
     },
     {
@@ -414,7 +414,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/general-industry-safety-manual",
       "filePath": "safety-doc-library/manuals/general-industry-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/general-industry-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/general-industry-safety-manual.docx",
       "isSample": false
     },
     {
@@ -440,7 +440,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/small-business-safety-program-manual",
       "filePath": "safety-doc-library/manuals/small-business-safety-program-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/small-business-safety-program-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/small-business-safety-program-manual.docx",
       "isSample": false
     },
     {
@@ -467,7 +467,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/subcontractor-safety-manual",
       "filePath": "safety-doc-library/manuals/subcontractor-safety-manual.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/subcontractor-safety-manual.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/subcontractor-safety-manual.docx",
       "isSample": false
     },
     {
@@ -493,7 +493,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/site-specific-safety-plan-template",
       "filePath": "safety-doc-library/manuals/site-specific-safety-plan-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/site-specific-safety-plan-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/site-specific-safety-plan-template.docx",
       "isSample": false
     },
     {
@@ -519,7 +519,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/project-safety-plan-template",
       "filePath": "safety-doc-library/manuals/project-safety-plan-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/manuals/project-safety-plan-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/manuals/project-safety-plan-template.docx",
       "isSample": false
     },
     {
@@ -546,7 +546,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/osha-inspection-binder-table-of-contents",
       "filePath": "safety-doc-library/osha-inspection-binder/osha-inspection-binder-table-of-contents.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/osha-inspection-binder-table-of-contents.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/osha-inspection-binder-table-of-contents.xlsx",
       "isSample": true
     },
     {
@@ -573,7 +573,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/osha-inspection-readiness-checklist",
       "filePath": "safety-doc-library/osha-inspection-binder/osha-inspection-readiness-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/osha-inspection-readiness-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/osha-inspection-readiness-checklist.docx",
       "isSample": false
     },
     {
@@ -600,7 +600,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/osha-inspection-response-procedure",
       "filePath": "safety-doc-library/osha-inspection-binder/osha-inspection-response-procedure.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/osha-inspection-response-procedure.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/osha-inspection-response-procedure.docx",
       "isSample": false
     },
     {
@@ -627,7 +627,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/employer-rights-during-inspection-summary",
       "filePath": "safety-doc-library/osha-inspection-binder/employer-rights-during-inspection-summary.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/employer-rights-during-inspection-summary.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/employer-rights-during-inspection-summary.docx",
       "isSample": false
     },
     {
@@ -654,7 +654,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/inspection-opening-conference-notes-form",
       "filePath": "safety-doc-library/osha-inspection-binder/inspection-opening-conference-notes-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/inspection-opening-conference-notes-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/inspection-opening-conference-notes-form.docx",
       "isSample": false
     },
     {
@@ -680,7 +680,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/inspector-request-log",
       "filePath": "safety-doc-library/osha-inspection-binder/inspector-request-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/inspector-request-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/inspector-request-log.xlsx",
       "isSample": false
     },
     {
@@ -706,7 +706,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/document-request-tracking-log",
       "filePath": "safety-doc-library/osha-inspection-binder/document-request-tracking-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/document-request-tracking-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/document-request-tracking-log.xlsx",
       "isSample": false
     },
     {
@@ -732,7 +732,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/employee-interview-tracking-log",
       "filePath": "safety-doc-library/osha-inspection-binder/employee-interview-tracking-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/employee-interview-tracking-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/employee-interview-tracking-log.xlsx",
       "isSample": false
     },
     {
@@ -759,7 +759,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/walkaround-inspection-notes-form",
       "filePath": "safety-doc-library/osha-inspection-binder/walkaround-inspection-notes-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/walkaround-inspection-notes-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/walkaround-inspection-notes-form.docx",
       "isSample": false
     },
     {
@@ -785,7 +785,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/corrective-action-log",
       "filePath": "safety-doc-library/osha-inspection-binder/corrective-action-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/corrective-action-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/corrective-action-log.xlsx",
       "isSample": false
     },
     {
@@ -811,7 +811,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/citation-response-planning-worksheet",
       "filePath": "safety-doc-library/osha-inspection-binder/citation-response-planning-worksheet.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/citation-response-planning-worksheet.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/citation-response-planning-worksheet.docx",
       "isSample": false
     },
     {
@@ -837,7 +837,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/abatement-tracking-log",
       "filePath": "safety-doc-library/osha-inspection-binder/abatement-tracking-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/abatement-tracking-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/abatement-tracking-log.xlsx",
       "isSample": false
     },
     {
@@ -863,7 +863,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-records-index",
       "filePath": "safety-doc-library/osha-inspection-binder/safety-records-index.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/safety-records-index.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/safety-records-index.xlsx",
       "isSample": false
     },
     {
@@ -890,7 +890,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/training-records-index",
       "filePath": "safety-doc-library/osha-inspection-binder/training-records-index.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/training-records-index.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/training-records-index.xlsx",
       "isSample": false
     },
     {
@@ -916,7 +916,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-meeting-records-index",
       "filePath": "safety-doc-library/osha-inspection-binder/safety-meeting-records-index.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/osha-inspection-binder/safety-meeting-records-index.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/osha-inspection-binder/safety-meeting-records-index.xlsx",
       "isSample": false
     },
     {
@@ -942,7 +942,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-and-health-policy-statement",
       "filePath": "safety-doc-library/policies/safety-and-health-policy-statement.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/safety-and-health-policy-statement.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/safety-and-health-policy-statement.docx",
       "isSample": false
     },
     {
@@ -968,7 +968,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/stop-work-authority-policy",
       "filePath": "safety-doc-library/policies/stop-work-authority-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/stop-work-authority-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/stop-work-authority-policy.docx",
       "isSample": false
     },
     {
@@ -994,7 +994,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/employee-safety-responsibilities-policy",
       "filePath": "safety-doc-library/policies/employee-safety-responsibilities-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/employee-safety-responsibilities-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/employee-safety-responsibilities-policy.docx",
       "isSample": false
     },
     {
@@ -1020,7 +1020,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/management-safety-responsibilities-policy",
       "filePath": "safety-doc-library/policies/management-safety-responsibilities-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/management-safety-responsibilities-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/management-safety-responsibilities-policy.docx",
       "isSample": false
     },
     {
@@ -1046,7 +1046,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/disciplinary-safety-policy",
       "filePath": "safety-doc-library/policies/disciplinary-safety-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/disciplinary-safety-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/disciplinary-safety-policy.docx",
       "isSample": false
     },
     {
@@ -1072,11 +1072,11 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/return-to-work-policy",
       "filePath": "safety-doc-library/policies/return-to-work-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/return-to-work-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/return-to-work-policy.docx",
       "isSample": false
     },
     {
-      "id": "drug-and-alcohol-policy-placeholder",
+      "id": "drug-and-alcohol-policy-template",
       "title": "Drug and Alcohol Policy Template",
       "category": "policies",
       "categoryName": "Company Policies",
@@ -1093,12 +1093,12 @@
         "DOCX",
         "PDF"
       ],
-      "fileName": "drug-and-alcohol-policy-placeholder.docx",
-      "lastReviewed": "2026-07-02",
-      "lastUpdated": "2026-07-02",
-      "route": "/library/drug-and-alcohol-policy-placeholder",
-      "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-placeholder.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/drug-and-alcohol-policy-placeholder.docx",
+      "fileName": "drug-and-alcohol-policy-template.docx",
+      "lastReviewed": "2026-06-29",
+      "lastUpdated": "2026-06-29",
+      "route": "/library/drug-and-alcohol-policy-template",
+      "filePath": "safety-doc-library/policies/drug-and-alcohol-policy-template.md",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/drug-and-alcohol-policy-template.docx",
       "isSample": false
     },
     {
@@ -1124,7 +1124,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/workplace-violence-prevention-policy",
       "filePath": "safety-doc-library/policies/workplace-violence-prevention-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/workplace-violence-prevention-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/workplace-violence-prevention-policy.docx",
       "isSample": false
     },
     {
@@ -1150,7 +1150,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/severe-weather-policy",
       "filePath": "safety-doc-library/policies/severe-weather-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/severe-weather-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/severe-weather-policy.docx",
       "isSample": false
     },
     {
@@ -1177,7 +1177,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/emergency-communication-policy",
       "filePath": "safety-doc-library/policies/emergency-communication-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/emergency-communication-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/emergency-communication-policy.docx",
       "isSample": false
     },
     {
@@ -1203,7 +1203,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/visitor-safety-policy",
       "filePath": "safety-doc-library/policies/visitor-safety-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/visitor-safety-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/visitor-safety-policy.docx",
       "isSample": false
     },
     {
@@ -1230,7 +1230,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/subcontractor-safety-policy",
       "filePath": "safety-doc-library/policies/subcontractor-safety-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/subcontractor-safety-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/subcontractor-safety-policy.docx",
       "isSample": false
     },
     {
@@ -1256,7 +1256,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/housekeeping-policy",
       "filePath": "safety-doc-library/policies/housekeeping-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/housekeeping-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/housekeeping-policy.docx",
       "isSample": false
     },
     {
@@ -1282,7 +1282,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/jobsite-conduct-policy",
       "filePath": "safety-doc-library/policies/jobsite-conduct-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/jobsite-conduct-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/jobsite-conduct-policy.docx",
       "isSample": false
     },
     {
@@ -1309,7 +1309,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-policy",
       "filePath": "safety-doc-library/policies/ppe-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/ppe-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/ppe-policy.docx",
       "isSample": false
     },
     {
@@ -1336,7 +1336,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/heat-illness-prevention-policy",
       "filePath": "safety-doc-library/policies/heat-illness-prevention-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/heat-illness-prevention-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/heat-illness-prevention-policy.docx",
       "isSample": false
     },
     {
@@ -1363,7 +1363,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/cold-stress-prevention-policy",
       "filePath": "safety-doc-library/policies/cold-stress-prevention-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/cold-stress-prevention-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/cold-stress-prevention-policy.docx",
       "isSample": false
     },
     {
@@ -1390,7 +1390,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/incident-reporting-policy",
       "filePath": "safety-doc-library/policies/incident-reporting-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/incident-reporting-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/incident-reporting-policy.docx",
       "isSample": false
     },
     {
@@ -1417,7 +1417,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/near-miss-reporting-policy",
       "filePath": "safety-doc-library/policies/near-miss-reporting-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/near-miss-reporting-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/near-miss-reporting-policy.docx",
       "isSample": false
     },
     {
@@ -1444,7 +1444,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/vehicle-safety-policy",
       "filePath": "safety-doc-library/policies/vehicle-safety-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/policies/vehicle-safety-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/policies/vehicle-safety-policy.docx",
       "isSample": false
     },
     {
@@ -1471,7 +1471,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/new-hire-safety-orientation-packet",
       "filePath": "safety-doc-library/new-hire-orientation/new-hire-safety-orientation-packet.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/new-hire-safety-orientation-packet.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/new-hire-safety-orientation-packet.docx",
       "isSample": true
     },
     {
@@ -1498,7 +1498,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/new-hire-safety-checklist",
       "filePath": "safety-doc-library/new-hire-orientation/new-hire-safety-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/new-hire-safety-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/new-hire-safety-checklist.docx",
       "isSample": false
     },
     {
@@ -1524,7 +1524,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/employee-safety-acknowledgment-form",
       "filePath": "safety-doc-library/new-hire-orientation/employee-safety-acknowledgment-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/employee-safety-acknowledgment-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/employee-safety-acknowledgment-form.docx",
       "isSample": false
     },
     {
@@ -1551,7 +1551,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-acknowledgment-form",
       "filePath": "safety-doc-library/new-hire-orientation/ppe-acknowledgment-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/ppe-acknowledgment-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/ppe-acknowledgment-form.docx",
       "isSample": false
     },
     {
@@ -1578,7 +1578,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/employee-emergency-contact-form",
       "filePath": "safety-doc-library/new-hire-orientation/employee-emergency-contact-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/employee-emergency-contact-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/employee-emergency-contact-form.docx",
       "isSample": false
     },
     {
@@ -1604,7 +1604,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-rules-acknowledgment",
       "filePath": "safety-doc-library/new-hire-orientation/safety-rules-acknowledgment.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/safety-rules-acknowledgment.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/safety-rules-acknowledgment.docx",
       "isSample": false
     },
     {
@@ -1630,7 +1630,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hazard-reporting-instructions",
       "filePath": "safety-doc-library/new-hire-orientation/hazard-reporting-instructions.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/hazard-reporting-instructions.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/hazard-reporting-instructions.docx",
       "isSample": false
     },
     {
@@ -1656,7 +1656,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/stop-work-authority-acknowledgment",
       "filePath": "safety-doc-library/new-hire-orientation/stop-work-authority-acknowledgment.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/stop-work-authority-acknowledgment.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/stop-work-authority-acknowledgment.docx",
       "isSample": false
     },
     {
@@ -1683,7 +1683,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/new-employee-training-log",
       "filePath": "safety-doc-library/new-hire-orientation/new-employee-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/new-employee-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/new-employee-training-log.xlsx",
       "isSample": false
     },
     {
@@ -1709,7 +1709,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/first-day-safety-briefing-template",
       "filePath": "safety-doc-library/new-hire-orientation/first-day-safety-briefing-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/first-day-safety-briefing-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/first-day-safety-briefing-template.docx",
       "isSample": false
     },
     {
@@ -1736,7 +1736,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/new-hire-quiz-template",
       "filePath": "safety-doc-library/new-hire-orientation/new-hire-quiz-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/new-hire-quiz-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/new-hire-quiz-template.docx",
       "isSample": false
     },
     {
@@ -1764,7 +1764,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/supervisor-orientation-checklist",
       "filePath": "safety-doc-library/new-hire-orientation/supervisor-orientation-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/supervisor-orientation-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/supervisor-orientation-checklist.docx",
       "isSample": false
     },
     {
@@ -1792,7 +1792,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/field-employee-orientation-checklist",
       "filePath": "safety-doc-library/new-hire-orientation/field-employee-orientation-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/field-employee-orientation-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/field-employee-orientation-checklist.docx",
       "isSample": false
     },
     {
@@ -1820,7 +1820,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/subcontractor-orientation-form",
       "filePath": "safety-doc-library/new-hire-orientation/subcontractor-orientation-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/subcontractor-orientation-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/subcontractor-orientation-form.docx",
       "isSample": false
     },
     {
@@ -1847,7 +1847,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/visitor-orientation-form",
       "filePath": "safety-doc-library/new-hire-orientation/visitor-orientation-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/new-hire-orientation/visitor-orientation-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/new-hire-orientation/visitor-orientation-form.docx",
       "isSample": false
     },
     {
@@ -1874,7 +1874,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/master-training-matrix",
       "filePath": "safety-doc-library/training-records/master-training-matrix.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/master-training-matrix.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/master-training-matrix.xlsx",
       "isSample": false
     },
     {
@@ -1901,7 +1901,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/employee-training-log",
       "filePath": "safety-doc-library/training-records/employee-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/employee-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/employee-training-log.xlsx",
       "isSample": false
     },
     {
@@ -1928,7 +1928,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/toolbox-talk-attendance-form",
       "filePath": "safety-doc-library/training-records/toolbox-talk-attendance-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/toolbox-talk-attendance-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/toolbox-talk-attendance-form.docx",
       "isSample": false
     },
     {
@@ -1954,7 +1954,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-meeting-sign-in-sheet",
       "filePath": "safety-doc-library/training-records/safety-meeting-sign-in-sheet.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/safety-meeting-sign-in-sheet.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/safety-meeting-sign-in-sheet.xlsx",
       "isSample": false
     },
     {
@@ -1981,7 +1981,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/training-completion-certificate-template",
       "filePath": "safety-doc-library/training-records/training-completion-certificate-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/training-completion-certificate-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/training-completion-certificate-template.docx",
       "isSample": false
     },
     {
@@ -2008,7 +2008,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/competent-person-designation-form",
       "filePath": "safety-doc-library/training-records/competent-person-designation-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/competent-person-designation-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/competent-person-designation-form.docx",
       "isSample": false
     },
     {
@@ -2035,7 +2035,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/qualified-person-designation-form",
       "filePath": "safety-doc-library/training-records/qualified-person-designation-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/qualified-person-designation-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/qualified-person-designation-form.docx",
       "isSample": false
     },
     {
@@ -2063,7 +2063,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/equipment-training-log",
       "filePath": "safety-doc-library/training-records/equipment-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/equipment-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/equipment-training-log.xlsx",
       "isSample": false
     },
     {
@@ -2090,7 +2090,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/refresher-training-tracker",
       "filePath": "safety-doc-library/training-records/refresher-training-tracker.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/refresher-training-tracker.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/refresher-training-tracker.xlsx",
       "isSample": false
     },
     {
@@ -2117,7 +2117,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/annual-training-calendar",
       "filePath": "safety-doc-library/training-records/annual-training-calendar.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/annual-training-calendar.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/annual-training-calendar.xlsx",
       "isSample": false
     },
     {
@@ -2144,7 +2144,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/monthly-safety-training-calendar",
       "filePath": "safety-doc-library/training-records/monthly-safety-training-calendar.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/monthly-safety-training-calendar.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/monthly-safety-training-calendar.xlsx",
       "isSample": false
     },
     {
@@ -2171,7 +2171,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/training-needs-assessment-form",
       "filePath": "safety-doc-library/training-records/training-needs-assessment-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/training-needs-assessment-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/training-needs-assessment-form.docx",
       "isSample": false
     },
     {
@@ -2198,7 +2198,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-quiz-answer-sheet",
       "filePath": "safety-doc-library/training-records/safety-quiz-answer-sheet.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/safety-quiz-answer-sheet.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/safety-quiz-answer-sheet.docx",
       "isSample": false
     },
     {
@@ -2225,7 +2225,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/employee-coaching-record",
       "filePath": "safety-doc-library/training-records/employee-coaching-record.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/employee-coaching-record.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/employee-coaching-record.docx",
       "isSample": false
     },
     {
@@ -2253,7 +2253,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/training-records-audit-checklist",
       "filePath": "safety-doc-library/training-records/training-records-audit-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/training-records/training-records-audit-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/training-records/training-records-audit-checklist.docx",
       "isSample": false
     },
     {
@@ -2281,7 +2281,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-01-fall-protection-basics",
       "filePath": "safety-doc-library/toolbox-talks/tbt-01-fall-protection-basics.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-01-fall-protection-basics.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-01-fall-protection-basics.docx",
       "isSample": true
     },
     {
@@ -2309,7 +2309,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-02-ladder-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-02-ladder-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-02-ladder-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-02-ladder-safety.docx",
       "isSample": false
     },
     {
@@ -2337,7 +2337,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-03-scaffold-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-03-scaffold-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-03-scaffold-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-03-scaffold-awareness.docx",
       "isSample": false
     },
     {
@@ -2365,7 +2365,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-04-ppe-basics",
       "filePath": "safety-doc-library/toolbox-talks/tbt-04-ppe-basics.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-04-ppe-basics.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-04-ppe-basics.docx",
       "isSample": false
     },
     {
@@ -2393,7 +2393,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-05-eye-and-face-protection",
       "filePath": "safety-doc-library/toolbox-talks/tbt-05-eye-and-face-protection.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-05-eye-and-face-protection.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-05-eye-and-face-protection.docx",
       "isSample": false
     },
     {
@@ -2421,7 +2421,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-06-hand-protection",
       "filePath": "safety-doc-library/toolbox-talks/tbt-06-hand-protection.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-06-hand-protection.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-06-hand-protection.docx",
       "isSample": false
     },
     {
@@ -2449,7 +2449,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-07-foot-protection",
       "filePath": "safety-doc-library/toolbox-talks/tbt-07-foot-protection.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-07-foot-protection.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-07-foot-protection.docx",
       "isSample": false
     },
     {
@@ -2477,7 +2477,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-08-head-protection",
       "filePath": "safety-doc-library/toolbox-talks/tbt-08-head-protection.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-08-head-protection.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-08-head-protection.docx",
       "isSample": false
     },
     {
@@ -2505,7 +2505,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-09-hearing-protection",
       "filePath": "safety-doc-library/toolbox-talks/tbt-09-hearing-protection.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-09-hearing-protection.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-09-hearing-protection.docx",
       "isSample": false
     },
     {
@@ -2533,7 +2533,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-10-respiratory-protection-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-10-respiratory-protection-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-10-respiratory-protection-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-10-respiratory-protection-awareness.docx",
       "isSample": false
     },
     {
@@ -2561,7 +2561,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-11-heat-stress",
       "filePath": "safety-doc-library/toolbox-talks/tbt-11-heat-stress.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-11-heat-stress.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-11-heat-stress.docx",
       "isSample": false
     },
     {
@@ -2589,7 +2589,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-12-cold-stress",
       "filePath": "safety-doc-library/toolbox-talks/tbt-12-cold-stress.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-12-cold-stress.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-12-cold-stress.docx",
       "isSample": false
     },
     {
@@ -2617,7 +2617,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-13-hydration-on-the-jobsite",
       "filePath": "safety-doc-library/toolbox-talks/tbt-13-hydration-on-the-jobsite.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-13-hydration-on-the-jobsite.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-13-hydration-on-the-jobsite.docx",
       "isSample": false
     },
     {
@@ -2645,7 +2645,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-14-hazard-communication",
       "filePath": "safety-doc-library/toolbox-talks/tbt-14-hazard-communication.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-14-hazard-communication.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-14-hazard-communication.docx",
       "isSample": false
     },
     {
@@ -2673,7 +2673,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-15-sds-basics",
       "filePath": "safety-doc-library/toolbox-talks/tbt-15-sds-basics.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-15-sds-basics.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-15-sds-basics.docx",
       "isSample": false
     },
     {
@@ -2701,7 +2701,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-16-chemical-labeling",
       "filePath": "safety-doc-library/toolbox-talks/tbt-16-chemical-labeling.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-16-chemical-labeling.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-16-chemical-labeling.docx",
       "isSample": false
     },
     {
@@ -2729,7 +2729,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-17-lockout-tagout-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-17-lockout-tagout-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-17-lockout-tagout-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-17-lockout-tagout-awareness.docx",
       "isSample": false
     },
     {
@@ -2757,7 +2757,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-18-electrical-shock-prevention",
       "filePath": "safety-doc-library/toolbox-talks/tbt-18-electrical-shock-prevention.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-18-electrical-shock-prevention.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-18-electrical-shock-prevention.docx",
       "isSample": false
     },
     {
@@ -2785,7 +2785,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-19-extension-cord-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-19-extension-cord-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-19-extension-cord-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-19-extension-cord-safety.docx",
       "isSample": false
     },
     {
@@ -2813,7 +2813,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-20-temporary-power-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-20-temporary-power-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-20-temporary-power-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-20-temporary-power-safety.docx",
       "isSample": false
     },
     {
@@ -2840,7 +2840,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-21-power-tool-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-21-power-tool-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-21-power-tool-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-21-power-tool-safety.docx",
       "isSample": false
     },
     {
@@ -2867,7 +2867,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-22-hand-tool-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-22-hand-tool-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-22-hand-tool-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-22-hand-tool-safety.docx",
       "isSample": false
     },
     {
@@ -2894,7 +2894,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-23-machine-guarding-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-23-machine-guarding-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-23-machine-guarding-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-23-machine-guarding-awareness.docx",
       "isSample": false
     },
     {
@@ -2922,7 +2922,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-24-excavation-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-24-excavation-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-24-excavation-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-24-excavation-awareness.docx",
       "isSample": false
     },
     {
@@ -2950,7 +2950,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-25-trenching-hazards",
       "filePath": "safety-doc-library/toolbox-talks/tbt-25-trenching-hazards.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-25-trenching-hazards.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-25-trenching-hazards.docx",
       "isSample": false
     },
     {
@@ -2978,7 +2978,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-26-confined-space-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-26-confined-space-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-26-confined-space-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-26-confined-space-awareness.docx",
       "isSample": false
     },
     {
@@ -3006,7 +3006,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-27-fire-prevention",
       "filePath": "safety-doc-library/toolbox-talks/tbt-27-fire-prevention.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-27-fire-prevention.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-27-fire-prevention.docx",
       "isSample": false
     },
     {
@@ -3034,7 +3034,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-28-hot-work-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-28-hot-work-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-28-hot-work-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-28-hot-work-safety.docx",
       "isSample": false
     },
     {
@@ -3062,7 +3062,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-29-compressed-gas-cylinder-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-29-compressed-gas-cylinder-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-29-compressed-gas-cylinder-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-29-compressed-gas-cylinder-safety.docx",
       "isSample": false
     },
     {
@@ -3089,7 +3089,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-30-housekeeping",
       "filePath": "safety-doc-library/toolbox-talks/tbt-30-housekeeping.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-30-housekeeping.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-30-housekeeping.docx",
       "isSample": false
     },
     {
@@ -3116,7 +3116,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-31-slips-trips-and-falls",
       "filePath": "safety-doc-library/toolbox-talks/tbt-31-slips-trips-and-falls.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-31-slips-trips-and-falls.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-31-slips-trips-and-falls.docx",
       "isSample": false
     },
     {
@@ -3143,7 +3143,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-32-material-handling",
       "filePath": "safety-doc-library/toolbox-talks/tbt-32-material-handling.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-32-material-handling.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-32-material-handling.docx",
       "isSample": false
     },
     {
@@ -3171,7 +3171,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-33-back-injury-prevention",
       "filePath": "safety-doc-library/toolbox-talks/tbt-33-back-injury-prevention.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-33-back-injury-prevention.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-33-back-injury-prevention.docx",
       "isSample": false
     },
     {
@@ -3199,7 +3199,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-34-forklift-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-34-forklift-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-34-forklift-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-34-forklift-awareness.docx",
       "isSample": false
     },
     {
@@ -3226,7 +3226,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-35-spotter-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-35-spotter-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-35-spotter-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-35-spotter-safety.docx",
       "isSample": false
     },
     {
@@ -3254,7 +3254,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-36-vehicle-backing-safety",
       "filePath": "safety-doc-library/toolbox-talks/tbt-36-vehicle-backing-safety.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-36-vehicle-backing-safety.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-36-vehicle-backing-safety.docx",
       "isSample": false
     },
     {
@@ -3282,7 +3282,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-37-distracted-driving",
       "filePath": "safety-doc-library/toolbox-talks/tbt-37-distracted-driving.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-37-distracted-driving.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-37-distracted-driving.docx",
       "isSample": false
     },
     {
@@ -3309,7 +3309,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-38-job-hazard-analysis",
       "filePath": "safety-doc-library/toolbox-talks/tbt-38-job-hazard-analysis.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-38-job-hazard-analysis.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-38-job-hazard-analysis.docx",
       "isSample": false
     },
     {
@@ -3336,7 +3336,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-39-stop-work-authority",
       "filePath": "safety-doc-library/toolbox-talks/tbt-39-stop-work-authority.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-39-stop-work-authority.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-39-stop-work-authority.docx",
       "isSample": false
     },
     {
@@ -3364,7 +3364,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-40-near-miss-reporting",
       "filePath": "safety-doc-library/toolbox-talks/tbt-40-near-miss-reporting.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-40-near-miss-reporting.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-40-near-miss-reporting.docx",
       "isSample": false
     },
     {
@@ -3392,7 +3392,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-41-incident-reporting",
       "filePath": "safety-doc-library/toolbox-talks/tbt-41-incident-reporting.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-41-incident-reporting.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-41-incident-reporting.docx",
       "isSample": false
     },
     {
@@ -3420,7 +3420,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-42-emergency-action-plans",
       "filePath": "safety-doc-library/toolbox-talks/tbt-42-emergency-action-plans.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-42-emergency-action-plans.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-42-emergency-action-plans.docx",
       "isSample": false
     },
     {
@@ -3448,7 +3448,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-43-first-aid-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-43-first-aid-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-43-first-aid-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-43-first-aid-awareness.docx",
       "isSample": false
     },
     {
@@ -3475,7 +3475,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-44-bloodborne-pathogens-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-44-bloodborne-pathogens-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-44-bloodborne-pathogens-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-44-bloodborne-pathogens-awareness.docx",
       "isSample": false
     },
     {
@@ -3503,7 +3503,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-45-silica-dust-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-45-silica-dust-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-45-silica-dust-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-45-silica-dust-awareness.docx",
       "isSample": false
     },
     {
@@ -3531,7 +3531,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-46-asbestos-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-46-asbestos-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-46-asbestos-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-46-asbestos-awareness.docx",
       "isSample": false
     },
     {
@@ -3559,7 +3559,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-47-lead-awareness",
       "filePath": "safety-doc-library/toolbox-talks/tbt-47-lead-awareness.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-47-lead-awareness.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-47-lead-awareness.docx",
       "isSample": false
     },
     {
@@ -3587,7 +3587,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-48-working-around-heavy-equipment",
       "filePath": "safety-doc-library/toolbox-talks/tbt-48-working-around-heavy-equipment.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-48-working-around-heavy-equipment.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-48-working-around-heavy-equipment.docx",
       "isSample": false
     },
     {
@@ -3614,7 +3614,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-49-noise-hazards",
       "filePath": "safety-doc-library/toolbox-talks/tbt-49-noise-hazards.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-49-noise-hazards.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-49-noise-hazards.docx",
       "isSample": false
     },
     {
@@ -3641,7 +3641,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-50-weather-hazards",
       "filePath": "safety-doc-library/toolbox-talks/tbt-50-weather-hazards.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-50-weather-hazards.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-50-weather-hazards.docx",
       "isSample": false
     },
     {
@@ -3668,7 +3668,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-51-jobsite-communication",
       "filePath": "safety-doc-library/toolbox-talks/tbt-51-jobsite-communication.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-51-jobsite-communication.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-51-jobsite-communication.docx",
       "isSample": false
     },
     {
@@ -3695,7 +3695,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tbt-52-end-of-year-safety-review",
       "filePath": "safety-doc-library/toolbox-talks/tbt-52-end-of-year-safety-review.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-52-end-of-year-safety-review.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/toolbox-talks/tbt-52-end-of-year-safety-review.docx",
       "isSample": false
     },
     {
@@ -3720,7 +3720,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/blank-jha-template",
       "filePath": "safety-doc-library/jha-jsa/blank-jha-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/blank-jha-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/blank-jha-template.docx",
       "isSample": true
     },
     {
@@ -3745,7 +3745,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/blank-jsa-template",
       "filePath": "safety-doc-library/jha-jsa/blank-jsa-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/blank-jsa-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/blank-jsa-template.docx",
       "isSample": false
     },
     {
@@ -3771,7 +3771,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/pre-task-plan-template",
       "filePath": "safety-doc-library/jha-jsa/pre-task-plan-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/pre-task-plan-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/pre-task-plan-template.docx",
       "isSample": false
     },
     {
@@ -3797,7 +3797,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/daily-hazard-assessment-form",
       "filePath": "safety-doc-library/jha-jsa/daily-hazard-assessment-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/daily-hazard-assessment-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/daily-hazard-assessment-form.docx",
       "isSample": false
     },
     {
@@ -3823,7 +3823,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/electrical-work-jha",
       "filePath": "safety-doc-library/jha-jsa/electrical-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/electrical-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/electrical-work-jha.docx",
       "isSample": false
     },
     {
@@ -3849,7 +3849,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ladder-work-jha",
       "filePath": "safety-doc-library/jha-jsa/ladder-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/ladder-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/ladder-work-jha.docx",
       "isSample": false
     },
     {
@@ -3875,7 +3875,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/roof-work-jha",
       "filePath": "safety-doc-library/jha-jsa/roof-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/roof-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/roof-work-jha.docx",
       "isSample": false
     },
     {
@@ -3901,7 +3901,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-work-jha",
       "filePath": "safety-doc-library/jha-jsa/scaffold-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/scaffold-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/scaffold-work-jha.docx",
       "isSample": false
     },
     {
@@ -3927,7 +3927,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/excavation-work-jha",
       "filePath": "safety-doc-library/jha-jsa/excavation-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/excavation-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/excavation-work-jha.docx",
       "isSample": false
     },
     {
@@ -3953,7 +3953,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hot-work-jha",
       "filePath": "safety-doc-library/jha-jsa/hot-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/hot-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/hot-work-jha.docx",
       "isSample": false
     },
     {
@@ -3979,7 +3979,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/confined-space-jha",
       "filePath": "safety-doc-library/jha-jsa/confined-space-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/confined-space-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/confined-space-jha.docx",
       "isSample": false
     },
     {
@@ -4005,7 +4005,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/concrete-work-jha",
       "filePath": "safety-doc-library/jha-jsa/concrete-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/concrete-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/concrete-work-jha.docx",
       "isSample": false
     },
     {
@@ -4030,7 +4030,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/demolition-work-jha",
       "filePath": "safety-doc-library/jha-jsa/demolition-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/demolition-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/demolition-work-jha.docx",
       "isSample": false
     },
     {
@@ -4055,7 +4055,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/power-tool-use-jha",
       "filePath": "safety-doc-library/jha-jsa/power-tool-use-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/power-tool-use-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/power-tool-use-jha.docx",
       "isSample": false
     },
     {
@@ -4081,7 +4081,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/vehicle-operation-jha",
       "filePath": "safety-doc-library/jha-jsa/vehicle-operation-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/vehicle-operation-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/vehicle-operation-jha.docx",
       "isSample": false
     },
     {
@@ -4107,7 +4107,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/heavy-equipment-work-jha",
       "filePath": "safety-doc-library/jha-jsa/heavy-equipment-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/heavy-equipment-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/heavy-equipment-work-jha.docx",
       "isSample": false
     },
     {
@@ -4133,7 +4133,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/chemical-use-jha",
       "filePath": "safety-doc-library/jha-jsa/chemical-use-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/chemical-use-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/chemical-use-jha.docx",
       "isSample": false
     },
     {
@@ -4158,7 +4158,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/manual-material-handling-jha",
       "filePath": "safety-doc-library/jha-jsa/manual-material-handling-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/manual-material-handling-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/manual-material-handling-jha.docx",
       "isSample": false
     },
     {
@@ -4185,7 +4185,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/landscaping-equipment-jha",
       "filePath": "safety-doc-library/jha-jsa/landscaping-equipment-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/landscaping-equipment-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/landscaping-equipment-jha.docx",
       "isSample": false
     },
     {
@@ -4210,7 +4210,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/maintenance-work-jha",
       "filePath": "safety-doc-library/jha-jsa/maintenance-work-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/jha-jsa/maintenance-work-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/jha-jsa/maintenance-work-jha.docx",
       "isSample": false
     },
     {
@@ -4236,7 +4236,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-hazard-assessment-form",
       "filePath": "safety-doc-library/ppe/ppe-hazard-assessment-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/ppe-hazard-assessment-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/ppe-hazard-assessment-form.docx",
       "isSample": true
     },
     {
@@ -4262,7 +4262,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-selection-matrix",
       "filePath": "safety-doc-library/ppe/ppe-selection-matrix.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/ppe-selection-matrix.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/ppe-selection-matrix.xlsx",
       "isSample": false
     },
     {
@@ -4288,7 +4288,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-issue-log",
       "filePath": "safety-doc-library/ppe/ppe-issue-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/ppe-issue-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/ppe-issue-log.xlsx",
       "isSample": false
     },
     {
@@ -4315,7 +4315,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-inspection-checklist",
       "filePath": "safety-doc-library/ppe/ppe-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/ppe-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/ppe-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -4341,7 +4341,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-replacement-log",
       "filePath": "safety-doc-library/ppe/ppe-replacement-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/ppe-replacement-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/ppe-replacement-log.xlsx",
       "isSample": false
     },
     {
@@ -4367,7 +4367,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-acknowledgment-form-ppe",
       "filePath": "safety-doc-library/ppe/ppe-acknowledgment-form-ppe.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/ppe-acknowledgment-form-ppe.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/ppe-acknowledgment-form-ppe.docx",
       "isSample": false
     },
     {
@@ -4394,7 +4394,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/eye-and-face-protection-checklist",
       "filePath": "safety-doc-library/ppe/eye-and-face-protection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/eye-and-face-protection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/eye-and-face-protection-checklist.docx",
       "isSample": false
     },
     {
@@ -4420,7 +4420,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hand-protection-selection-guide",
       "filePath": "safety-doc-library/ppe/hand-protection-selection-guide.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/hand-protection-selection-guide.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/hand-protection-selection-guide.docx",
       "isSample": false
     },
     {
@@ -4447,7 +4447,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/foot-protection-checklist",
       "filePath": "safety-doc-library/ppe/foot-protection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/foot-protection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/foot-protection-checklist.docx",
       "isSample": false
     },
     {
@@ -4474,7 +4474,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/head-protection-checklist",
       "filePath": "safety-doc-library/ppe/head-protection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/head-protection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/head-protection-checklist.docx",
       "isSample": false
     },
     {
@@ -4501,7 +4501,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hearing-protection-checklist",
       "filePath": "safety-doc-library/ppe/hearing-protection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/hearing-protection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/hearing-protection-checklist.docx",
       "isSample": false
     },
     {
@@ -4527,11 +4527,11 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/high-visibility-clothing-policy",
       "filePath": "safety-doc-library/ppe/high-visibility-clothing-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/high-visibility-clothing-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/high-visibility-clothing-policy.docx",
       "isSample": false
     },
     {
-      "id": "respiratory-ppe-placeholder-form",
+      "id": "respiratory-ppe-pre-use-screening-form",
       "title": "Respiratory PPE Pre-Use Screening Form",
       "category": "ppe",
       "categoryName": "PPE Documents",
@@ -4549,12 +4549,12 @@
         "DOCX",
         "PDF"
       ],
-      "fileName": "respiratory-ppe-placeholder-form.docx",
-      "lastReviewed": "2026-07-02",
-      "lastUpdated": "2026-07-02",
-      "route": "/library/respiratory-ppe-placeholder-form",
-      "filePath": "safety-doc-library/ppe/respiratory-ppe-placeholder-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/respiratory-ppe-placeholder-form.docx",
+      "fileName": "respiratory-ppe-pre-use-screening-form.docx",
+      "lastReviewed": "2026-06-29",
+      "lastUpdated": "2026-06-29",
+      "route": "/library/respiratory-ppe-pre-use-screening-form",
+      "filePath": "safety-doc-library/ppe/respiratory-ppe-pre-use-screening-form.md",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/respiratory-ppe-pre-use-screening-form.docx",
       "isSample": false
     },
     {
@@ -4582,7 +4582,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fall-protection-ppe-inspection-form",
       "filePath": "safety-doc-library/ppe/fall-protection-ppe-inspection-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/fall-protection-ppe-inspection-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/fall-protection-ppe-inspection-form.docx",
       "isSample": false
     },
     {
@@ -4609,7 +4609,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-training-record",
       "filePath": "safety-doc-library/ppe/ppe-training-record.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ppe/ppe-training-record.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ppe/ppe-training-record.docx",
       "isSample": false
     },
     {
@@ -4635,7 +4635,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fall-protection-plan-template",
       "filePath": "safety-doc-library/fall-protection/fall-protection-plan-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/fall-protection-plan-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/fall-protection-plan-template.docx",
       "isSample": false
     },
     {
@@ -4661,7 +4661,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fall-hazard-assessment-form",
       "filePath": "safety-doc-library/fall-protection/fall-hazard-assessment-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/fall-hazard-assessment-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/fall-hazard-assessment-form.docx",
       "isSample": false
     },
     {
@@ -4689,7 +4689,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fall-protection-equipment-inspection-form",
       "filePath": "safety-doc-library/fall-protection/fall-protection-equipment-inspection-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/fall-protection-equipment-inspection-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/fall-protection-equipment-inspection-form.docx",
       "isSample": false
     },
     {
@@ -4716,7 +4716,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/harness-inspection-checklist",
       "filePath": "safety-doc-library/fall-protection/harness-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/harness-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/harness-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -4743,7 +4743,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/lanyard-inspection-checklist",
       "filePath": "safety-doc-library/fall-protection/lanyard-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/lanyard-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/lanyard-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -4770,7 +4770,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/anchor-point-inspection-checklist",
       "filePath": "safety-doc-library/fall-protection/anchor-point-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/anchor-point-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/anchor-point-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -4797,7 +4797,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/guardrail-inspection-checklist",
       "filePath": "safety-doc-library/fall-protection/guardrail-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/guardrail-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/guardrail-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -4825,7 +4825,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/leading-edge-work-checklist",
       "filePath": "safety-doc-library/fall-protection/leading-edge-work-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/leading-edge-work-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/leading-edge-work-checklist.docx",
       "isSample": false
     },
     {
@@ -4853,7 +4853,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/roof-work-safety-checklist",
       "filePath": "safety-doc-library/fall-protection/roof-work-safety-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/roof-work-safety-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/roof-work-safety-checklist.docx",
       "isSample": false
     },
     {
@@ -4879,7 +4879,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fall-rescue-plan-template",
       "filePath": "safety-doc-library/fall-protection/fall-rescue-plan-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/fall-rescue-plan-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/fall-rescue-plan-template.docx",
       "isSample": false
     },
     {
@@ -4906,7 +4906,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fall-protection-training-log",
       "filePath": "safety-doc-library/fall-protection/fall-protection-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/fall-protection-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/fall-protection-training-log.xlsx",
       "isSample": false
     },
     {
@@ -4933,7 +4933,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fall-protection-competent-person-form",
       "filePath": "safety-doc-library/fall-protection/fall-protection-competent-person-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/fall-protection-competent-person-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/fall-protection-competent-person-form.docx",
       "isSample": false
     },
     {
@@ -4959,7 +4959,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/elevated-work-permit",
       "filePath": "safety-doc-library/fall-protection/elevated-work-permit.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/elevated-work-permit.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/elevated-work-permit.docx",
       "isSample": false
     },
     {
@@ -4986,7 +4986,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/warning-line-system-checklist",
       "filePath": "safety-doc-library/fall-protection/warning-line-system-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/warning-line-system-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/warning-line-system-checklist.docx",
       "isSample": false
     },
     {
@@ -5013,7 +5013,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hole-cover-inspection-checklist",
       "filePath": "safety-doc-library/fall-protection/hole-cover-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/fall-protection/hole-cover-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/fall-protection/hole-cover-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -5039,7 +5039,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ladder-safety-program",
       "filePath": "safety-doc-library/ladder-safety/ladder-safety-program.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-safety-program.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-safety-program.docx",
       "isSample": false
     },
     {
@@ -5066,7 +5066,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ladder-inspection-checklist",
       "filePath": "safety-doc-library/ladder-safety/ladder-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-inspection-checklist.docx",
       "isSample": true
     },
     {
@@ -5092,7 +5092,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ladder-use-permit",
       "filePath": "safety-doc-library/ladder-safety/ladder-use-permit.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-use-permit.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-use-permit.docx",
       "isSample": false
     },
     {
@@ -5119,7 +5119,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/step-ladder-checklist",
       "filePath": "safety-doc-library/ladder-safety/step-ladder-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/step-ladder-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/step-ladder-checklist.docx",
       "isSample": false
     },
     {
@@ -5146,7 +5146,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/extension-ladder-checklist",
       "filePath": "safety-doc-library/ladder-safety/extension-ladder-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/extension-ladder-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/extension-ladder-checklist.docx",
       "isSample": false
     },
     {
@@ -5173,7 +5173,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fixed-ladder-checklist",
       "filePath": "safety-doc-library/ladder-safety/fixed-ladder-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/fixed-ladder-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/fixed-ladder-checklist.docx",
       "isSample": false
     },
     {
@@ -5200,7 +5200,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ladder-training-log",
       "filePath": "safety-doc-library/ladder-safety/ladder-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-training-log.xlsx",
       "isSample": false
     },
     {
@@ -5226,7 +5226,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/defective-ladder-tag",
       "filePath": "safety-doc-library/ladder-safety/defective-ladder-tag.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/defective-ladder-tag.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/defective-ladder-tag.docx",
       "isSample": false
     },
     {
@@ -5252,7 +5252,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ladder-setup-guide",
       "filePath": "safety-doc-library/ladder-safety/ladder-setup-guide.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-setup-guide.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-setup-guide.docx",
       "isSample": false
     },
     {
@@ -5279,7 +5279,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ladder-incident-report-form",
       "filePath": "safety-doc-library/ladder-safety/ladder-incident-report-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-incident-report-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/ladder-safety/ladder-incident-report-form.docx",
       "isSample": false
     },
     {
@@ -5305,7 +5305,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-safety-program",
       "filePath": "safety-doc-library/scaffolding/scaffold-safety-program.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-safety-program.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-safety-program.docx",
       "isSample": false
     },
     {
@@ -5332,7 +5332,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/daily-scaffold-inspection-form",
       "filePath": "safety-doc-library/scaffolding/daily-scaffold-inspection-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/daily-scaffold-inspection-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/daily-scaffold-inspection-form.docx",
       "isSample": false
     },
     {
@@ -5358,7 +5358,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-tagging-log",
       "filePath": "safety-doc-library/scaffolding/scaffold-tagging-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-tagging-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-tagging-log.xlsx",
       "isSample": false
     },
     {
@@ -5385,7 +5385,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-erection-checklist",
       "filePath": "safety-doc-library/scaffolding/scaffold-erection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-erection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-erection-checklist.docx",
       "isSample": false
     },
     {
@@ -5412,7 +5412,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-use-checklist",
       "filePath": "safety-doc-library/scaffolding/scaffold-use-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-use-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-use-checklist.docx",
       "isSample": false
     },
     {
@@ -5439,7 +5439,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/mobile-scaffold-checklist",
       "filePath": "safety-doc-library/scaffolding/mobile-scaffold-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/mobile-scaffold-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/mobile-scaffold-checklist.docx",
       "isSample": false
     },
     {
@@ -5466,7 +5466,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-training-log",
       "filePath": "safety-doc-library/scaffolding/scaffold-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-training-log.xlsx",
       "isSample": false
     },
     {
@@ -5493,7 +5493,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-competent-person-designation",
       "filePath": "safety-doc-library/scaffolding/scaffold-competent-person-designation.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-competent-person-designation.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-competent-person-designation.docx",
       "isSample": false
     },
     {
@@ -5520,7 +5520,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-incident-report",
       "filePath": "safety-doc-library/scaffolding/scaffold-incident-report.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-incident-report.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-incident-report.docx",
       "isSample": false
     },
     {
@@ -5547,7 +5547,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/scaffold-dismantling-checklist",
       "filePath": "safety-doc-library/scaffolding/scaffold-dismantling-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-dismantling-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/scaffolding/scaffold-dismantling-checklist.docx",
       "isSample": false
     },
     {
@@ -5574,7 +5574,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/electrical-safety-program",
       "filePath": "safety-doc-library/electrical-safety/electrical-safety-program.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-safety-program.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-safety-program.docx",
       "isSample": false
     },
     {
@@ -5601,7 +5601,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/lockout-tagout-program",
       "filePath": "safety-doc-library/electrical-safety/lockout-tagout-program.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/lockout-tagout-program.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/lockout-tagout-program.docx",
       "isSample": false
     },
     {
@@ -5628,7 +5628,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/loto-procedure-template",
       "filePath": "safety-doc-library/electrical-safety/loto-procedure-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/loto-procedure-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/loto-procedure-template.docx",
       "isSample": true
     },
     {
@@ -5656,7 +5656,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/equipment-specific-loto-form",
       "filePath": "safety-doc-library/electrical-safety/equipment-specific-loto-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/equipment-specific-loto-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/equipment-specific-loto-form.docx",
       "isSample": false
     },
     {
@@ -5684,7 +5684,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/loto-audit-form",
       "filePath": "safety-doc-library/electrical-safety/loto-audit-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/loto-audit-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/loto-audit-form.docx",
       "isSample": false
     },
     {
@@ -5711,7 +5711,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/energized-electrical-work-permit-template",
       "filePath": "safety-doc-library/electrical-safety/energized-electrical-work-permit-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/energized-electrical-work-permit-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/energized-electrical-work-permit-template.docx",
       "isSample": false
     },
     {
@@ -5740,7 +5740,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/electrical-ppe-checklist",
       "filePath": "safety-doc-library/electrical-safety/electrical-ppe-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-ppe-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-ppe-checklist.docx",
       "isSample": false
     },
     {
@@ -5768,7 +5768,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/extension-cord-inspection-form",
       "filePath": "safety-doc-library/electrical-safety/extension-cord-inspection-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/extension-cord-inspection-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/extension-cord-inspection-form.docx",
       "isSample": false
     },
     {
@@ -5796,7 +5796,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/gfci-inspection-log",
       "filePath": "safety-doc-library/electrical-safety/gfci-inspection-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/gfci-inspection-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/gfci-inspection-log.xlsx",
       "isSample": false
     },
     {
@@ -5824,7 +5824,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/temporary-power-checklist",
       "filePath": "safety-doc-library/electrical-safety/temporary-power-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/temporary-power-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/temporary-power-checklist.docx",
       "isSample": false
     },
     {
@@ -5852,7 +5852,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/electrical-panel-clearance-checklist",
       "filePath": "safety-doc-library/electrical-safety/electrical-panel-clearance-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-panel-clearance-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-panel-clearance-checklist.docx",
       "isSample": false
     },
     {
@@ -5880,7 +5880,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/electrical-incident-report",
       "filePath": "safety-doc-library/electrical-safety/electrical-incident-report.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-incident-report.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-incident-report.docx",
       "isSample": false
     },
     {
@@ -5907,7 +5907,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/shock-response-procedure",
       "filePath": "safety-doc-library/electrical-safety/shock-response-procedure.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/shock-response-procedure.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/shock-response-procedure.docx",
       "isSample": false
     },
     {
@@ -5935,7 +5935,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/arc-flash-awareness-toolbox-talk",
       "filePath": "safety-doc-library/electrical-safety/arc-flash-awareness-toolbox-talk.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/arc-flash-awareness-toolbox-talk.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/arc-flash-awareness-toolbox-talk.docx",
       "isSample": false
     },
     {
@@ -5963,7 +5963,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/electrical-tool-inspection-checklist",
       "filePath": "safety-doc-library/electrical-safety/electrical-tool-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-tool-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/electrical-safety/electrical-tool-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -5990,7 +5990,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hazard-communication-program",
       "filePath": "safety-doc-library/hazcom-sds/hazard-communication-program.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/hazard-communication-program.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/hazard-communication-program.docx",
       "isSample": false
     },
     {
@@ -6017,7 +6017,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/chemical-inventory-form",
       "filePath": "safety-doc-library/hazcom-sds/chemical-inventory-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/chemical-inventory-form.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/chemical-inventory-form.xlsx",
       "isSample": false
     },
     {
@@ -6044,7 +6044,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/sds-index-template",
       "filePath": "safety-doc-library/hazcom-sds/sds-index-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/sds-index-template.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/sds-index-template.xlsx",
       "isSample": false
     },
     {
@@ -6071,7 +6071,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/sds-binder-table-of-contents",
       "filePath": "safety-doc-library/hazcom-sds/sds-binder-table-of-contents.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/sds-binder-table-of-contents.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/sds-binder-table-of-contents.xlsx",
       "isSample": false
     },
     {
@@ -6099,7 +6099,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/chemical-labeling-checklist",
       "filePath": "safety-doc-library/hazcom-sds/chemical-labeling-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/chemical-labeling-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/chemical-labeling-checklist.docx",
       "isSample": false
     },
     {
@@ -6126,7 +6126,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/secondary-container-label-template",
       "filePath": "safety-doc-library/hazcom-sds/secondary-container-label-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/secondary-container-label-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/secondary-container-label-template.docx",
       "isSample": false
     },
     {
@@ -6154,7 +6154,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hazcom-training-log",
       "filePath": "safety-doc-library/hazcom-sds/hazcom-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/hazcom-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/hazcom-training-log.xlsx",
       "isSample": false
     },
     {
@@ -6182,7 +6182,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/chemical-storage-inspection-checklist",
       "filePath": "safety-doc-library/hazcom-sds/chemical-storage-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/chemical-storage-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/chemical-storage-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -6209,7 +6209,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/chemical-spill-response-plan",
       "filePath": "safety-doc-library/hazcom-sds/chemical-spill-response-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/chemical-spill-response-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/chemical-spill-response-plan.docx",
       "isSample": false
     },
     {
@@ -6236,7 +6236,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/new-chemical-approval-form",
       "filePath": "safety-doc-library/hazcom-sds/new-chemical-approval-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/new-chemical-approval-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/new-chemical-approval-form.docx",
       "isSample": false
     },
     {
@@ -6262,7 +6262,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/hazardous-substance-use-jha",
       "filePath": "safety-doc-library/hazcom-sds/hazardous-substance-use-jha.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/hazardous-substance-use-jha.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/hazardous-substance-use-jha.docx",
       "isSample": false
     },
     {
@@ -6289,7 +6289,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/employee-chemical-exposure-report",
       "filePath": "safety-doc-library/hazcom-sds/employee-chemical-exposure-report.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/employee-chemical-exposure-report.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/employee-chemical-exposure-report.docx",
       "isSample": false
     },
     {
@@ -6316,7 +6316,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/contractor-chemical-use-form",
       "filePath": "safety-doc-library/hazcom-sds/contractor-chemical-use-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/contractor-chemical-use-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/contractor-chemical-use-form.docx",
       "isSample": false
     },
     {
@@ -6344,7 +6344,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/annual-hazcom-review-checklist",
       "filePath": "safety-doc-library/hazcom-sds/annual-hazcom-review-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/annual-hazcom-review-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/annual-hazcom-review-checklist.docx",
       "isSample": false
     },
     {
@@ -6371,11 +6371,11 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/sds-request-log",
       "filePath": "safety-doc-library/hazcom-sds/sds-request-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/hazcom-sds/sds-request-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/hazcom-sds/sds-request-log.xlsx",
       "isSample": false
     },
     {
-      "id": "respiratory-protection-program-placeholder",
+      "id": "respiratory-protection-program-framework",
       "title": "Respiratory Protection Program (Framework)",
       "category": "respiratory-protection",
       "categoryName": "Respiratory Protection",
@@ -6386,19 +6386,19 @@
         "respiratory",
         "program"
       ],
-      "description": "Editable written respiratory protection program framework you can tailor to your company, train employees on, and maintain.",
+      "description": "Editable written respiratory protection program (framework) you can tailor to your company, train employees on, and maintain.",
       "accessLevel": "Pro",
       "fileType": "DOCX",
       "formats": [
         "DOCX",
         "PDF"
       ],
-      "fileName": "respiratory-protection-program-placeholder.docx",
-      "lastReviewed": "2026-07-02",
-      "lastUpdated": "2026-07-02",
-      "route": "/library/respiratory-protection-program-placeholder",
-      "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-placeholder.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/respiratory-protection-program-placeholder.docx",
+      "fileName": "respiratory-protection-program-framework.docx",
+      "lastReviewed": "2026-06-29",
+      "lastUpdated": "2026-06-29",
+      "route": "/library/respiratory-protection-program-framework",
+      "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-program-framework.md",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/respiratory-protection-program-framework.docx",
       "isSample": false
     },
     {
@@ -6425,7 +6425,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/respirator-hazard-assessment-form",
       "filePath": "safety-doc-library/respiratory-protection/respirator-hazard-assessment-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-hazard-assessment-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-hazard-assessment-form.docx",
       "isSample": false
     },
     {
@@ -6452,7 +6452,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/respirator-selection-worksheet",
       "filePath": "safety-doc-library/respiratory-protection/respirator-selection-worksheet.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-selection-worksheet.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-selection-worksheet.docx",
       "isSample": false
     },
     {
@@ -6478,7 +6478,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/medical-evaluation-tracking-log",
       "filePath": "safety-doc-library/respiratory-protection/medical-evaluation-tracking-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/medical-evaluation-tracking-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/medical-evaluation-tracking-log.xlsx",
       "isSample": false
     },
     {
@@ -6505,7 +6505,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fit-test-tracking-log",
       "filePath": "safety-doc-library/respiratory-protection/fit-test-tracking-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/fit-test-tracking-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/fit-test-tracking-log.xlsx",
       "isSample": false
     },
     {
@@ -6533,7 +6533,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/respirator-inspection-checklist",
       "filePath": "safety-doc-library/respiratory-protection/respirator-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -6560,7 +6560,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/respirator-cleaning-log",
       "filePath": "safety-doc-library/respiratory-protection/respirator-cleaning-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-cleaning-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-cleaning-log.xlsx",
       "isSample": false
     },
     {
@@ -6587,7 +6587,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/respirator-cartridge-change-out-schedule-template",
       "filePath": "safety-doc-library/respiratory-protection/respirator-cartridge-change-out-schedule-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-cartridge-change-out-schedule-template.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/respirator-cartridge-change-out-schedule-template.xlsx",
       "isSample": false
     },
     {
@@ -6614,7 +6614,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/voluntary-respirator-use-form",
       "filePath": "safety-doc-library/respiratory-protection/voluntary-respirator-use-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/voluntary-respirator-use-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/voluntary-respirator-use-form.docx",
       "isSample": false
     },
     {
@@ -6642,7 +6642,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/respiratory-protection-training-log",
       "filePath": "safety-doc-library/respiratory-protection/respiratory-protection-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/respiratory-protection/respiratory-protection-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/respiratory-protection/respiratory-protection-training-log.xlsx",
       "isSample": false
     },
     {
@@ -6669,7 +6669,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/heat-illness-prevention-plan",
       "filePath": "safety-doc-library/heat-cold-stress/heat-illness-prevention-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/heat-illness-prevention-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/heat-illness-prevention-plan.docx",
       "isSample": true
     },
     {
@@ -6697,7 +6697,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/heat-stress-daily-checklist",
       "filePath": "safety-doc-library/heat-cold-stress/heat-stress-daily-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/heat-stress-daily-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/heat-stress-daily-checklist.docx",
       "isSample": false
     },
     {
@@ -6724,7 +6724,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/heat-acclimatization-plan",
       "filePath": "safety-doc-library/heat-cold-stress/heat-acclimatization-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/heat-acclimatization-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/heat-acclimatization-plan.docx",
       "isSample": false
     },
     {
@@ -6751,7 +6751,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/water-rest-shade-checklist",
       "filePath": "safety-doc-library/heat-cold-stress/water-rest-shade-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/water-rest-shade-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/water-rest-shade-checklist.docx",
       "isSample": false
     },
     {
@@ -6779,7 +6779,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/heat-illness-incident-report",
       "filePath": "safety-doc-library/heat-cold-stress/heat-illness-incident-report.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/heat-illness-incident-report.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/heat-illness-incident-report.docx",
       "isSample": false
     },
     {
@@ -6806,7 +6806,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/cold-stress-prevention-plan",
       "filePath": "safety-doc-library/heat-cold-stress/cold-stress-prevention-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/cold-stress-prevention-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/cold-stress-prevention-plan.docx",
       "isSample": false
     },
     {
@@ -6834,7 +6834,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/cold-weather-work-checklist",
       "filePath": "safety-doc-library/heat-cold-stress/cold-weather-work-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/cold-weather-work-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/cold-weather-work-checklist.docx",
       "isSample": false
     },
     {
@@ -6860,7 +6860,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/weather-monitoring-log",
       "filePath": "safety-doc-library/heat-cold-stress/weather-monitoring-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/weather-monitoring-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/weather-monitoring-log.xlsx",
       "isSample": false
     },
     {
@@ -6886,7 +6886,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/outdoor-work-safety-plan",
       "filePath": "safety-doc-library/heat-cold-stress/outdoor-work-safety-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/outdoor-work-safety-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/outdoor-work-safety-plan.docx",
       "isSample": false
     },
     {
@@ -6912,7 +6912,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/seasonal-safety-bulletin-template",
       "filePath": "safety-doc-library/heat-cold-stress/seasonal-safety-bulletin-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/heat-cold-stress/seasonal-safety-bulletin-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/heat-cold-stress/seasonal-safety-bulletin-template.docx",
       "isSample": false
     },
     {
@@ -6939,7 +6939,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/incident-report-form",
       "filePath": "safety-doc-library/incident-reporting/incident-report-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/incident-report-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/incident-report-form.docx",
       "isSample": true
     },
     {
@@ -6966,7 +6966,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/near-miss-report-form",
       "filePath": "safety-doc-library/incident-reporting/near-miss-report-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/near-miss-report-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/near-miss-report-form.docx",
       "isSample": false
     },
     {
@@ -6993,7 +6993,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/injury-report-form",
       "filePath": "safety-doc-library/incident-reporting/injury-report-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/injury-report-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/injury-report-form.docx",
       "isSample": false
     },
     {
@@ -7019,7 +7019,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/property-damage-report",
       "filePath": "safety-doc-library/incident-reporting/property-damage-report.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/property-damage-report.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/property-damage-report.docx",
       "isSample": false
     },
     {
@@ -7047,7 +7047,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/vehicle-incident-report",
       "filePath": "safety-doc-library/incident-reporting/vehicle-incident-report.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/vehicle-incident-report.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/vehicle-incident-report.docx",
       "isSample": false
     },
     {
@@ -7074,7 +7074,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/witness-statement-form",
       "filePath": "safety-doc-library/incident-reporting/witness-statement-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/witness-statement-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/witness-statement-form.docx",
       "isSample": false
     },
     {
@@ -7101,7 +7101,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/root-cause-analysis-form",
       "filePath": "safety-doc-library/incident-reporting/root-cause-analysis-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/root-cause-analysis-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/root-cause-analysis-form.docx",
       "isSample": false
     },
     {
@@ -7127,7 +7127,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/corrective-action-form",
       "filePath": "safety-doc-library/incident-reporting/corrective-action-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/corrective-action-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/corrective-action-form.docx",
       "isSample": false
     },
     {
@@ -7155,7 +7155,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/incident-investigation-checklist",
       "filePath": "safety-doc-library/incident-reporting/incident-investigation-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/incident-investigation-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/incident-investigation-checklist.docx",
       "isSample": false
     },
     {
@@ -7182,7 +7182,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/supervisor-incident-review-form",
       "filePath": "safety-doc-library/incident-reporting/supervisor-incident-review-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/supervisor-incident-review-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/supervisor-incident-review-form.docx",
       "isSample": false
     },
     {
@@ -7208,7 +7208,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/photo-evidence-log",
       "filePath": "safety-doc-library/incident-reporting/photo-evidence-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/photo-evidence-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/photo-evidence-log.xlsx",
       "isSample": false
     },
     {
@@ -7234,7 +7234,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/medical-treatment-tracking-log",
       "filePath": "safety-doc-library/incident-reporting/medical-treatment-tracking-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/medical-treatment-tracking-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/medical-treatment-tracking-log.xlsx",
       "isSample": false
     },
     {
@@ -7260,7 +7260,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/return-to-work-review-form",
       "filePath": "safety-doc-library/incident-reporting/return-to-work-review-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/return-to-work-review-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/return-to-work-review-form.docx",
       "isSample": false
     },
     {
@@ -7287,7 +7287,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/monthly-incident-summary",
       "filePath": "safety-doc-library/incident-reporting/monthly-incident-summary.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/monthly-incident-summary.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/monthly-incident-summary.docx",
       "isSample": false
     },
     {
@@ -7314,7 +7314,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/annual-incident-review-template",
       "filePath": "safety-doc-library/incident-reporting/annual-incident-review-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/incident-reporting/annual-incident-review-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/incident-reporting/annual-incident-review-template.docx",
       "isSample": false
     },
     {
@@ -7341,7 +7341,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/emergency-action-plan-template",
       "filePath": "safety-doc-library/emergency-fire/emergency-action-plan-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/emergency-action-plan-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/emergency-action-plan-template.docx",
       "isSample": false
     },
     {
@@ -7368,7 +7368,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fire-prevention-plan-template",
       "filePath": "safety-doc-library/emergency-fire/fire-prevention-plan-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/fire-prevention-plan-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/fire-prevention-plan-template.docx",
       "isSample": false
     },
     {
@@ -7395,7 +7395,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/emergency-contact-list",
       "filePath": "safety-doc-library/emergency-fire/emergency-contact-list.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/emergency-contact-list.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/emergency-contact-list.docx",
       "isSample": false
     },
     {
@@ -7422,7 +7422,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/evacuation-drill-log",
       "filePath": "safety-doc-library/emergency-fire/evacuation-drill-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/evacuation-drill-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/evacuation-drill-log.xlsx",
       "isSample": false
     },
     {
@@ -7450,7 +7450,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fire-extinguisher-inspection-form",
       "filePath": "safety-doc-library/emergency-fire/fire-extinguisher-inspection-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/fire-extinguisher-inspection-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/fire-extinguisher-inspection-form.docx",
       "isSample": false
     },
     {
@@ -7478,7 +7478,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/first-aid-kit-inspection-checklist",
       "filePath": "safety-doc-library/emergency-fire/first-aid-kit-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/first-aid-kit-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/first-aid-kit-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -7507,7 +7507,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/emergency-equipment-inspection-log",
       "filePath": "safety-doc-library/emergency-fire/emergency-equipment-inspection-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/emergency-equipment-inspection-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/emergency-equipment-inspection-log.xlsx",
       "isSample": false
     },
     {
@@ -7533,7 +7533,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/severe-weather-plan",
       "filePath": "safety-doc-library/emergency-fire/severe-weather-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/severe-weather-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/severe-weather-plan.docx",
       "isSample": false
     },
     {
@@ -7559,7 +7559,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/earthquake-response-plan",
       "filePath": "safety-doc-library/emergency-fire/earthquake-response-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/earthquake-response-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/earthquake-response-plan.docx",
       "isSample": false
     },
     {
@@ -7586,7 +7586,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/jobsite-emergency-map-template",
       "filePath": "safety-doc-library/emergency-fire/jobsite-emergency-map-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/jobsite-emergency-map-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/jobsite-emergency-map-template.docx",
       "isSample": false
     },
     {
@@ -7614,7 +7614,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/muster-point-checklist",
       "filePath": "safety-doc-library/emergency-fire/muster-point-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/muster-point-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/muster-point-checklist.docx",
       "isSample": false
     },
     {
@@ -7641,7 +7641,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/emergency-communication-tree",
       "filePath": "safety-doc-library/emergency-fire/emergency-communication-tree.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/emergency-communication-tree.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/emergency-communication-tree.docx",
       "isSample": false
     },
     {
@@ -7668,7 +7668,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/spill-response-plan",
       "filePath": "safety-doc-library/emergency-fire/spill-response-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/spill-response-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/spill-response-plan.docx",
       "isSample": false
     },
     {
@@ -7695,7 +7695,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/medical-emergency-procedure",
       "filePath": "safety-doc-library/emergency-fire/medical-emergency-procedure.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/medical-emergency-procedure.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/medical-emergency-procedure.docx",
       "isSample": false
     },
     {
@@ -7722,7 +7722,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/crisis-communication-template",
       "filePath": "safety-doc-library/emergency-fire/crisis-communication-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/emergency-fire/crisis-communication-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/emergency-fire/crisis-communication-template.docx",
       "isSample": false
     },
     {
@@ -7748,7 +7748,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/company-vehicle-safety-policy",
       "filePath": "safety-doc-library/vehicle-equipment/company-vehicle-safety-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/company-vehicle-safety-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/company-vehicle-safety-policy.docx",
       "isSample": false
     },
     {
@@ -7775,7 +7775,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/driver-qualification-file-checklist",
       "filePath": "safety-doc-library/vehicle-equipment/driver-qualification-file-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/driver-qualification-file-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/driver-qualification-file-checklist.docx",
       "isSample": false
     },
     {
@@ -7802,7 +7802,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/vehicle-inspection-form",
       "filePath": "safety-doc-library/vehicle-equipment/vehicle-inspection-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/vehicle-inspection-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/vehicle-inspection-form.docx",
       "isSample": false
     },
     {
@@ -7829,7 +7829,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/daily-equipment-inspection-form",
       "filePath": "safety-doc-library/vehicle-equipment/daily-equipment-inspection-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/daily-equipment-inspection-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/daily-equipment-inspection-form.docx",
       "isSample": false
     },
     {
@@ -7856,7 +7856,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/heavy-equipment-inspection-checklist",
       "filePath": "safety-doc-library/vehicle-equipment/heavy-equipment-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/heavy-equipment-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/heavy-equipment-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -7883,7 +7883,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/trailer-inspection-checklist",
       "filePath": "safety-doc-library/vehicle-equipment/trailer-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/trailer-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/trailer-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -7910,7 +7910,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/forklift-daily-inspection-checklist",
       "filePath": "safety-doc-library/vehicle-equipment/forklift-daily-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/forklift-daily-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/forklift-daily-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -7937,7 +7937,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/forklift-operator-training-log",
       "filePath": "safety-doc-library/vehicle-equipment/forklift-operator-training-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/forklift-operator-training-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/forklift-operator-training-log.xlsx",
       "isSample": false
     },
     {
@@ -7964,7 +7964,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/spotter-safety-checklist",
       "filePath": "safety-doc-library/vehicle-equipment/spotter-safety-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/spotter-safety-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/spotter-safety-checklist.docx",
       "isSample": false
     },
     {
@@ -7990,7 +7990,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/backing-safety-policy",
       "filePath": "safety-doc-library/vehicle-equipment/backing-safety-policy.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/backing-safety-policy.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/backing-safety-policy.docx",
       "isSample": false
     },
     {
@@ -8017,7 +8017,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/fueling-safety-checklist",
       "filePath": "safety-doc-library/vehicle-equipment/fueling-safety-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/fueling-safety-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/fueling-safety-checklist.docx",
       "isSample": false
     },
     {
@@ -8043,7 +8043,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/equipment-maintenance-log",
       "filePath": "safety-doc-library/vehicle-equipment/equipment-maintenance-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/equipment-maintenance-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/equipment-maintenance-log.xlsx",
       "isSample": false
     },
     {
@@ -8069,7 +8069,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/defective-equipment-tag",
       "filePath": "safety-doc-library/vehicle-equipment/defective-equipment-tag.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/defective-equipment-tag.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/defective-equipment-tag.docx",
       "isSample": false
     },
     {
@@ -8096,7 +8096,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/mobile-equipment-incident-report",
       "filePath": "safety-doc-library/vehicle-equipment/mobile-equipment-incident-report.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/mobile-equipment-incident-report.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/mobile-equipment-incident-report.docx",
       "isSample": false
     },
     {
@@ -8122,7 +8122,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/authorized-driver-list",
       "filePath": "safety-doc-library/vehicle-equipment/authorized-driver-list.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/vehicle-equipment/authorized-driver-list.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/vehicle-equipment/authorized-driver-list.docx",
       "isSample": false
     },
     {
@@ -8148,7 +8148,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/construction-site-safety-plan",
       "filePath": "safety-doc-library/construction-specific/construction-site-safety-plan.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/construction-site-safety-plan.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/construction-site-safety-plan.docx",
       "isSample": false
     },
     {
@@ -8175,7 +8175,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/daily-jobsite-safety-checklist",
       "filePath": "safety-doc-library/construction-specific/daily-jobsite-safety-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/daily-jobsite-safety-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/daily-jobsite-safety-checklist.docx",
       "isSample": false
     },
     {
@@ -8202,7 +8202,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/weekly-jobsite-inspection-checklist",
       "filePath": "safety-doc-library/construction-specific/weekly-jobsite-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/weekly-jobsite-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/weekly-jobsite-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -8229,7 +8229,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/subcontractor-prequalification-form",
       "filePath": "safety-doc-library/construction-specific/subcontractor-prequalification-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/subcontractor-prequalification-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/subcontractor-prequalification-form.docx",
       "isSample": false
     },
     {
@@ -8256,7 +8256,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/subcontractor-safety-agreement",
       "filePath": "safety-doc-library/construction-specific/subcontractor-safety-agreement.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/subcontractor-safety-agreement.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/subcontractor-safety-agreement.docx",
       "isSample": false
     },
     {
@@ -8283,7 +8283,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/site-safety-orientation-form",
       "filePath": "safety-doc-library/construction-specific/site-safety-orientation-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/site-safety-orientation-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/site-safety-orientation-form.docx",
       "isSample": false
     },
     {
@@ -8309,7 +8309,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/pre-construction-safety-meeting-agenda",
       "filePath": "safety-doc-library/construction-specific/pre-construction-safety-meeting-agenda.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/pre-construction-safety-meeting-agenda.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/pre-construction-safety-meeting-agenda.docx",
       "isSample": false
     },
     {
@@ -8335,7 +8335,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/daily-pre-task-briefing-form",
       "filePath": "safety-doc-library/construction-specific/daily-pre-task-briefing-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/daily-pre-task-briefing-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/daily-pre-task-briefing-form.docx",
       "isSample": false
     },
     {
@@ -8362,7 +8362,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/construction-housekeeping-checklist",
       "filePath": "safety-doc-library/construction-specific/construction-housekeeping-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/construction-housekeeping-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/construction-housekeeping-checklist.docx",
       "isSample": false
     },
     {
@@ -8389,7 +8389,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/material-storage-checklist",
       "filePath": "safety-doc-library/construction-specific/material-storage-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/material-storage-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/material-storage-checklist.docx",
       "isSample": false
     },
     {
@@ -8416,7 +8416,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/public-protection-checklist",
       "filePath": "safety-doc-library/construction-specific/public-protection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/public-protection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/public-protection-checklist.docx",
       "isSample": false
     },
     {
@@ -8443,7 +8443,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/barricade-and-signage-checklist",
       "filePath": "safety-doc-library/construction-specific/barricade-and-signage-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/barricade-and-signage-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/barricade-and-signage-checklist.docx",
       "isSample": false
     },
     {
@@ -8470,7 +8470,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/tool-inspection-checklist",
       "filePath": "safety-doc-library/construction-specific/tool-inspection-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/tool-inspection-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/tool-inspection-checklist.docx",
       "isSample": false
     },
     {
@@ -8497,7 +8497,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/jobsite-closeout-safety-checklist",
       "filePath": "safety-doc-library/construction-specific/jobsite-closeout-safety-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/jobsite-closeout-safety-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/jobsite-closeout-safety-checklist.docx",
       "isSample": false
     },
     {
@@ -8523,7 +8523,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/multi-employer-worksite-coordination-form",
       "filePath": "safety-doc-library/construction-specific/multi-employer-worksite-coordination-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/construction-specific/multi-employer-worksite-coordination-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/construction-specific/multi-employer-worksite-coordination-form.docx",
       "isSample": false
     },
     {
@@ -8550,7 +8550,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/asbestos-awareness-policy-template",
       "filePath": "safety-doc-library/asbestos-lead-awareness/asbestos-awareness-policy-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/asbestos-awareness-policy-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/asbestos-awareness-policy-template.docx",
       "isSample": false
     },
     {
@@ -8577,7 +8577,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/lead-awareness-policy-template",
       "filePath": "safety-doc-library/asbestos-lead-awareness/lead-awareness-policy-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/lead-awareness-policy-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/lead-awareness-policy-template.docx",
       "isSample": false
     },
     {
@@ -8604,7 +8604,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/pre-renovation-hazard-questionnaire",
       "filePath": "safety-doc-library/asbestos-lead-awareness/pre-renovation-hazard-questionnaire.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/pre-renovation-hazard-questionnaire.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/pre-renovation-hazard-questionnaire.docx",
       "isSample": false
     },
     {
@@ -8630,7 +8630,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/suspect-material-stop-work-form",
       "filePath": "safety-doc-library/asbestos-lead-awareness/suspect-material-stop-work-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/suspect-material-stop-work-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/suspect-material-stop-work-form.docx",
       "isSample": false
     },
     {
@@ -8658,7 +8658,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/asbestos-lead-notification-checklist",
       "filePath": "safety-doc-library/asbestos-lead-awareness/asbestos-lead-notification-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/asbestos-lead-notification-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/asbestos-lead-notification-checklist.docx",
       "isSample": false
     },
     {
@@ -8684,7 +8684,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/building-material-survey-request-form",
       "filePath": "safety-doc-library/asbestos-lead-awareness/building-material-survey-request-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/building-material-survey-request-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/building-material-survey-request-form.docx",
       "isSample": false
     },
     {
@@ -8712,7 +8712,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/asbestos-awareness-toolbox-talk",
       "filePath": "safety-doc-library/asbestos-lead-awareness/asbestos-awareness-toolbox-talk.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/asbestos-awareness-toolbox-talk.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/asbestos-awareness-toolbox-talk.docx",
       "isSample": false
     },
     {
@@ -8740,7 +8740,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/lead-awareness-toolbox-talk",
       "filePath": "safety-doc-library/asbestos-lead-awareness/lead-awareness-toolbox-talk.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/lead-awareness-toolbox-talk.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/lead-awareness-toolbox-talk.docx",
       "isSample": false
     },
     {
@@ -8768,11 +8768,11 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/renovation-safety-checklist",
       "filePath": "safety-doc-library/asbestos-lead-awareness/renovation-safety-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/renovation-safety-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/renovation-safety-checklist.docx",
       "isSample": false
     },
     {
-      "id": "client-disclosure-placeholder-form",
+      "id": "client-hazard-disclosure-form",
       "title": "Client Hazard Disclosure Form",
       "category": "asbestos-lead-awareness",
       "categoryName": "Asbestos and Lead Awareness",
@@ -8789,12 +8789,12 @@
         "DOCX",
         "PDF"
       ],
-      "fileName": "client-disclosure-placeholder-form.docx",
-      "lastReviewed": "2026-07-02",
-      "lastUpdated": "2026-07-02",
-      "route": "/library/client-disclosure-placeholder-form",
-      "filePath": "safety-doc-library/asbestos-lead-awareness/client-disclosure-placeholder-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/client-disclosure-placeholder-form.docx",
+      "fileName": "client-hazard-disclosure-form.docx",
+      "lastReviewed": "2026-06-29",
+      "lastUpdated": "2026-06-29",
+      "route": "/library/client-hazard-disclosure-form",
+      "filePath": "safety-doc-library/asbestos-lead-awareness/client-hazard-disclosure-form.md",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/client-hazard-disclosure-form.docx",
       "isSample": false
     },
     {
@@ -8822,7 +8822,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/dust-control-checklist",
       "filePath": "safety-doc-library/asbestos-lead-awareness/dust-control-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/dust-control-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/dust-control-checklist.docx",
       "isSample": false
     },
     {
@@ -8851,7 +8851,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/ppe-checklist-for-dust-generating-work",
       "filePath": "safety-doc-library/asbestos-lead-awareness/ppe-checklist-for-dust-generating-work.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/ppe-checklist-for-dust-generating-work.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/ppe-checklist-for-dust-generating-work.docx",
       "isSample": false
     },
     {
@@ -8877,7 +8877,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/regulated-material-referral-form",
       "filePath": "safety-doc-library/asbestos-lead-awareness/regulated-material-referral-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/regulated-material-referral-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/regulated-material-referral-form.docx",
       "isSample": false
     },
     {
@@ -8903,7 +8903,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/contractor-awareness-acknowledgment",
       "filePath": "safety-doc-library/asbestos-lead-awareness/contractor-awareness-acknowledgment.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/contractor-awareness-acknowledgment.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/contractor-awareness-acknowledgment.docx",
       "isSample": false
     },
     {
@@ -8929,11 +8929,11 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/do-not-disturb-material-sign-template",
       "filePath": "safety-doc-library/asbestos-lead-awareness/do-not-disturb-material-sign-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/do-not-disturb-material-sign-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/asbestos-lead-awareness/do-not-disturb-material-sign-template.docx",
       "isSample": false
     },
     {
-      "id": "osha-300-log-placeholder-instructions",
+      "id": "osha-300-log-recordkeeping-instructions",
       "title": "OSHA 300 Log — Recordkeeping Instructions",
       "category": "recordkeeping-admin",
       "categoryName": "Recordkeeping and Admin",
@@ -8951,12 +8951,12 @@
         "XLSX",
         "PDF"
       ],
-      "fileName": "osha-300-log-placeholder-instructions.xlsx",
-      "lastReviewed": "2026-07-02",
-      "lastUpdated": "2026-07-02",
-      "route": "/library/osha-300-log-placeholder-instructions",
-      "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-placeholder-instructions.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/osha-300-log-placeholder-instructions.xlsx",
+      "fileName": "osha-300-log-recordkeeping-instructions.xlsx",
+      "lastReviewed": "2026-06-29",
+      "lastUpdated": "2026-06-29",
+      "route": "/library/osha-300-log-recordkeeping-instructions",
+      "filePath": "safety-doc-library/recordkeeping-admin/osha-300-log-recordkeeping-instructions.md",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/osha-300-log-recordkeeping-instructions.xlsx",
       "isSample": false
     },
     {
@@ -8983,11 +8983,11 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/osha-300a-posting-reminder",
       "filePath": "safety-doc-library/recordkeeping-admin/osha-300a-posting-reminder.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/osha-300a-posting-reminder.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/osha-300a-posting-reminder.docx",
       "isSample": false
     },
     {
-      "id": "osha-301-incident-report-placeholder",
+      "id": "osha-301-incident-report-intake-instructions",
       "title": "OSHA 301 Incident Report — Intake & Instructions",
       "category": "recordkeeping-admin",
       "categoryName": "Recordkeeping and Admin",
@@ -8999,19 +8999,19 @@
         "recordkeeping",
         "report"
       ],
-      "description": "Editable report template for gathering OSHA 301 incident information. Customize with your company details and use within your safety program.",
+      "description": "Editable report template: OSHA 301 Incident Report — Intake & Instructions. Customize with your company details and use within your safety program.",
       "accessLevel": "Starter",
       "fileType": "DOCX",
       "formats": [
         "DOCX",
         "PDF"
       ],
-      "fileName": "osha-301-incident-report-placeholder.docx",
-      "lastReviewed": "2026-07-02",
-      "lastUpdated": "2026-07-02",
-      "route": "/library/osha-301-incident-report-placeholder",
-      "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-placeholder.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/osha-301-incident-report-placeholder.docx",
+      "fileName": "osha-301-incident-report-intake-instructions.docx",
+      "lastReviewed": "2026-06-29",
+      "lastUpdated": "2026-06-29",
+      "route": "/library/osha-301-incident-report-intake-instructions",
+      "filePath": "safety-doc-library/recordkeeping-admin/osha-301-incident-report-intake-instructions.md",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/osha-301-incident-report-intake-instructions.docx",
       "isSample": false
     },
     {
@@ -9038,7 +9038,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-records-retention-schedule",
       "filePath": "safety-doc-library/recordkeeping-admin/safety-records-retention-schedule.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-records-retention-schedule.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-records-retention-schedule.xlsx",
       "isSample": false
     },
     {
@@ -9065,7 +9065,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-document-control-log",
       "filePath": "safety-doc-library/recordkeeping-admin/safety-document-control-log.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-document-control-log.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-document-control-log.xlsx",
       "isSample": false
     },
     {
@@ -9091,7 +9091,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/monthly-safety-report-template",
       "filePath": "safety-doc-library/recordkeeping-admin/monthly-safety-report-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/monthly-safety-report-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/monthly-safety-report-template.docx",
       "isSample": false
     },
     {
@@ -9117,7 +9117,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/quarterly-safety-review-template",
       "filePath": "safety-doc-library/recordkeeping-admin/quarterly-safety-review-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/quarterly-safety-review-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/quarterly-safety-review-template.docx",
       "isSample": false
     },
     {
@@ -9143,7 +9143,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/annual-safety-program-review",
       "filePath": "safety-doc-library/recordkeeping-admin/annual-safety-program-review.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/annual-safety-program-review.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/annual-safety-program-review.docx",
       "isSample": false
     },
     {
@@ -9169,7 +9169,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-goals-worksheet",
       "filePath": "safety-doc-library/recordkeeping-admin/safety-goals-worksheet.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-goals-worksheet.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-goals-worksheet.docx",
       "isSample": false
     },
     {
@@ -9195,7 +9195,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-kpi-tracker",
       "filePath": "safety-doc-library/recordkeeping-admin/safety-kpi-tracker.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-kpi-tracker.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-kpi-tracker.xlsx",
       "isSample": false
     },
     {
@@ -9221,7 +9221,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/corrective-action-tracker",
       "filePath": "safety-doc-library/recordkeeping-admin/corrective-action-tracker.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/corrective-action-tracker.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/corrective-action-tracker.xlsx",
       "isSample": false
     },
     {
@@ -9247,7 +9247,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-committee-meeting-agenda",
       "filePath": "safety-doc-library/recordkeeping-admin/safety-committee-meeting-agenda.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-committee-meeting-agenda.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-committee-meeting-agenda.docx",
       "isSample": false
     },
     {
@@ -9273,7 +9273,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-committee-minutes-template",
       "filePath": "safety-doc-library/recordkeeping-admin/safety-committee-minutes-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-committee-minutes-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-committee-minutes-template.docx",
       "isSample": false
     },
     {
@@ -9299,7 +9299,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/management-review-form",
       "filePath": "safety-doc-library/recordkeeping-admin/management-review-form.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/management-review-form.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/management-review-form.docx",
       "isSample": false
     },
     {
@@ -9325,7 +9325,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-budget-planning-worksheet",
       "filePath": "safety-doc-library/recordkeeping-admin/safety-budget-planning-worksheet.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-budget-planning-worksheet.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/recordkeeping-admin/safety-budget-planning-worksheet.docx",
       "isSample": false
     },
     {
@@ -9351,7 +9351,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-capability-statement",
       "filePath": "safety-doc-library/client-facing/safety-capability-statement.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/safety-capability-statement.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/safety-capability-statement.docx",
       "isSample": false
     },
     {
@@ -9377,7 +9377,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/contractor-safety-one-pager",
       "filePath": "safety-doc-library/client-facing/contractor-safety-one-pager.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/contractor-safety-one-pager.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/contractor-safety-one-pager.docx",
       "isSample": false
     },
     {
@@ -9403,7 +9403,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-program-summary",
       "filePath": "safety-doc-library/client-facing/safety-program-summary.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/safety-program-summary.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/safety-program-summary.docx",
       "isSample": false
     },
     {
@@ -9429,7 +9429,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-prequalification-response-template",
       "filePath": "safety-doc-library/client-facing/safety-prequalification-response-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/safety-prequalification-response-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/safety-prequalification-response-template.docx",
       "isSample": false
     },
     {
@@ -9455,7 +9455,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/client-safety-questionnaire-response-template",
       "filePath": "safety-doc-library/client-facing/client-safety-questionnaire-response-template.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/client-safety-questionnaire-response-template.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/client-safety-questionnaire-response-template.docx",
       "isSample": false
     },
     {
@@ -9482,7 +9482,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/insurance-and-safety-document-checklist",
       "filePath": "safety-doc-library/client-facing/insurance-and-safety-document-checklist.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/insurance-and-safety-document-checklist.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/insurance-and-safety-document-checklist.docx",
       "isSample": false
     },
     {
@@ -9508,7 +9508,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/jobsite-safety-rules-handout",
       "filePath": "safety-doc-library/client-facing/jobsite-safety-rules-handout.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/jobsite-safety-rules-handout.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/jobsite-safety-rules-handout.docx",
       "isSample": false
     },
     {
@@ -9535,7 +9535,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/subcontractor-safety-packet",
       "filePath": "safety-doc-library/client-facing/subcontractor-safety-packet.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/subcontractor-safety-packet.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/subcontractor-safety-packet.docx",
       "isSample": false
     },
     {
@@ -9561,7 +9561,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-binder-cover-page",
       "filePath": "safety-doc-library/client-facing/safety-binder-cover-page.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/safety-binder-cover-page.docx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/safety-binder-cover-page.docx",
       "isSample": false
     },
     {
@@ -9587,7 +9587,7 @@
       "lastUpdated": "2026-06-29",
       "route": "/library/safety-binder-table-of-contents",
       "filePath": "safety-doc-library/client-facing/safety-binder-table-of-contents.md",
-      "downloadUrlPlaceholder": "{{STORAGE_BASE_URL}}/client-facing/safety-binder-table-of-contents.xlsx",
+      "storagePath": "{{STORAGE_BASE_URL}}/client-facing/safety-binder-table-of-contents.xlsx",
       "isSample": false
     }
   ]
