@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { PageHero } from "@/components/layout/PageHero";
 import { IntakeForm } from "@/components/forms/IntakeForm";
 import { DisclaimerBlock } from "@/components/ui/DisclaimerBlock";
+import { PurchaseConversion } from "@/components/analytics/PurchaseConversion";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -18,6 +20,9 @@ export default function IntakePage({
 }) {
   return (
     <>
+      <Suspense fallback={null}>
+        <PurchaseConversion />
+      </Suspense>
       <PageHero
         eyebrow="Custom binder intake"
         title="Let's build your safety binder"

@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import { FileText, Download, CheckCircle2, Circle, CreditCard, FolderCog } from "lucide-react";
 import { DashboardShell } from "@/components/dashboard/DashboardShell";
 import { BillingPortalButton } from "@/components/dashboard/BillingPortalButton";
+import { PurchaseConversion } from "@/components/analytics/PurchaseConversion";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { Icon } from "@/components/ui/Icon";
@@ -89,6 +91,10 @@ export default async function DashboardPage() {
         </>
       }
     >
+      <Suspense fallback={null}>
+        <PurchaseConversion />
+      </Suspense>
+
       {/* Top grid: plan + stats */}
       <div className="grid gap-5 lg:grid-cols-[1.3fr_1fr]">
         {/* Active plan */}

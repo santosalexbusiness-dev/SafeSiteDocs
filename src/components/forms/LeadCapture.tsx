@@ -9,6 +9,7 @@ import { CheckCircle2, Mail, ArrowRight, Printer } from "lucide-react";
 import { TextField, SelectField } from "./fields";
 import { Button } from "@/components/ui/Button";
 import { industries } from "@/data/industries";
+import { trackConversion, LEAD_LABEL } from "@/lib/gtag";
 import type { ResolvedPack } from "@/data/freePacks";
 
 const schema = z.object({
@@ -56,6 +57,7 @@ export function LeadCapture({
       });
       const data = await res.json().catch(() => ({}));
       didEmail = Boolean(data?.emailed);
+      if (data?.ok) trackConversion(LEAD_LABEL); // Google Ads: free-pack lead
     } catch {
       /* Still reveal the pack below — its content is client-side and useful. */
     }

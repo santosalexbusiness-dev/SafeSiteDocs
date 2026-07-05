@@ -65,7 +65,7 @@ export async function createCheckoutSession(
 
   const isSubscription = subscriptionPlanIds.has(planId);
   const successUrl = isSubscription
-    ? `${SITE}/dashboard?checkout=success`
+    ? `${SITE}/dashboard?checkout=success&plan=${planId}`
     : `${SITE}/intake?package=${oneTimeToIntake[planId] ?? ""}&checkout=success`;
 
   return stripe.checkout.sessions.create({
