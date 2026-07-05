@@ -15,7 +15,7 @@ export default function PrivacyPage() {
     <LegalShell
       title="Privacy Policy"
       intro="This policy explains what information we collect, how we use it, and the choices you have."
-      lastUpdated="June 29, 2026"
+      lastUpdated="July 4, 2026"
     >
       <h2>1. Information we collect</h2>
       <ul>
@@ -44,7 +44,8 @@ export default function PrivacyPage() {
         <li>To build and deliver custom safety binders based on your intake;</li>
         <li>To process payments and manage subscriptions;</li>
         <li>To send transactional emails (order confirmations, intake receipts, document delivery);</li>
-        <li>To respond to support requests and communicate about your account.</li>
+        <li>To respond to support requests and communicate about your account;</li>
+        <li>To measure and improve our advertising (for example, which ads lead to sign-ups or purchases).</li>
       </ul>
 
       <h2>3. How we share information</h2>
@@ -54,10 +55,24 @@ export default function PrivacyPage() {
         storage), under agreements that protect your data, or when required by law.
       </p>
 
-      <h2>4. Cookies &amp; analytics</h2>
+      <h2>4. Cookies, analytics &amp; advertising</h2>
       <p>
-        We use essential cookies to keep you signed in and may use privacy-friendly analytics to
-        understand site usage. You can control cookies through your browser settings.
+        We use essential cookies to keep you signed in and privacy-friendly analytics to understand
+        site usage. We also use Google Ads conversion tracking and related advertising cookies to
+        measure how well our ads work — for example, to know when a visit that came from an ad
+        results in a free-pack request or a purchase. This may involve cookies set by Google.
+      </p>
+      <p>
+        You can control cookies through your browser settings, opt out of personalized advertising
+        at{" "}
+        <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">
+          Google Ads Settings
+        </a>
+        , and learn more in Google&apos;s{" "}
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+          Privacy Policy
+        </a>
+        .
       </p>
 
       <h2>5. Data retention</h2>

@@ -8,7 +8,9 @@
  *   NEXT_PUBLIC_GADS_LEAD_LABEL      conversion label for the free-pack lead
  *   NEXT_PUBLIC_GADS_PURCHASE_LABEL  conversion label for a purchase
  */
-export const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+// The Google Ads Conversion ID is a public client-side identifier (it appears in
+// page source), so it's safe to commit as the default. Override via env if needed.
+export const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18298008856";
 export const LEAD_LABEL = process.env.NEXT_PUBLIC_GADS_LEAD_LABEL;
 export const PURCHASE_LABEL = process.env.NEXT_PUBLIC_GADS_PURCHASE_LABEL;
 
