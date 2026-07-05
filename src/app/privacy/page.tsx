@@ -79,8 +79,12 @@ export default function PrivacyPage() {
         <li>Access, update, or delete your account information from your settings or by contacting us;</li>
         <li>Unsubscribe from non-essential emails using the link in those emails;</li>
         <li>
-          Depending on your location, you may have additional rights (e.g., under CCPA/CPRA or GDPR).
-          [Confirm applicable rights and request process — attorney review required.]
+          Depending on where you live, you may have additional rights — such as the right to access,
+          correct, delete, or receive a copy of your personal information, or to opt out of certain
+          processing (for example, under California&apos;s CCPA/CPRA or the EU/UK GDPR). To exercise
+          any of these rights, contact us at <a href={`mailto:${site.email}`}>{site.email}</a> and
+          we&apos;ll respond as required by applicable law. We will not discriminate against you for
+          exercising your privacy rights.
         </li>
       </ul>
 

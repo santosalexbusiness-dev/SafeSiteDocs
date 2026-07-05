@@ -124,11 +124,14 @@ export default function TermsPage() {
         with an updated date. Continued use after changes constitutes acceptance.
       </p>
 
-      <h2>12. Governing law</h2>
+      <h2>12. Governing law &amp; dispute resolution</h2>
       <p>
         These terms are governed by the laws of the state in which {site.name} is organized, without
-        regard to conflict-of-law principles. [Insert governing state and dispute-resolution terms —
-        attorney review required.]
+        regard to conflict-of-law principles. Before filing any claim, you agree to first contact us
+        so we can try to resolve the matter informally. Any dispute that cannot be resolved that way
+        will be brought exclusively in the state or federal courts located in that state, and you
+        consent to their jurisdiction. Nothing in this section limits either party&apos;s ability to
+        seek relief in small-claims court where available.
       </p>
 
       <h2>13. Contact</h2>
