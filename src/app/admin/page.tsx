@@ -17,6 +17,7 @@ import {
   prequalOptions,
 } from "@/data/intake";
 import { industries } from "@/data/industries";
+import { BinderStatusControl } from "@/components/dashboard/BinderStatusControl";
 
 export const metadata: Metadata = pageMetadata({
   title: "Admin Dashboard",
@@ -217,6 +218,10 @@ export default async function AdminPage() {
                   </summary>
 
                   <div className="border-t border-navy-100 p-5">
+                    <div className="mb-5 rounded-xl border border-navy-100 bg-navy-50 p-4">
+                      <BinderStatusControl id={r.id} current={r.status} />
+                    </div>
+
                     <dl className="grid gap-x-6 gap-y-3 sm:grid-cols-2">
                       {detailRows.map(([label, value]) => (
                         <div key={label}>
