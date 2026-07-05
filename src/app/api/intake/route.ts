@@ -3,6 +3,7 @@ import { prisma } from "@/lib/db";
 import { isEmailConfigured, sendEmail, intakeReceivedHtml, internalNotifyHtml, esc } from "@/lib/email";
 import { isStorageConfigured, uploadIntakeFile, createSignedUrl, intakePath } from "@/lib/storage";
 import { isHoneypotTripped, rateLimit, clientKey } from "@/lib/antispam";
+import { hazardQuestions } from "@/data/intake";
 
 export const runtime = "nodejs";
 
@@ -127,17 +128,34 @@ export async function POST(request: Request) {
               ? `<strong>Attachments:</strong> ${validFiles.length} file(s) submitted but not stored — ask the customer to email them.`
               : `<strong>Attachments:</strong> none`;
 
+        // Full submission details so the binder can be scoped straight from the email.
+        const hz = (data.hazards as Record<string, unknown>) ?? {};
+        const yesHazards = hazardQuestions
+          .filter((q) => hz[q.id] === true)
+          .map((q) => q.label.replace(/^Do employees\s*/i, "").replace(/\?$/, ""));
+        const adminUrl = `${process.env.NEXT_PUBLIC_SITE_URL || "https://safesitedocs.com"}/admin#requests`;
+
         const res = await sendEmail({
           to: process.env.SALES_INBOX,
           subject: `New binder intake: ${data.companyName}`,
-          html: internalNotifyHtml("New custom binder intake", [
-            `<strong>Company:</strong> ${esc(data.companyName)}`,
-            `<strong>Contact:</strong> ${esc(data.contactName) || "—"} (${esc(data.email)})`,
-            `<strong>Industry:</strong> ${esc(data.industry) || "—"} · <strong>Employees:</strong> ${esc(data.employees) || "—"}`,
-            `<strong>Package:</strong> ${esc(data.desiredPackage) || "—"}`,
-            `<strong>Prequalification:</strong> ${((data.prequal as string[]) ?? []).map(esc).join(", ") || "—"}`,
-            attachmentLine,
-          ]),
+          html: internalNotifyHtml(
+            "New custom binder intake",
+            [
+              `<strong>Company:</strong> ${esc(data.companyName)}`,
+              `<strong>Contact:</strong> ${esc(data.contactName) || "—"} · ${esc(data.email)}${data.phone ? ` · ${esc(data.phone)}` : ""}`,
+              data.website ? `<strong>Website:</strong> ${esc(data.website)}` : "",
+              `<strong>State(s):</strong> ${esc(data.states) || "—"}`,
+              `<strong>Industry:</strong> ${esc(data.industry) || "—"} · <strong>Employees:</strong> ${esc(data.employees) || "—"}`,
+              `<strong>Package:</strong> ${esc(data.desiredPackage) || "—"}`,
+              `<strong>Current documents:</strong> ${esc(data.currentDocs) || "—"}`,
+              `<strong>Work performed:</strong> ${esc(data.workPerformed).replace(/\n/g, "<br/>") || "—"}`,
+              `<strong>Prequalification:</strong> ${((data.prequal as string[]) ?? []).map(esc).join(", ") || "—"}${data.requiredBy ? ` (required by: ${esc(data.requiredBy)})` : ""}`,
+              `<strong>Hazards:</strong> ${yesHazards.map(esc).join(", ") || "none indicated"}`,
+              data.concerns ? `<strong>Concerns:</strong> ${esc(data.concerns).replace(/\n/g, "<br/>")}` : "",
+              attachmentLine,
+              `<a href="${adminUrl}">Open the full request in your admin dashboard →</a>`,
+            ].filter(Boolean)
+          ),
         });
         salesNotified = "ok" in res;
       }
