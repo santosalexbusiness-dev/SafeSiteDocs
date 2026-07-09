@@ -28,9 +28,9 @@ export const employeeRanges = [
 ];
 
 export const packageOptions = [
-  { value: "custom-binder", label: "Custom Safety Binder — $799" },
-  { value: "contractor-pro", label: "Contractor Safety Pro Package — $1,499" },
-  { value: "premium-system", label: "Premium Safety System — $2,499" },
+  { value: "custom-binder", label: "Custom Safety Binder — $350" },
+  { value: "contractor-pro", label: "Contractor Safety Pro Package — $750" },
+  { value: "premium-system", label: "Premium Safety System — $1,250" },
   { value: "unsure", label: "Not sure yet — help me choose" },
 ];
 

@@ -136,7 +136,7 @@ export default async function DashboardPage() {
               <p className="mt-1 font-display text-2xl font-extrabold">Unlock the full library</p>
               <p className="mt-2 text-sm text-navy-100/70">
                 {totalDocuments}+ editable templates, toolbox talks, checklists, and forms — from
-                $49/month. Your free samples stay free forever.
+                $20/month. Your free samples stay free forever.
               </p>
               <div className="mt-5 flex flex-wrap gap-2">
                 <Button href="/pricing" variant="primary" size="sm">

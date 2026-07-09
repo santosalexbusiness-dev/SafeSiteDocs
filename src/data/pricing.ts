@@ -24,7 +24,7 @@ export const subscriptionPlans: Plan[] = [
     id: "library-starter",
     name: "Safety Library Starter",
     type: "subscription",
-    price: 49,
+    price: 20,
     cadence: "/month",
     blurb: "Core templates to get your safety paperwork organized fast.",
     features: [
@@ -42,7 +42,7 @@ export const subscriptionPlans: Plan[] = [
     id: "library-pro",
     name: "Safety Library Pro",
     type: "subscription",
-    price: 99,
+    price: 50,
     cadence: "/month",
     blurb: "The full library with industry-specific forms and priority updates.",
     features: [
@@ -64,7 +64,7 @@ export const oneTimePlans: Plan[] = [
     id: "custom-binder",
     name: "Custom Safety Binder",
     type: "one-time",
-    price: 799,
+    price: 350,
     cadence: "one-time",
     blurb: "A done-for-you binder built around your company and work type.",
     features: [
@@ -82,7 +82,7 @@ export const oneTimePlans: Plan[] = [
     id: "contractor-pro",
     name: "Contractor Safety Pro Package",
     type: "one-time",
-    price: 1499,
+    price: 750,
     cadence: "one-time",
     blurb: "A complete program for growing crews with full hazard coverage.",
     features: [
@@ -102,7 +102,7 @@ export const oneTimePlans: Plan[] = [
     id: "premium-system",
     name: "Premium Safety System",
     type: "one-time",
-    price: 2499,
+    price: 1250,
     cadence: "one-time",
     blurb: "Our most complete system — the full program plus ongoing document updates.",
     features: [

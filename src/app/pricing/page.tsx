@@ -13,7 +13,7 @@ import { faqs } from "@/data/faq";
 export const metadata: Metadata = pageMetadata({
   title: "Pricing — Safety Library & Custom Binder Packages",
   description:
-    "Simple pricing for contractor safety paperwork. Subscribe to the safety document library from $49/month, or get a one-time custom safety binder from $799.",
+    "Simple pricing for contractor safety paperwork. Subscribe to the safety document library from $20/month, or get a one-time custom safety binder from $350.",
   path: "/pricing",
 });
 

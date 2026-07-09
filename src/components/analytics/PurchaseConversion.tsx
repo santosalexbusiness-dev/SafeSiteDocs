@@ -6,11 +6,11 @@ import { trackConversion, PURCHASE_LABEL } from "@/lib/gtag";
 
 /** Purchase value (USD) by plan / package id, for conversion value + ROAS. */
 const VALUE: Record<string, number> = {
-  "custom-binder": 799,
-  "contractor-pro": 1499,
-  "premium-system": 2499,
-  "library-starter": 49,
-  "library-pro": 99,
+  "custom-binder": 350,
+  "contractor-pro": 750,
+  "premium-system": 1250,
+  "library-starter": 20,
+  "library-pro": 50,
 };
 
 /**
